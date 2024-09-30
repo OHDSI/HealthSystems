@@ -22,15 +22,15 @@ Last Revised: 27-Sept-2024
 Description: A process for transferring data from the SOURCE_TO_CONCEPT_MAP table to the CONCEPT, CONCEPT_RELATIONSHIP, and VOCABULARY tables.
 
 Structure: (if your structure is different, you will have to modify the code to match)
-	Database: CARE_RES_OMOP_DEV2_WKSP
-	Schemas: CARE_RES_OMOP_DEV2_WKSP.OMOP
+	Database: OMOP_WKSP
+	Schemas: OMOP_WKSP.OMOP
 
 Note: All SOURCE_VOCABULARY_ID's in our SOURCE_TO_CONCEPT_MAP begin with "CH_". That naming convention is integral to ensuring rows are properly updated and deleted in this process.
   We recommend you utilize a naming convention like this, and replace "CH_" with your naming convention in the CUSTOM_SOURCE_VOCABULARY_ID_PREFIX variable below.
   Similarly, replace "CH generated" with your desired value for VOCABULARY_REFERENCE in custom vocabularies in the CUSTOM_VOCABULARY_REFERENCE variable below.
 
 ********************************************************************************/
-USE  CARE_RES_OMOP_DEV2_WKSP.OMOP;
+USE  OMOP_WKSP.OMOP;
 SET CUSTOM_VOCABULARY_REFERENCE='CH generated'; --your vocabulary reference
 SET CUSTOM_SOURCE_VOCABULARY_ID_PREFIX='CH_'; --your custom source vocabulary prefix
 
@@ -49,7 +49,7 @@ CREATE OR REPLACE PROCEDURE CreateSequence()
     BEGIN
         SELECT MAX(CONCEPT_ID)+1
         INTO :MAX_CONCEPT
-        FROM CARE_RES_OMOP_DEV2_WKSP.OMOP.CONCEPT;
+        FROM OMOP_WKSP.OMOP.CONCEPT;
 
         IF  (MAX_CONCEPT < 2000000000) THEN
             BEGIN
@@ -61,7 +61,7 @@ CREATE OR REPLACE PROCEDURE CreateSequence()
             BEGIN
                 LET SQL TEXT := CONCAT('CREATE OR REPLACE SEQUENCE SEQ_2B START = ',
                                         (SELECT MAX(CONCEPT_ID)+1
-                                        FROM CARE_RES_OMOP_DEV2_WKSP.OMOP.CONCEPT
+                                        FROM OMOP_WKSP.OMOP.CONCEPT
                                         ORDER BY CONCEPT_ID DESC));
                 EXECUTE IMMEDIATE SQL;
                 RETURN SQL;
@@ -95,7 +95,7 @@ CREATE OR REPLACE TEMPORARY TABLE VOCABULARY_EXISTING AS (
   SELECT *
   FROM VOCABULARY
 );
-DELETE FROM CARE_RES_OMOP_DEV2_WKSP.OMOP.VOCABULARY
+DELETE FROM OMOP_WKSP.OMOP.VOCABULARY
 WHERE VOCABULARY_REFERENCE = $CUSTOM_VOCABULARY_REFERENCE --'CH generated' --WANT TO REMOVE ONLY VOCABULARIES THAT WERE PREVIOUSLY CREATED IN THE STCM->C/CR PROCESS, BUT ARE NO LONGER IN STCM
     AND VOCABULARY_ID NOT IN (
       SELECT VOCABULARY_EXISTING.VOCABULARY_ID
@@ -106,7 +106,7 @@ WHERE VOCABULARY_REFERENCE = $CUSTOM_VOCABULARY_REFERENCE --'CH generated' --WAN
 
 ---------------------------------------------------------------------------
 --Insert new rows into VOCABULARY:
-INSERT INTO CARE_RES_OMOP_DEV2_WKSP.OMOP.VOCABULARY
+INSERT INTO OMOP_WKSP.OMOP.VOCABULARY
 WITH existing_data as (
   SELECT
     VOCABULARY_ID
@@ -182,7 +182,7 @@ WITH existing_data as (
 )
 select * from rows_to_drop
 ;
-DELETE FROM CARE_RES_OMOP_DEV2_WKSP.OMOP.CONCEPT
+DELETE FROM OMOP_WKSP.OMOP.CONCEPT
 USING CONCEPT_DROP
 WHERE CONCEPT.CONCEPT_ID = CONCEPT_DROP.CONCEPT_ID;
 -------------------------------------------------------------------------

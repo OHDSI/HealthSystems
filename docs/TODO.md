@@ -1,0 +1,7 @@
+- Storage of word documents
+- Storage of csv files
+- Link to Dynamic Mapping Tools and Metadata for Dynamic Mapping Tools
+- Epic User web and other proprietary
+- ETL
+- Inventory Management
+- 

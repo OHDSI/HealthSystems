@@ -1,0 +1,68 @@
+/*-- scss:defaults --*/
+$h2-font-size:          1.6rem !default;
+$headings-font-weight:  500 !default;
+
+@import url(https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible:300,300i,400,400i,500,500i,700,700i);
+
+// fonts
+$font-family-sans-serif: 'Atkinson Hyperlegible', sans-serif !default;
+$font-family-serif: 'Atkinson Hyperlegible', serif !default;
+$font-family-monospace: 'Atkinson Hyperlegibl', monospace !default;
+$toc-font-size: 12;
+
+
+//$h1-font-size: 12;
+//$h2-font-size: 12;
+//$h3-font-size: 12;
+//$h4-font-size: 12;
+//$h5-font-size: 12;
+
+
+// Colors
+$light-blue: #56B4E9 !default;
+$pale-blue: #CEE9FF !default;
+$dark-blue: #0072B2 !default;
+$light-grey: #EDEEEF !default;
+$grayish-black: #474747 !default;
+$greenish-black: #23373B !default;
+$grey: #E5E5E5 !default;
+$dark-grey: #6C7B7F !default;
+$pink: #EC99C6 !default;
+$orange: #E69F00 !default;
+$green: #009E73 !default;
+
+$ohdsi-prussian-blue: #193649 !default;
+$ohdsi-cadet-gray: #91A4B0 !default;
+$ohdsi-indigo-dye: #1F415B !default;
+$ohdsi-xanthous: #F7AE15 !default;
+$ohdsi-charcoal: #324B5C !default;
+
+
+
+$ohdsi-deep-cyan-blue: #336B91 !default;
+$ohdsi-soft-sky-blue: #69AED5 !default;
+$ohdsi-vibrant-teal: #11A08A !default;
+$ohdsi-bright-marigold: #FBC511 !default;
+$ohdsi-fiery-orange: #EB6622 !default;
+
+
+
+
+
+// Navbar
+
+$navbar-bg: $ohdsi-charcoal !default;
+$navbar-color: $ohdsi-charcoal !default;
+
+// Body
+$body-bg: #1b1b1b;
+$code-color: #c2d94c;
+$code-bg: #3d4551;
+
+
+
+/*-- scss:rules --*/
+
+/*-- scss:functions --*/
+
+

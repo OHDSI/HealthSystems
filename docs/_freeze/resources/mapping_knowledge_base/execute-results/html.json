@@ -1,0 +1,15 @@
+{
+  "hash": "d09523b9cabdfc683f561b19151eea17",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Mapping Knowledge Base\"\nformat: html\nengine: knitr\n---\n\n\n\n\n\n## Proprietary and PHI considerations \n\n### The Data Holder’s Responsibility \nIn OHDSI, it is the responsibility of each data holder to know, understand and follow local data governance processes related to use of the OMOP CDM. In the United States, these processes will follow your organization’s local interpretation for maintaining compliance to PII and PHI protection. In OMOP CDM implementations containing European Union citizen data, local governance processes will include measures to comply with General Data Protection Regulation (GDPR) [1]. As a community, the OHDSI data network covers more than 330 databases from 34 countries. There is extensive community knowledge on the interpretation of rule sets and exemplar IRB and local governance workflows that can be made available to institutions navigating these processes for the first time. If your organization does not have an established data governance process, please reach out on the OHDSI Forums under “Implementers” and the community can respond with shared guidance from their own deployments. As a community, we aim to conduct research that keeps patient-level data local and share only aggregate results. \n\nPrivacy preserving processes are not one-size fits all. There are many different rule sets that can be applied to datasets. Data holders are recommended to consult with their local privacy officer(s) to ensure all processes applied to a database are compliant with local interpretation of the selected rule set. \n\n* https://ohdsi.github.io/CommonDataModel/cdmPrivacy.html  \n\n\n\nBibText version: \n\n@MISC{noauthor_2018-mt, title = “General Data Protection Regulation ({GDPR}) Compliance Guidelines”, abstract = “The EU General Data Protection Regulation went into effect on May 25, 2018, replacing the Data Protection Directive 95/46/EC. Designed to increase data privacy for EU citizens, the regulation levies steep fines on organizations that don’t follow the law.”, month = jun, year = 2018, howpublished = “”, note = “Accessed: 2021-8-18”, language = “en” } \n\nRegular citation: General Data Protection Regulation (GDPR) Compliance Guidelines. 18 Jun 2018 [cited 18 Aug 2021]. Available: https://gdpr.eu/\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

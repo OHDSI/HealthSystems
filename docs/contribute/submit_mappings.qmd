@@ -1,0 +1,9 @@
+---
+hide:
+  - toc
+---
+
+## Instructions for mapping contributions 
+
+Only two fields are required, standard concept_id and source value; all other fields are highly encouraged & valuable to users 
+

@@ -1,0 +1,15 @@
+{
+  "hash": "fd726dae66bd63a2b819d4869d180cce",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Submit Mappings\"\nformat: html\nengine: knitr\n---",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

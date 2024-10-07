@@ -1,30 +1,17 @@
 [
   {
-    "objectID": "tools/03_caboodle.html",
-    "href": "tools/03_caboodle.html",
-    "title": "Caboodle",
+    "objectID": "getting-started/getting-started.html",
+    "href": "getting-started/getting-started.html",
+    "title": "Getting Started",
     "section": "",
-    "text": "Caboodle",
-    "crumbs": [
-      "Caboodle"
-    ]
+    "text": "Getting Started"
   },
   {
-    "objectID": "tools/01_jackalope.html",
-    "href": "tools/01_jackalope.html",
-    "title": "Jackalope",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Jackalope",
-    "crumbs": [
-      "Jackalope"
-    ]
-  },
-  {
-    "objectID": "TODO.html",
-    "href": "TODO.html",
-    "title": "OHDSI HSIG",
-    "section": "",
-    "text": "Storage of word documents\nStorage of csv files\nLink to Dynamic Mapping Tools and Metadata for Dynamic Mapping Tools\nEpic User web and other proprietary\nETL\nInventory Management"
+    "text": "Healthcare Systems Interest Group mission is to help each other and learn from experience.\nOur group mainly supports Healthcare systems, hospitals, and others who have electronic health records that provide clinical care for their patients."
   },
   {
     "objectID": "resources/converting_ndc.html",
@@ -35,6 +22,33 @@
     "crumbs": [
       "Converting NDC"
     ]
+  },
+  {
+    "objectID": "tools/03_caboodle.html",
+    "href": "tools/03_caboodle.html",
+    "title": "Caboodle",
+    "section": "",
+    "text": "Caboodle",
+    "crumbs": [
+      "Caboodle"
+    ]
+  },
+  {
+    "objectID": "tools/02_databuildtool.html",
+    "href": "tools/02_databuildtool.html",
+    "title": "Data Build Tool",
+    "section": "",
+    "text": "Data Build Tool",
+    "crumbs": [
+      "Data Build Tool"
+    ]
+  },
+  {
+    "objectID": "collaborate/collaborate.html",
+    "href": "collaborate/collaborate.html",
+    "title": "Collaborate",
+    "section": "",
+    "text": "Test"
   },
   {
     "objectID": "index.html",
@@ -64,32 +78,24 @@
     ]
   },
   {
-    "objectID": "collaborate/collaborate.html",
-    "href": "collaborate/collaborate.html",
-    "title": "Collaborate",
+    "objectID": "tools/01_jackalope.html",
+    "href": "tools/01_jackalope.html",
+    "title": "Jackalope",
     "section": "",
-    "text": "Test"
+    "text": "Jackalope",
+    "crumbs": [
+      "Jackalope"
+    ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "tools/00_overview.html",
+    "href": "tools/00_overview.html",
+    "title": "Overview",
     "section": "",
-    "text": "Healthcare Systems Interest Group mission is to help each other and learn from experience.\nOur group mainly supports Healthcare systems, hospitals, and others who have electronic health records that provide clinical care for their patients."
-  },
-  {
-    "objectID": "getting-started/getting-started.html",
-    "href": "getting-started/getting-started.html",
-    "title": "Getting Started",
-    "section": "",
-    "text": "Getting Started"
-  },
-  {
-    "objectID": "presentations.html",
-    "href": "presentations.html",
-    "title": "Presentations",
-    "section": "",
-    "text": "Tools\nPresentations on tools used for ETL\n\n\n  \n\n\n\nDate\nTitle\nPresenter\n\n\n\n\n2022-09-22\nSNOMED CT Model for Post-Coordination as a Way to Sustainably Represent Source Concepts in OMOP CDM\nEduard Korchmar\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Overview",
+    "crumbs": [
+      "Overview"
+    ]
   },
   {
     "objectID": "resources/proprietary.html",
@@ -112,23 +118,17 @@
     ]
   },
   {
-    "objectID": "tools/00_overview.html",
-    "href": "tools/00_overview.html",
-    "title": "Overview",
+    "objectID": "TODO.html",
+    "href": "TODO.html",
+    "title": "OHDSI HSIG",
     "section": "",
-    "text": "Overview",
-    "crumbs": [
-      "Overview"
-    ]
+    "text": "Storage of word documents\nStorage of csv files\nLink to Dynamic Mapping Tools and Metadata for Dynamic Mapping Tools\nEpic User web and other proprietary\nETL\nInventory Management"
   },
   {
-    "objectID": "tools/02_databuildtool.html",
-    "href": "tools/02_databuildtool.html",
-    "title": "Data Build Tool",
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
     "section": "",
-    "text": "Data Build Tool",
-    "crumbs": [
-      "Data Build Tool"
-    ]
+    "text": "Tools\nPresentations on tools used for ETL\n\n\n  \n\n\n\nDate\nTitle\nPresenter\n\n\n\n\n2022-09-22\nSNOMED CT Model for Post-Coordination as a Way to Sustainably Represent Source Concepts in OMOP CDM\nEduard Korchmar\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

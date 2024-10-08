@@ -1,0 +1,15 @@
+{
+  "hash": "29e24e33207ae43e60b3228cfa3ff95f",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Collaborate\"\nformat: html\nengine: knitr\n---\n\n\n\n\nTest",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

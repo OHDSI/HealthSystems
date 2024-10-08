@@ -1,0 +1,17 @@
+{
+  "hash": "ed7ea0bf39d806f31fa921e594fe1bbf",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Getting Started\"\nformat: html\nengine: knitr\n---\n\n\n\n\nGetting Started",
+    "supporting": [
+      "getting-started_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

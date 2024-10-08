@@ -1,0 +1,69 @@
+---
+title: "OHDSI HSIG"
+description: "Health Systems Interest Group"
+format: html
+engine: knitr
+
+about:
+  id: about
+  template: jolla
+  links:
+    - text: '{{< iconify material-symbols:info>}} About'
+      href: about.qmd
+    - text: "{{< iconify material-symbols:forum>}} Forums"
+      href: https://forums.ohdsi.org/
+    - text: '{{< iconify mdi:blog>}} Wiki'
+      href: https://www.ohdsi.org/web/wiki/doku.php
+    - text: '{{< iconify mdi:github>}} GitHub'
+      href: https://github.com/OHDSI/HealthSystems
+    - text: '{{< iconify mdi:rss>}} RSS'
+      href: why.qmd
+    - text: '{{< iconify material-symbols:co-present>}} Global Symposium'
+      href: https://www.ohdsi.org/ohdsi2024/
+
+---
+
+::: {#about}
+:::
+
+{{< pagebreak >}}
+
+::: {.column-page}
+
+# Welcome to OHDSI HSIG
+
+The Observational Health Data Sciences and Informatics (or OHDSI, pronounced "Odyssey") program is a multi-stakeholder, interdisciplinary collaborative to bring out the value of health data through large-scale analytics. All our solutions are open-source.
+
+OHDSI has established an international network of researchers and observational health databases with a central coordinating center housed at Columbia University.
+
+
+
+
+# Collaborators say...
+:::
+
+::: {.index-grid}
+
+::: {.index-g-col-4 .card .border-light .mb-3 .text-center}
+::: {.card-body}
+["This block would include a quote from an academic source."]{.card-text}
+
+[Academic Quote Source]{.blockquote-footer}
+:::
+:::
+
+::: {.index-g-col-4 .card .border-light .mb-3 .text-center}
+::: {.card-body}
+["This block would include a quote from a government source."]{.card-text}
+
+[Government Quote Source]{.blockquote-footer}
+:::
+:::
+
+::: {.index-g-col-4 .card .border-light .mb-3 .text-center}
+::: {.card-body}
+["This block would include a quote from an industry source."]{.card-text}
+
+[Industry Quote Source]{.blockquote-footer}
+:::
+:::

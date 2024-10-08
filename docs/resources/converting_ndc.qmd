@@ -1,0 +1,10 @@
+---
+hide:
+  - toc
+---
+
+# Converting NDC
+
+Proper mapping of NDC code requires an 11-digit number in a 5-4-2 format. Converting NDC from a 10-digit to an 11-digit format requires a strategically placed zero, dependent upon the 10-digit format. 
+
+All dashes need to be removed before matching to the concept.concept_code 

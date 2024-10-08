@@ -1,0 +1,15 @@
+{
+  "hash": "be382d9912706f5be1498f95692d6254",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Submit Mappings\"\nformat: html\nengine: knitr\n\nhide:\n  - toc\n---\n\n\n\n\n## Instructions for mapping contributions \n\nOnly two fields are required, standard concept_id and source value; all other fields are highly encouraged & valuable to users \n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

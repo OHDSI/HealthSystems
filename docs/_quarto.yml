@@ -1,0 +1,94 @@
+project:
+  type: website
+  output-dir: src
+  preview:
+    port: 8000
+  
+highlight-style: ayu
+code-annotations: hover
+
+
+website:
+  title: "OHDSI HSIG"
+  
+  # search
+  search:
+    location: navbar
+    type: overlay
+  
+  # nav
+  navbar:
+    logo: logo.svg
+    
+    tools:
+      - icon: github
+        menu:
+          - text: HSIG Repo
+            url: https://github.com/OHDSI/HealthSystems
+          - text: OHDSI GitHub
+            url: https://github.com/OHDSI
+
+    left:
+      - href: index.qmd
+        text: Home
+      - href: getting-started/getting-started.qmd
+        text: Getting Started
+      - sidebar:resources
+
+    right:
+      - presentations.qmd
+      - sidebar:tools
+      - sidebar:contribute
+
+  sidebar:
+    - id: ""
+    - id: resources
+      title: "Resources"
+      style: "docked"
+      collapse-level: 2
+      contents:
+        - auto: resources/*.qmd
+    - id: tools
+      title: "Tools"
+      style: "docked"
+      collapse-level: 2
+      contents:
+        - auto: tools/*.qmd
+    - id: contribute
+      title: "Contribute"
+      style: "docked"
+      collapse-level: 2
+      contents:
+        - auto: contribute/*.qmd
+  
+  
+  
+  # footer
+  page-footer:
+    border: false
+    left: "© 2024 Observational Health Data Sciences and Informatics"
+    right:
+      - text: '{{< iconify mdi:github>}}'
+        href: https://github.com/OHDSI/
+      - text: '{{< iconify mdi:youtube>}}'
+        href: https://www.youtube.com/c/OHDSI
+      - text: '{{< iconify mdi:twitter>}}'
+        href: https://twitter.com/OHDSI
+      - text: '{{< iconify mdi:linkedin>}}'
+        href: https://www.linkedin.com/company/ohdsi
+
+        
+format:
+  html:
+    theme:
+      light: [flatly, "ohdsi-light.scss"]
+      dark: [darkly, "ohdsi-dark.scss"]
+    toc: true
+    css: styles.css
+    include-in-header:
+      - text: |
+          <script data-goatcounter="https://hestia.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+
+execute:
+  freeze: auto

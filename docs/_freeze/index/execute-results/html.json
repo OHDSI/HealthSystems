@@ -1,0 +1,15 @@
+{
+  "hash": "35f3e2556de245a0a8afc140fd965108",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"OHDSI HSIG\"\ndescription: \"Health Systems Interest Group\"\nformat: html\nengine: knitr\n\nabout:\n  id: about\n  template: jolla\n  links:\n    - text: '{{< iconify material-symbols:info>}} About'\n      href: about.qmd\n    - text: \"{{< iconify material-symbols:forum>}} Forums\"\n      href: https://forums.ohdsi.org/\n    - text: '{{< iconify mdi:blog>}} Wiki'\n      href: https://www.ohdsi.org/web/wiki/doku.php\n    - text: '{{< iconify mdi:github>}} GitHub'\n      href: https://github.com/OHDSI/HealthSystems\n    - text: '{{< iconify mdi:rss>}} RSS'\n      href: why.qmd\n    - text: '{{< iconify material-symbols:co-present>}} Global Symposium'\n      href: https://www.ohdsi.org/ohdsi2024/\n\n---\n\n\n\n\n::: {#about}\n:::\n\n\n\n\n{{< pagebreak >}}\n\n\n\n\n\n\n::: {.column-page}\n\n# Welcome to OHDSI HSIG\n\nThe Observational Health Data Sciences and Informatics (or OHDSI, pronounced \"Odyssey\") program is a multi-stakeholder, interdisciplinary collaborative to bring out the value of health data through large-scale analytics. All our solutions are open-source.\n\nOHDSI has established an international network of researchers and observational health databases with a central coordinating center housed at Columbia University.\n\n\n\n\n# Collaborators say...\n:::\n\n::: {.index-grid}\n\n::: {.index-g-col-4 .card .border-light .mb-3 .text-center}\n::: {.card-body}\n[\"This block would include a quote from an academic source.\"]{.card-text}\n\n[Academic Quote Source]{.blockquote-footer}\n:::\n:::\n\n::: {.index-g-col-4 .card .border-light .mb-3 .text-center}\n::: {.card-body}\n[\"This block would include a quote from a government source.\"]{.card-text}\n\n[Government Quote Source]{.blockquote-footer}\n:::\n:::\n\n::: {.index-g-col-4 .card .border-light .mb-3 .text-center}\n::: {.card-body}\n[\"This block would include a quote from an industry source.\"]{.card-text}\n\n[Industry Quote Source]{.blockquote-footer}\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

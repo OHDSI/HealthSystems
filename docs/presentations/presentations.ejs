@@ -1,0 +1,37 @@
+
+```{=html}
+
+<% for (const item of items) { %>
+<h2><%- item.category %></h2>
+<p><%- item.description %></p>
+<div class="list table-responsive">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Title</th>
+        <th>Presenter</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% for (const tile of item.tiles) { %>
+        <tr <%= metadataAttrs(tile) %>>
+          <td>
+            <span class="text-muted listing-date"><%= tile.date %></span>
+          </td>
+          <td>
+            <a href="<%- tile.href %>" class="listing-title"><%= tile.title %></a>
+          </td>
+          <td>
+            <% if (tile.presenter) { %>
+              <b class="listing-presenter"><%= tile.presenter %></b>
+            <% } %>
+          </td>
+        </tr>
+      <% } %>
+    </tbody>
+  </table>
+</div>
+<% } %>
+
+```

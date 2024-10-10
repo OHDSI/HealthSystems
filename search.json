@@ -17,64 +17,6 @@
     ]
   },
   {
-    "objectID": "TODO.html",
-    "href": "TODO.html",
-    "title": "OHDSI HSIG",
-    "section": "",
-    "text": "Storage of word documents\nStorage of csv files\nLink to Dynamic Mapping Tools and Metadata for Dynamic Mapping Tools\nEpic User web and other proprietary\nETL\nInventory Management"
-  },
-  {
-    "objectID": "tools/00_overview.html",
-    "href": "tools/00_overview.html",
-    "title": "Overview",
-    "section": "",
-    "text": "Overview",
-    "crumbs": [
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "tools/01_jackalope.html",
-    "href": "tools/01_jackalope.html",
-    "title": "Jackalope",
-    "section": "",
-    "text": "Jackalope",
-    "crumbs": [
-      "Jackalope"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "OHDSI HSIG",
-    "section": "",
-    "text": "About\n  \n  \n      Forums\n  \n  \n      Wiki\n  \n  \n      GitHub\n  \n  \n      RSS\n  \n  \n      Global Symposium\n  \n\n\n\n\n\n\nWelcome to OHDSI HSIG\nThe Observational Health Data Sciences and Informatics (or OHDSI, pronounced “Odyssey”) program is a multi-stakeholder, interdisciplinary collaborative to bring out the value of health data through large-scale analytics. All our solutions are open-source.\nOHDSI has established an international network of researchers and observational health databases with a central coordinating center housed at Columbia University.\n\n\nCollaborators say…\n\n\n\n\n\n“This block would include a quote from an academic source.”\nAcademic Quote Source\n\n\n\n\n“This block would include a quote from a government source.”\nGovernment Quote Source\n\n\n\n\n“This block would include a quote from an industry source.”\nIndustry Quote Source"
-  },
-  {
-    "objectID": "tools/02_databuildtool.html",
-    "href": "tools/02_databuildtool.html",
-    "title": "Data Build Tool",
-    "section": "",
-    "text": "Data Build Tool",
-    "crumbs": [
-      "Data Build Tool"
-    ]
-  },
-  {
-    "objectID": "presentations.html",
-    "href": "presentations.html",
-    "title": "Presentations",
-    "section": "",
-    "text": "Tools\nPresentations on tools used for ETL\n\n\n  \n\n\n\nDate\nTitle\nPresenter\n\n\n\n\n2022-09-22\nSNOMED CT Model for Post-Coordination as a Way to Sustainably Represent Source Concepts in OMOP CDM\nEduard Korchmar\n\n\n2022-09-22\nSNOMED CT Model for Post-Coordination as a Way to Sustainably Represent Source Concepts in OMOP CDM\nEduard Korchmar\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Healthcare Systems Interest Group mission is to help each other and learn from experience.\nOur group mainly supports Healthcare systems, hospitals, and others who have electronic health records that provide clinical care for their patients."
-  },
-  {
     "objectID": "contribute/submit_mappings.html",
     "href": "contribute/submit_mappings.html",
     "title": "OHDSI HSIG",
@@ -92,6 +34,74 @@
     "text": "Only two fields are required, standard concept_id and source value; all other fields are highly encouraged & valuable to users",
     "crumbs": [
       "Instructions for mapping contributions"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Healthcare Systems Interest Group mission is to help each other and learn from experience.\nOur group mainly supports Healthcare systems, hospitals, and others who have electronic health records that provide clinical care for their patients."
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Tools\nPresentations on tools used for ETL\n\n\n  \n\n\n\nDate\nTitle\nPresenter\n\n\n\n\n2022-09-22\nSNOMED CT Model for Post-Coordination as a Way to Sustainably Represent Source Concepts in OMOP CDM\nEduard Korchmar\n\n\n2022-09-22\nSNOMED CT Model for Post-Coordination as a Way to Sustainably Represent Source Concepts in OMOP CDM\nEduard Korchmar\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "tools/02_databuildtool.html",
+    "href": "tools/02_databuildtool.html",
+    "title": "Data Build Tool",
+    "section": "",
+    "text": "Data Build Tool",
+    "crumbs": [
+      "Data Build Tool"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "OHDSI HSIG",
+    "section": "",
+    "text": "About\n  \n  \n      Forums\n  \n  \n      Wiki\n  \n  \n      GitHub\n  \n  \n      RSS\n  \n  \n      Global Symposium\n  \n\n\n\n\n\n\nWelcome to OHDSI HSIG\nThe Observational Health Data Sciences and Informatics (or OHDSI, pronounced “Odyssey”) program is a multi-stakeholder, interdisciplinary collaborative to bring out the value of health data through large-scale analytics. All our solutions are open-source.\nOHDSI has established an international network of researchers and observational health databases with a central coordinating center housed at Columbia University.\n\n\nCollaborators say…\n\n\n\n\n\n“This block would include a quote from an academic source.”\nAcademic Quote Source\n\n\n\n\n“This block would include a quote from a government source.”\nGovernment Quote Source\n\n\n\n\n“This block would include a quote from an industry source.”\nIndustry Quote Source"
+  },
+  {
+    "objectID": "tools/01_jackalope.html",
+    "href": "tools/01_jackalope.html",
+    "title": "Jackalope",
+    "section": "",
+    "text": "Jackalope",
+    "crumbs": [
+      "Jackalope"
+    ]
+  },
+  {
+    "objectID": "tools/00_overview.html",
+    "href": "tools/00_overview.html",
+    "title": "Overview",
+    "section": "",
+    "text": "Overview",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "TODO.html",
+    "href": "TODO.html",
+    "title": "OHDSI HSIG",
+    "section": "",
+    "text": "Storage of word documents\nStorage of csv files\nLink to Dynamic Mapping Tools and Metadata for Dynamic Mapping Tools\nEpic User web and other proprietary\nETL\nInventory Management"
+  },
+  {
+    "objectID": "resources/Overview.html",
+    "href": "resources/Overview.html",
+    "title": "OHDSI resources",
+    "section": "",
+    "text": "OHDSI resources",
+    "crumbs": [
+      "OHDSI resources"
     ]
   },
   {

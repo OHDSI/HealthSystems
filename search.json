@@ -34,23 +34,6 @@
     ]
   },
   {
-    "objectID": "tools/03_caboodle.html",
-    "href": "tools/03_caboodle.html",
-    "title": "Caboodle",
-    "section": "",
-    "text": "Caboodle",
-    "crumbs": [
-      "Caboodle"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "OHDSI HSIG",
-    "section": "",
-    "text": "About\n  \n  \n      Forums\n  \n  \n      Wiki\n  \n  \n      GitHub\n  \n  \n      RSS\n  \n  \n      Global Symposium\n  \n\n\n\n\n\n\nWelcome to OHDSI HSIG\nThe Observational Health Data Sciences and Informatics (or OHDSI, pronounced “Odyssey”) program is a multi-stakeholder, interdisciplinary collaborative to bring out the value of health data through large-scale analytics. All our solutions are open-source.\nOHDSI has established an international network of researchers and observational health databases with a central coordinating center housed at Columbia University.\n\n\nCollaborators say…\n\n\n\n\n\n“This block would include a quote from an academic source.”\nAcademic Quote Source\n\n\n\n\n“This block would include a quote from a government source.”\nGovernment Quote Source\n\n\n\n\n“This block would include a quote from an industry source.”\nIndustry Quote Source"
-  },
-  {
     "objectID": "tools/01_jackalope.html",
     "href": "tools/01_jackalope.html",
     "title": "Jackalope",
@@ -59,6 +42,13 @@
     "crumbs": [
       "Jackalope"
     ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "OHDSI HSIG",
+    "section": "",
+    "text": "About\n  \n  \n      Forums\n  \n  \n      Wiki\n  \n  \n      GitHub\n  \n  \n      RSS\n  \n  \n      Global Symposium\n  \n\n\n\n\n\n\nWelcome to OHDSI HSIG\nThe Observational Health Data Sciences and Informatics (or OHDSI, pronounced “Odyssey”) program is a multi-stakeholder, interdisciplinary collaborative to bring out the value of health data through large-scale analytics. All our solutions are open-source.\nOHDSI has established an international network of researchers and observational health databases with a central coordinating center housed at Columbia University.\n\n\nCollaborators say…\n\n\n\n\n\n“This block would include a quote from an academic source.”\nAcademic Quote Source\n\n\n\n\n“This block would include a quote from a government source.”\nGovernment Quote Source\n\n\n\n\n“This block would include a quote from an industry source.”\nIndustry Quote Source"
   },
   {
     "objectID": "tools/02_databuildtool.html",

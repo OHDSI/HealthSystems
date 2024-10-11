@@ -13,7 +13,7 @@ about:
     - text: "{{< iconify material-symbols:forum>}} Forums"
       href: https://forums.ohdsi.org/
     - text: '{{< iconify mdi:blog>}} Wiki'
-      href: https://www.ohdsi.org/web/wiki/doku.php
+      href: https://www.ohdsi.org
     - text: '{{< iconify mdi:github>}} GitHub'
       href: https://github.com/OHDSI/HealthSystems
     - text: '{{< iconify mdi:rss>}} RSS'

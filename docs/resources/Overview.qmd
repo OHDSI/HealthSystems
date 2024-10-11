@@ -20,27 +20,17 @@ hide:
 •	[ETL CDM builder](https://github.com/OHDSI/ETL-CDMBuilder)
 •	[Sql Render](https://ohdsi.github.io/SqlRender/articles/UsingSqlRender.html) 
 
-# Working Groups
-•	HSIG MS Teams
-o	Healthcare Systems Interest Group | General | Microsoft Teams
-•	OMOP CDM home page
-o	https://ohdsi.github.io/CommonDataModel/
-•	CDM GitHub
-o	https://github.com/OHDSI/CommonDataModel 
-•	Themis MS Teams
-o	Workgroup - Common Data Model | THEMIS Subgroup | Microsoft Teams
-•	Themis GitHub
-o	https://github.com/OHDSI/Themis
-•	Themis convention library
-o	https://ohdsi.github.io/Themis/ 
-•	HADES
-o	https://ohdsi.github.io/Hades/ 
-•	Achilles Characterization:
-o	https://github.com/OHDSI/Achilles
-o	https://ohdsi.github.io/Achilles/
-•	OHDSI Evidence Network
-o	https://github.com/ohdsi-studies/OhdsiEvidenceNetwork 
+Working Groups
+•	[HSIG MS Teams](https://teams.microsoft.com/l/team/19%3A2b9db953a46441c8be51cb3d3785cac3%40thread.tacv2/conversations?groupId=198ebad0-c5b9-4991-8a5e-55e6d71cb817&tenantId=a30f0094-9120-4aab-ba4c-e5509023b2d5)
+•	[OMOP CDM home page](https://ohdsi.github.io/CommonDataModel/)
+•	[CDM GitHub](https://github.com/OHDSI/CommonDataModel) 
+•	[Themis MS Teams](https://teams.microsoft.com/l/channel/19%3A756b1ded0eae4658b592a53d2e8858e5%40thread.tacv2/THEMIS Subgroup?groupId=a6f2c516-e568-4974-8f1e-a7bdc2f997c5&tenantId=a30f0094-9120-4aab-ba4c-e5509023b2d5)
+•	[Themis GitHub](https://github.com/OHDSI/Themis)
+•	[Themis convention library](https://ohdsi.github.io/Themis/) 
+•	[HADES](https://ohdsi.github.io/Hades/) 
+•	[Achilles Characterization Github](https://github.com/OHDSI/Achilles)
+o	[Achilles Characterization Wiki](https://ohdsi.github.io/Achilles/)
+•	[OHDSI Evidence Network](https://github.com/ohdsi-studies/OhdsiEvidenceNetwork) 
 
-•	OMOP code on Epic user web 
-o	https://userweb.epic.com/Thread/99407/OMOP-All-of-Us-Master-OMOP-Thread/
-o	https://userweb.epic.com/Home/Attachment/E0E5302/36568
+•	[OMOP code on Epic user web](https://userweb.epic.com/Thread/99407/OMOP-All-of-Us-Master-OMOP-Thread/)
+

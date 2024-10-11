@@ -30,12 +30,16 @@ about:
 
 ::: {.column-page}
 
-# Welcome to OHDSI HSIG
+# Welcome to OHDSI Health Systems Interest Group
 
 The Observational Health Data Sciences and Informatics (or OHDSI, pronounced "Odyssey") program is a multi-stakeholder, interdisciplinary collaborative to bring out the value of health data through large-scale analytics. All our solutions are open-source.
 
-OHDSI has established an international network of researchers and observational health databases with a central coordinating center housed at Columbia University.
+**OHDSI’s mission** - To improve health by empowering a community to collaboratively generate the evidence that promotes better health decisions and better care.
 
+**Healthcare Systems Interest Group mission** - To help each other and learn from experience.
+Our group mainly supports health systems, hospitals, and others who have electronic health record (EHR) data on their OHDSI journey to produce reliable, reproducible evidence.
+
+The Health Systems group meets every other Monday at 10am Eastern Time. Please join us on the [MS Teams call](https://teams.microsoft.com/l/team/19%3A2b9db953a46441c8be51cb3d3785cac3%40thread.tacv2/conversations?groupId=198ebad0-c5b9-4991-8a5e-55e6d71cb817&tenantId=a30f0094-9120-4aab-ba4c-e5509023b2d5)
 
 
 

@@ -97,9 +97,19 @@
   {
     "objectID": "resources/Overview.html",
     "href": "resources/Overview.html",
-    "title": "Overview",
+    "title": "Working Groups",
     "section": "",
-    "text": "Overview",
+    "text": "• 2024 Global Symposium • OHDSI home page • Work Groups • OHDSI Forums • Athena • Book of OHDSI • Atlas Demo • USAGI • Data Quality Dashboard • ACHILLES • OHDSI Tutorials • EHDEN Academy • ETL CDM builder • Sql Render",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "resources/Overview.html#overview",
+    "href": "resources/Overview.html#overview",
+    "title": "Working Groups",
+    "section": "",
+    "text": "• 2024 Global Symposium • OHDSI home page • Work Groups • OHDSI Forums • Athena • Book of OHDSI • Atlas Demo • USAGI • Data Quality Dashboard • ACHILLES • OHDSI Tutorials • EHDEN Academy • ETL CDM builder • Sql Render",
     "crumbs": [
       "Overview"
     ]

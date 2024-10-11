@@ -32,7 +32,7 @@ about:
 
 The Observational Health Data Sciences and Informatics (or OHDSI, pronounced "Odyssey") program is a multi-stakeholder, interdisciplinary collaborative to bring out the value of health data through large-scale analytics. All our solutions are open-source.
 
-**OHDSI’s mission** - To improve health by empowering a community to collaboratively generate the evidence that promotes better health decisions and better care.
+OHDSI’s mission - To improve health by empowering a community to collaboratively generate the evidence that promotes better health decisions and better care.
 
 **Healthcare Systems Interest Group mission** - To help each other and learn from experience.
 Our group mainly supports health systems, hospitals, and others who have electronic health record (EHR) data on their OHDSI journey to produce reliable, reproducible evidence.

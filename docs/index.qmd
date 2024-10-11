@@ -16,8 +16,6 @@ about:
       href: https://www.ohdsi.org
     - text: '{{< iconify mdi:github>}} GitHub'
       href: https://github.com/OHDSI/HealthSystems
-    - text: '{{< iconify mdi:rss>}} RSS'
-      href: why.qmd
     - text: '{{< iconify material-symbols:co-present>}} Global Symposium'
       href: https://www.ohdsi.org/ohdsi2024/
 

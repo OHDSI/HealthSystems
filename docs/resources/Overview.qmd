@@ -3,5 +3,44 @@ hide:
   - toc
 ---
 
-# Overview
+## Overview
 
+•	[2024 Global Symposium](https://www.ohdsi.org/ohdsi2024/)
+•	[OHDSI home page](https://www.ohdsi.org)
+• [Work Groups](https://www.ohdsi.org/workgroups/)
+•	[OHDSI Forums](https://forums.ohdsi.org)
+•	[Athena](http://Athena.ohdsi.org) 
+•	[Book of OHDSI](https://ohdsi.github.io/TheBookOfOhdsi/) 
+•	[Atlas Demo](http://atlas-demo.ohdsi.org/#/home)
+•	[USAGI](https://github.com/OHDSI/Usagi) 
+•	[Data Quality Dashboard](https://github.com/OHDSI/DataQualityDashboard)
+•	[ACHILLES](https://github.com/OHDSI/Achilles) 
+•	[OHDSI Tutorials](https://github.com/OHDSI/Tutorial-ETL) 
+•	[EHDEN Academy](https://academy.ehden.eu)
+•	[ETL CDM builder](https://github.com/OHDSI/ETL-CDMBuilder)
+•	[Sql Render](https://ohdsi.github.io/SqlRender/articles/UsingSqlRender.html) 
+
+# Working Groups
+•	HSIG MS Teams
+o	Healthcare Systems Interest Group | General | Microsoft Teams
+•	OMOP CDM home page
+o	https://ohdsi.github.io/CommonDataModel/
+•	CDM GitHub
+o	https://github.com/OHDSI/CommonDataModel 
+•	Themis MS Teams
+o	Workgroup - Common Data Model | THEMIS Subgroup | Microsoft Teams
+•	Themis GitHub
+o	https://github.com/OHDSI/Themis
+•	Themis convention library
+o	https://ohdsi.github.io/Themis/ 
+•	HADES
+o	https://ohdsi.github.io/Hades/ 
+•	Achilles Characterization:
+o	https://github.com/OHDSI/Achilles
+o	https://ohdsi.github.io/Achilles/
+•	OHDSI Evidence Network
+o	https://github.com/ohdsi-studies/OhdsiEvidenceNetwork 
+
+•	OMOP code on Epic user web 
+o	https://userweb.epic.com/Thread/99407/OMOP-All-of-Us-Master-OMOP-Thread/
+o	https://userweb.epic.com/Home/Attachment/E0E5302/36568

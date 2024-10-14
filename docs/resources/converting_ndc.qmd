@@ -7,11 +7,11 @@ hide:
 
 Proper mapping of NDC code requires an 11-digit number in a 5-4-2 format. Converting NDC from a 10-digit to an 11-digit format requires a strategically placed zero, dependent upon the 10-digit format. 
 
-| 10-Digit Format | 10-Digit Format | 11-Digit Format | 11-Digit Format |
-|                 |    Example      |                 |    Example      |  
-|-----------------|:----------------|----------------:|:---------------:|
-|     "4-4-2"     |  "9999-9999-99" |     "5-4-2"     | "09999-9999-99" |
-|     "5-3-2"     |  "99999-999-99" |     "5-4-2"     | "99999-0999-99" |
-|     "5-4-1"     |  "99999-9999-9" |     "5-4-2"     | "99999-9999-09" |
+10-Digit Format|10-Digit Format|11-Digit Format|11-Digit Format 
+Example||Example       
+-----------------|----------------|----------------|---------------
+4-4-2|9999-9999-99|5-4-2|09999-9999-99
+5-3-2|99999-999-99|5-4-2|99999-0999-99
+5-4-1|99999-9999-9|5-4-2|99999-9999-09
  
 All dashes need to be removed before matching to the concept.concept_code 

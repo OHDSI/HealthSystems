@@ -1,37 +1,60 @@
 [
   {
-    "objectID": "tools/03_caboodle.html",
-    "href": "tools/03_caboodle.html",
-    "title": "Caboodle",
+    "objectID": "tools/02_databuildtool.html",
+    "href": "tools/02_databuildtool.html",
+    "title": "Data Build Tool",
     "section": "",
-    "text": "Caboodle",
+    "text": "Data Build Tool",
     "crumbs": [
-      "Caboodle"
+      "Data Build Tool"
     ]
   },
   {
-    "objectID": "tools/01_jackalope.html",
-    "href": "tools/01_jackalope.html",
-    "title": "Jackalope",
+    "objectID": "tools/00_overview.html",
+    "href": "tools/00_overview.html",
+    "title": "Overview",
     "section": "",
-    "text": "Jackalope",
+    "text": "Overview",
     "crumbs": [
-      "Jackalope"
+      "Overview"
     ]
   },
   {
-    "objectID": "TODO.html",
-    "href": "TODO.html",
-    "title": "OHDSI HSIG",
+    "objectID": "resources/proprietary.html",
+    "href": "resources/proprietary.html",
+    "title": "Proprietary and PHI considerations",
     "section": "",
-    "text": "Storage of word documents\nStorage of csv files\nLink to Dynamic Mapping Tools and Metadata for Dynamic Mapping Tools\nEpic User web and other proprietary\nETL\nInventory Management"
+    "text": "In OHDSI, it is the responsibility of each data holder to know, understand and follow local data governance processes related to use of the OMOP CDM. In the United States, these processes will follow your organization’s local interpretation for maintaining compliance to PII and PHI protection. In OMOP CDM implementations containing European Union citizen data, local governance processes will include measures to comply with General Data Protection Regulation (GDPR) [1]. As a community, the OHDSI data network covers more than 500 databases from 49 countries. There is extensive community knowledge on the interpretation of rule sets and exemplar IRB and local governance workflows that can be made available to institutions navigating these processes for the first time. If your organization does not have an established data governance process, please reach out on the OHDSI Forums under “Implementers” and the community can respond with shared guidance from their own deployments. As a community, we aim to conduct research that keeps patient-level data local and share only aggregate results.\nPrivacy preserving processes are not one-size fits all. There are many different rule sets that can be applied to datasets. Data holders are recommended to consult with their local privacy officer(s) to ensure all processes applied to a database are compliant with local interpretation of the selected rule set.\n\nhttps://ohdsi.github.io/CommonDataModel/cdmPrivacy.html\n\nBibText version:\n@MISC{noauthor_2018-mt, title = “General Data Protection Regulation ({GDPR}) Compliance Guidelines”, abstract = “The EU General Data Protection Regulation went into effect on May 25, 2018, replacing the Data Protection Directive 95/46/EC. Designed to increase data privacy for EU citizens, the regulation levies steep fines on organizations that don’t follow the law.”, month = jun, year = 2018, howpublished = “”, note = “Accessed: 2021-8-18”, language = “en” }\nRegular citation: General Data Protection Regulation (GDPR) Compliance Guidelines. 18 Jun 2018 [cited 18 Aug 2021]. Available: https://gdpr.eu/",
+    "crumbs": [
+      "Proprietary and PHI considerations"
+    ]
+  },
+  {
+    "objectID": "resources/proprietary.html#the-data-holders-responsibility",
+    "href": "resources/proprietary.html#the-data-holders-responsibility",
+    "title": "Proprietary and PHI considerations",
+    "section": "",
+    "text": "In OHDSI, it is the responsibility of each data holder to know, understand and follow local data governance processes related to use of the OMOP CDM. In the United States, these processes will follow your organization’s local interpretation for maintaining compliance to PII and PHI protection. In OMOP CDM implementations containing European Union citizen data, local governance processes will include measures to comply with General Data Protection Regulation (GDPR) [1]. As a community, the OHDSI data network covers more than 500 databases from 49 countries. There is extensive community knowledge on the interpretation of rule sets and exemplar IRB and local governance workflows that can be made available to institutions navigating these processes for the first time. If your organization does not have an established data governance process, please reach out on the OHDSI Forums under “Implementers” and the community can respond with shared guidance from their own deployments. As a community, we aim to conduct research that keeps patient-level data local and share only aggregate results.\nPrivacy preserving processes are not one-size fits all. There are many different rule sets that can be applied to datasets. Data holders are recommended to consult with their local privacy officer(s) to ensure all processes applied to a database are compliant with local interpretation of the selected rule set.\n\nhttps://ohdsi.github.io/CommonDataModel/cdmPrivacy.html\n\nBibText version:\n@MISC{noauthor_2018-mt, title = “General Data Protection Regulation ({GDPR}) Compliance Guidelines”, abstract = “The EU General Data Protection Regulation went into effect on May 25, 2018, replacing the Data Protection Directive 95/46/EC. Designed to increase data privacy for EU citizens, the regulation levies steep fines on organizations that don’t follow the law.”, month = jun, year = 2018, howpublished = “”, note = “Accessed: 2021-8-18”, language = “en” }\nRegular citation: General Data Protection Regulation (GDPR) Compliance Guidelines. 18 Jun 2018 [cited 18 Aug 2021]. Available: https://gdpr.eu/",
+    "crumbs": [
+      "Proprietary and PHI considerations"
+    ]
   },
   {
     "objectID": "resources/converting_ndc.html",
     "href": "resources/converting_ndc.html",
-    "title": "Converting NDC",
+    "title": "OHDSI HSIG",
     "section": "",
-    "text": "Converting NDC\nProper mapping of NDC code requires an 11-digit number in a 5-4-2 format. Converting NDC from a 10-digit to an 11-digit format requires a strategically placed zero, dependent upon the 10-digit format.\nAll dashes need to be removed before matching to the concept.concept_code",
+    "text": "Proper mapping of NDC code requires an 11-digit number in a 5-4-2 format. Converting NDC from a 10-digit to an 11-digit format requires a strategically placed zero, dependent upon the 10-digit format.\nAll dashes need to be removed before matching to the concept.concept_code",
+    "crumbs": [
+      "Converting NDC"
+    ]
+  },
+  {
+    "objectID": "resources/converting_ndc.html#converting-ndc",
+    "href": "resources/converting_ndc.html#converting-ndc",
+    "title": "OHDSI HSIG",
+    "section": "",
+    "text": "Proper mapping of NDC code requires an 11-digit number in a 5-4-2 format. Converting NDC from a 10-digit to an 11-digit format requires a strategically placed zero, dependent upon the 10-digit format.\nAll dashes need to be removed before matching to the concept.concept_code",
     "crumbs": [
       "Converting NDC"
     ]
@@ -41,14 +64,14 @@
     "href": "index.html",
     "title": "OHDSI HSIG",
     "section": "",
-    "text": "About\n  \n  \n      Forums\n  \n  \n      Wiki\n  \n  \n      GitHub\n  \n  \n      RSS\n  \n  \n      Global Symposium\n  \n\n\n\n\n\n\nWelcome to OHDSI HSIG\nThe Observational Health Data Sciences and Informatics (or OHDSI, pronounced “Odyssey”) program is a multi-stakeholder, interdisciplinary collaborative to bring out the value of health data through large-scale analytics. All our solutions are open-source.\nOHDSI has established an international network of researchers and observational health databases with a central coordinating center housed at Columbia University.\n\n\nCollaborators say…\n\n\n\n\n\n“This block would include a quote from an academic source.”\nAcademic Quote Source\n\n\n\n\n“This block would include a quote from a government source.”\nGovernment Quote Source\n\n\n\n\n“This block would include a quote from an industry source.”\nIndustry Quote Source"
+    "text": "About\n  \n  \n      Forums\n  \n  \n      Wiki\n  \n  \n      GitHub\n  \n  \n      RSS\n  \n  \n      Global Symposium\n  \n\n\n\n\n\n\nWelcome to OHDSI Health Systems Interest Group\nThe Observational Health Data Sciences and Informatics (or OHDSI, pronounced “Odyssey”) program is a multi-stakeholder, interdisciplinary collaborative to bring out the value of health data through large-scale analytics. All our solutions are open-source.\nOHDSI’s mission - To improve health by empowering a community to collaboratively generate the evidence that promotes better health decisions and better care.\nHealthcare Systems Interest Group mission - To help each other and learn from experience. Our group mainly supports health systems, hospitals, and others who have electronic health record (EHR) data on their OHDSI journey to produce reliable, reproducible evidence.\nThe Health Systems group meets every other Monday at 10am Eastern Time. Please join us on the MS Teams call\n\n\nCollaborators say…\n\n\n\n\n\n“This block would include a quote from an academic source.”\nAcademic Quote Source\n\n\n\n\n“This block would include a quote from a government source.”\nGovernment Quote Source\n\n\n\n\n“This block would include a quote from an industry source.”\nIndustry Quote Source"
   },
   {
     "objectID": "contribute/submit_mappings.html",
     "href": "contribute/submit_mappings.html",
     "title": "OHDSI HSIG",
     "section": "",
-    "text": "Only two fields are required, standard concept_id and source value; all other fields are highly encouraged & valuable to users",
+    "text": "The HSIG continues to flesh out the requirements for how collaborators can best share their semantic mappings. If you would like to contribute to this effort, please join one of our meetings, post a message to our chat in MS Teams or reach out to Melanie Philofsky.",
     "crumbs": [
       "Instructions for mapping contributions"
     ]
@@ -58,7 +81,7 @@
     "href": "contribute/submit_mappings.html#instructions-for-mapping-contributions",
     "title": "OHDSI HSIG",
     "section": "",
-    "text": "Only two fields are required, standard concept_id and source value; all other fields are highly encouraged & valuable to users",
+    "text": "The HSIG continues to flesh out the requirements for how collaborators can best share their semantic mappings. If you would like to contribute to this effort, please join one of our meetings, post a message to our chat in MS Teams or reach out to Melanie Philofsky.",
     "crumbs": [
       "Instructions for mapping contributions"
     ]
@@ -89,46 +112,43 @@
     "href": "presentations.html",
     "title": "Presentations",
     "section": "",
-    "text": "Tools\nPresentations on tools used for ETL\n\n\n  \n\n\n\nDate\nTitle\nPresenter\n\n\n\n\n2022-09-22\nSNOMED CT Model for Post-Coordination as a Way to Sustainably Represent Source Concepts in OMOP CDM\nEduard Korchmar\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Tools\nPresentations on tools used for ETL\n\n\n  \n\n\n\nDate\nTitle\nPresenter\n\n\n\n\n2022-09-22\nSNOMED CT Model for Post-Coordination as a Way to Sustainably Represent Source Concepts in OMOP CDM\nEduard Korchmar\n\n\n2022-09-22\nSNOMED CT Model for Post-Coordination as a Way to Sustainably Represent Source Concepts in OMOP CDM\nEduard Korchmar\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "resources/proprietary.html",
-    "href": "resources/proprietary.html",
-    "title": "Proprietary and PHI considerations",
+    "objectID": "resources/Overview.html",
+    "href": "resources/Overview.html",
+    "title": "OHDSI HSIG",
     "section": "",
-    "text": "In OHDSI, it is the responsibility of each data holder to know, understand and follow local data governance processes related to use of the OMOP CDM. In the United States, these processes will follow your organization’s local interpretation for maintaining compliance to PII and PHI protection. In OMOP CDM implementations containing European Union citizen data, local governance processes will include measures to comply with General Data Protection Regulation (GDPR) [1]. As a community, the OHDSI data network covers more than 330 databases from 34 countries. There is extensive community knowledge on the interpretation of rule sets and exemplar IRB and local governance workflows that can be made available to institutions navigating these processes for the first time. If your organization does not have an established data governance process, please reach out on the OHDSI Forums under “Implementers” and the community can respond with shared guidance from their own deployments. As a community, we aim to conduct research that keeps patient-level data local and share only aggregate results.\nPrivacy preserving processes are not one-size fits all. There are many different rule sets that can be applied to datasets. Data holders are recommended to consult with their local privacy officer(s) to ensure all processes applied to a database are compliant with local interpretation of the selected rule set.\n\nhttps://ohdsi.github.io/CommonDataModel/cdmPrivacy.html\n\nBibText version:\n@MISC{noauthor_2018-mt, title = “General Data Protection Regulation ({GDPR}) Compliance Guidelines”, abstract = “The EU General Data Protection Regulation went into effect on May 25, 2018, replacing the Data Protection Directive 95/46/EC. Designed to increase data privacy for EU citizens, the regulation levies steep fines on organizations that don’t follow the law.”, month = jun, year = 2018, howpublished = “”, note = “Accessed: 2021-8-18”, language = “en” }\nRegular citation: General Data Protection Regulation (GDPR) Compliance Guidelines. 18 Jun 2018 [cited 18 Aug 2021]. Available: https://gdpr.eu/",
-    "crumbs": [
-      "Proprietary and PHI considerations"
-    ]
-  },
-  {
-    "objectID": "resources/proprietary.html#the-data-holders-responsibility",
-    "href": "resources/proprietary.html#the-data-holders-responsibility",
-    "title": "Proprietary and PHI considerations",
-    "section": "",
-    "text": "In OHDSI, it is the responsibility of each data holder to know, understand and follow local data governance processes related to use of the OMOP CDM. In the United States, these processes will follow your organization’s local interpretation for maintaining compliance to PII and PHI protection. In OMOP CDM implementations containing European Union citizen data, local governance processes will include measures to comply with General Data Protection Regulation (GDPR) [1]. As a community, the OHDSI data network covers more than 330 databases from 34 countries. There is extensive community knowledge on the interpretation of rule sets and exemplar IRB and local governance workflows that can be made available to institutions navigating these processes for the first time. If your organization does not have an established data governance process, please reach out on the OHDSI Forums under “Implementers” and the community can respond with shared guidance from their own deployments. As a community, we aim to conduct research that keeps patient-level data local and share only aggregate results.\nPrivacy preserving processes are not one-size fits all. There are many different rule sets that can be applied to datasets. Data holders are recommended to consult with their local privacy officer(s) to ensure all processes applied to a database are compliant with local interpretation of the selected rule set.\n\nhttps://ohdsi.github.io/CommonDataModel/cdmPrivacy.html\n\nBibText version:\n@MISC{noauthor_2018-mt, title = “General Data Protection Regulation ({GDPR}) Compliance Guidelines”, abstract = “The EU General Data Protection Regulation went into effect on May 25, 2018, replacing the Data Protection Directive 95/46/EC. Designed to increase data privacy for EU citizens, the regulation levies steep fines on organizations that don’t follow the law.”, month = jun, year = 2018, howpublished = “”, note = “Accessed: 2021-8-18”, language = “en” }\nRegular citation: General Data Protection Regulation (GDPR) Compliance Guidelines. 18 Jun 2018 [cited 18 Aug 2021]. Available: https://gdpr.eu/",
-    "crumbs": [
-      "Proprietary and PHI considerations"
-    ]
-  },
-  {
-    "objectID": "tools/00_overview.html",
-    "href": "tools/00_overview.html",
-    "title": "Overview",
-    "section": "",
-    "text": "Overview",
+    "text": "• 2024 Global Symposium\n• OHDSI home page\n• Work Groups\n• OHDSI Forums\n• Athena\n• Book of OHDSI\n• Atlas Demo\n• USAGI\n• Data Quality Dashboard\n• ACHILLES\n• OHDSI Tutorials\n• EHDEN Academy\n• ETL CDM builder\n• Sql Render\nWorking Groups\n• HSIG MS Teams\n• OMOP CDM home page\n• CDM GitHub\n• Themis MS Teams\n• Themis GitHub\n• Themis convention library\n• HADES\n• Achilles Characterization Github\no Achilles Characterization Wiki\n• OHDSI Evidence Network\n• OMOP code on Epic user web",
     "crumbs": [
       "Overview"
     ]
   },
   {
-    "objectID": "tools/02_databuildtool.html",
-    "href": "tools/02_databuildtool.html",
-    "title": "Data Build Tool",
+    "objectID": "resources/Overview.html#overview",
+    "href": "resources/Overview.html#overview",
+    "title": "OHDSI HSIG",
     "section": "",
-    "text": "Data Build Tool",
+    "text": "• 2024 Global Symposium\n• OHDSI home page\n• Work Groups\n• OHDSI Forums\n• Athena\n• Book of OHDSI\n• Atlas Demo\n• USAGI\n• Data Quality Dashboard\n• ACHILLES\n• OHDSI Tutorials\n• EHDEN Academy\n• ETL CDM builder\n• Sql Render\nWorking Groups\n• HSIG MS Teams\n• OMOP CDM home page\n• CDM GitHub\n• Themis MS Teams\n• Themis GitHub\n• Themis convention library\n• HADES\n• Achilles Characterization Github\no Achilles Characterization Wiki\n• OHDSI Evidence Network\n• OMOP code on Epic user web",
     "crumbs": [
-      "Data Build Tool"
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "TODO.html",
+    "href": "TODO.html",
+    "title": "OHDSI HSIG",
+    "section": "",
+    "text": "Storage of word documents\nStorage of csv files\nLink to Dynamic Mapping Tools and Metadata for Dynamic Mapping Tools\nEpic User web and other proprietary\nETL\nInventory Management"
+  },
+  {
+    "objectID": "tools/01_jackalope.html",
+    "href": "tools/01_jackalope.html",
+    "title": "Jackalope",
+    "section": "",
+    "text": "Jackalope",
+    "crumbs": [
+      "Jackalope"
     ]
   }
 ]

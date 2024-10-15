@@ -112,6 +112,10 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Converting NDC</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="./resources/Overview.html">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="./resources/proprietary.html">
  <span class="dropdown-text">Proprietary and PHI considerations</span></a>
   </li>  
@@ -139,10 +143,6 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="./tools/02_databuildtool.html">
  <span class="dropdown-text">Data Build Tool</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./tools/03_caboodle.html">
- <span class="dropdown-text">Caboodle</span></a>
   </li>  
     </ul>
   </li>
@@ -230,10 +230,12 @@ ul.task-list li input[type="checkbox"] {
 
 <div style="page-break-after: always;"></div>
 <div class="column-page">
-<section id="welcome-to-ohdsi-hsig" class="level1">
-<h1>Welcome to OHDSI HSIG</h1>
+<section id="welcome-to-ohdsi-health-systems-interest-group" class="level1">
+<h1>Welcome to OHDSI Health Systems Interest Group</h1>
 <p>The Observational Health Data Sciences and Informatics (or OHDSI, pronounced “Odyssey”) program is a multi-stakeholder, interdisciplinary collaborative to bring out the value of health data through large-scale analytics. All our solutions are open-source.</p>
-<p>OHDSI has established an international network of researchers and observational health databases with a central coordinating center housed at Columbia University.</p>
+<p>OHDSI’s mission - To improve health by empowering a community to collaboratively generate the evidence that promotes better health decisions and better care.</p>
+<p>Healthcare Systems Interest Group mission - To help each other and learn from experience. Our group mainly supports health systems, hospitals, and others who have electronic health record (EHR) data on their OHDSI journey to produce reliable, reproducible evidence.</p>
+<p>The Health Systems group meets every other Monday at 10am Eastern Time. Please join us on the <a href="https://teams.microsoft.com/l/team/19%3A2b9db953a46441c8be51cb3d3785cac3%40thread.tacv2/conversations?groupId=198ebad0-c5b9-4991-8a5e-55e6d71cb817&amp;tenantId=a30f0094-9120-4aab-ba4c-e5509023b2d5">MS Teams call</a></p>
 </section>
 <section id="collaborators-say" class="level1">
 <h1>Collaborators say…</h1>
@@ -493,7 +495,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/OHDSI\.github\.io\/HealthSystems\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

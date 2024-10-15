@@ -112,6 +112,10 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Converting NDC</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="../resources/Overview.html">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../resources/proprietary.html">
  <span class="dropdown-text">Proprietary and PHI considerations</span></a>
   </li>  
@@ -139,10 +143,6 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="../tools/02_databuildtool.html">
  <span class="dropdown-text">Data Build Tool</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../tools/03_caboodle.html">
- <span class="dropdown-text">Caboodle</span></a>
   </li>  
     </ul>
   </li>
@@ -212,12 +212,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../tools/02_databuildtool.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Data Build Tool</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tools/03_caboodle.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Caboodle</span></a>
   </div>
 </li>
     </ul>
@@ -483,7 +477,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/OHDSI\.github\.io\/HealthSystems\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

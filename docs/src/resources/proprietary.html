@@ -112,6 +112,10 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Converting NDC</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="../resources/Overview.html">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../resources/proprietary.html">
  <span class="dropdown-text">Proprietary and PHI considerations</span></a>
   </li>  
@@ -139,10 +143,6 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="../tools/02_databuildtool.html">
  <span class="dropdown-text">Data Build Tool</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../tools/03_caboodle.html">
- <span class="dropdown-text">Caboodle</span></a>
   </li>  
     </ul>
   </li>
@@ -204,6 +204,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../resources/Overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../resources/proprietary.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Proprietary and PHI considerations</span></a>
   </div>
@@ -235,7 +241,7 @@ ul.task-list li input[type="checkbox"] {
 <h1>Proprietary and PHI considerations</h1>
 <section id="the-data-holders-responsibility" class="level2">
 <h2 class="anchored" data-anchor-id="the-data-holders-responsibility">The Data Holder’s Responsibility</h2>
-<p>In OHDSI, it is the responsibility of each data holder to know, understand and follow local data governance processes related to use of the OMOP CDM. In the United States, these processes will follow your organization’s local interpretation for maintaining compliance to PII and PHI protection. In OMOP CDM implementations containing European Union citizen data, local governance processes will include measures to comply with General Data Protection Regulation (GDPR) [1]. As a community, the OHDSI data network covers more than 330 databases from 34 countries. There is extensive community knowledge on the interpretation of rule sets and exemplar IRB and local governance workflows that can be made available to institutions navigating these processes for the first time. If your organization does not have an established data governance process, please reach out on the OHDSI Forums under “Implementers” and the community can respond with shared guidance from their own deployments. As a community, we aim to conduct research that keeps patient-level data local and share only aggregate results.</p>
+<p>In OHDSI, it is the responsibility of each data holder to know, understand and follow local data governance processes related to use of the OMOP CDM. In the United States, these processes will follow your organization’s local interpretation for maintaining compliance to PII and PHI protection. In OMOP CDM implementations containing European Union citizen data, local governance processes will include measures to comply with General Data Protection Regulation (GDPR) [1]. As a community, the OHDSI data network covers more than 500 databases from 49 countries. There is extensive community knowledge on the interpretation of rule sets and exemplar IRB and local governance workflows that can be made available to institutions navigating these processes for the first time. If your organization does not have an established data governance process, please reach out on the OHDSI Forums under “Implementers” and the community can respond with shared guidance from their own deployments. As a community, we aim to conduct research that keeps patient-level data local and share only aggregate results.</p>
 <p>Privacy preserving processes are not one-size fits all. There are many different rule sets that can be applied to datasets. Data holders are recommended to consult with their local privacy officer(s) to ensure all processes applied to a database are compliant with local interpretation of the selected rule set.</p>
 <ul>
 <li>https://ohdsi.github.io/CommonDataModel/cdmPrivacy.html</li>
@@ -485,7 +491,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/OHDSI\.github\.io\/HealthSystems\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

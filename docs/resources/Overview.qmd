@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-## Overview
+## Helpful Links
 
 •	[2024 Global Symposium](https://www.ohdsi.org/ohdsi2024/)
 
@@ -51,7 +51,7 @@ Working Groups
 
 •	[Achilles Characterization Github](https://github.com/OHDSI/Achilles)
 
-o	[Achilles Characterization Wiki](https://ohdsi.github.io/Achilles/)
+•	[Achilles Characterization Wiki](https://ohdsi.github.io/Achilles/)
 
 •	[OHDSI Evidence Network](https://github.com/ohdsi-studies/OhdsiEvidenceNetwork) 
 

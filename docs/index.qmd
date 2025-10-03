@@ -43,31 +43,3 @@ The Health Systems group meets every other Monday at 10am Eastern Time. Please j
 
 
 
-# Collaborators say...
-:::
-
-::: {.index-grid}
-
-::: {.index-g-col-4 .card .border-light .mb-3 .text-center}
-::: {.card-body}
-["This block would include a quote from an academic source."]{.card-text}
-
-[Academic Quote Source]{.blockquote-footer}
-:::
-:::
-
-::: {.index-g-col-4 .card .border-light .mb-3 .text-center}
-::: {.card-body}
-["This block would include a quote from a government source."]{.card-text}
-
-[Government Quote Source]{.blockquote-footer}
-:::
-:::
-
-::: {.index-g-col-4 .card .border-light .mb-3 .text-center}
-::: {.card-body}
-["This block would include a quote from an industry source."]{.card-text}
-
-[Industry Quote Source]{.blockquote-footer}
-:::
-:::

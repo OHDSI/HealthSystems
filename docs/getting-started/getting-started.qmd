@@ -13,3 +13,4 @@ The call will be focused on helping those new to the OHDSI community get started
 Next meeting: October 13, 2025 and every other Monday thereafter
 
 •	[Getting Started meeting link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjVkMjBmZTgtZjM0MS00N2QwLWIzODctZTNlMjA1MmUxYzA5%40thread.v2/0?context=%7b%22Tid%22%3a%2214b77578-9773-42d5-8507-251ca2dc2b06%22%2c%22Oid%22%3a%2289bf3edf-e8d2-4417-9263-838fe9354d6b%22%7d)
+quarto publish gh-pages --no-browser

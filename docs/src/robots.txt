@@ -1,1 +1,0 @@
-Sitemap: https://OHDSI.github.io/HealthSystems/sitemap.xml

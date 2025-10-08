@@ -12,11 +12,11 @@
   {
     "objectID": "tools/00_overview.html",
     "href": "tools/00_overview.html",
-    "title": "Overview",
+    "title": "Helpful Links",
     "section": "",
-    "text": "Overview",
+    "text": "Helpful Links",
     "crumbs": [
-      "Overview"
+      "Helpful Links"
     ]
   },
   {
@@ -64,7 +64,7 @@
     "href": "index.html",
     "title": "OHDSI HSIG",
     "section": "",
-    "text": "About\n  \n  \n      Forums\n  \n  \n      Wiki\n  \n  \n      GitHub\n  \n  \n      RSS\n  \n  \n      Global Symposium\n  \n\n\n\n\n\n\nWelcome to OHDSI Health Systems Interest Group\nThe Observational Health Data Sciences and Informatics (or OHDSI, pronounced “Odyssey”) program is a multi-stakeholder, interdisciplinary collaborative to bring out the value of health data through large-scale analytics. All our solutions are open-source.\nOHDSI’s mission - To improve health by empowering a community to collaboratively generate the evidence that promotes better health decisions and better care.\nHealthcare Systems Interest Group mission - To help each other and learn from experience. Our group mainly supports health systems, hospitals, and others who have electronic health record (EHR) data on their OHDSI journey to produce reliable, reproducible evidence.\nThe Health Systems group meets every other Monday at 10am Eastern Time. Please join us on the MS Teams call\n\n\nCollaborators say…\n\n\n\n\n\n“This block would include a quote from an academic source.”\nAcademic Quote Source\n\n\n\n\n“This block would include a quote from a government source.”\nGovernment Quote Source\n\n\n\n\n“This block would include a quote from an industry source.”\nIndustry Quote Source"
+    "text": "About\n  \n  \n      Forums\n  \n  \n      Wiki\n  \n  \n      GitHub\n  \n  \n      RSS\n  \n  \n      Global Symposium\n  \n\n\n\n\n\nWelcome to OHDSI Health Systems Interest Group\nThe Observational Health Data Sciences and Informatics (or OHDSI, pronounced “Odyssey”) program is a multi-stakeholder, interdisciplinary collaborative to bring out the value of health data through large-scale analytics. All our solutions are open-source.\nOHDSI’s mission - To improve health by empowering a community to collaboratively generate the evidence that promotes better health decisions and better care.\nHealthcare Systems Interest Group mission - To help each other and learn from experience. Our group mainly supports health systems, hospitals, and others who have electronic health record (EHR) data on their OHDSI journey to produce reliable, reproducible evidence.\nThe Health Systems group meets every other Monday at 10am Eastern Time. Please join us on the MS Teams call"
   },
   {
     "objectID": "contribute/submit_mappings.html",
@@ -105,14 +105,14 @@
     "href": "getting-started/getting-started.html",
     "title": "Getting Started",
     "section": "",
-    "text": "Getting Started"
+    "text": "##Getting Started\nPlease join us on the Getting Started meeting every other Monday at 10am ET\nThe call will be focused on helping those new to the OHDSI community get started with the OMOP CDM and OHDSI community. Please bring any and all questions related to OHDSI, OMOP CDM, observational health data and research.\nNext meeting: October 13, 2025 and every other Monday thereafter\n• Getting Started meeting link"
   },
   {
     "objectID": "presentations.html",
     "href": "presentations.html",
     "title": "Presentations",
     "section": "",
-    "text": "Tools\nPresentations on tools used for ETL\n\n\n  \n\n\n\nDate\nTitle\nPresenter\n\n\n\n\n2022-09-22\nSNOMED CT Model for Post-Coordination as a Way to Sustainably Represent Source Concepts in OMOP CDM\nEduard Korchmar\n\n\n2022-09-22\nSNOMED CT Model for Post-Coordination as a Way to Sustainably Represent Source Concepts in OMOP CDM\nEduard Korchmar\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Tools\nPresentations on tools used for ETL\n\n\n  \n\n\n\nDate\nTitle\nPresenter\n\n\n\n\n2022-09-22\nSNOMED CT Model for Post-Coordination as a Way to Sustainably Represent Source Concepts in OMOP CDM\nEduard Korchmar\n\n\n2022-09-22\nSNOMED CT Model for Post-Coordination as a Way to Sustainably Represent Source Concepts in OMOP CDM\nEduard Korchmar\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/Overview.html",

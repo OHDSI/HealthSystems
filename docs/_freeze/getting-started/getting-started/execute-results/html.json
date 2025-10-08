@@ -1,8 +1,8 @@
 {
-  "hash": "ed7ea0bf39d806f31fa921e594fe1bbf",
+  "hash": "974356393229a2aabd39f02bea184c02",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Getting Started\"\nformat: html\nengine: knitr\n---\n\n\n\n\nGetting Started",
+    "markdown": "---\ntitle: \"Getting Started\"\nformat: html\nengine: knitr\n---\n\n##Getting Started\n\nPlease join us on the Getting Started meeting every other Monday at 10am ET\n\nThe call will be focused on helping those new to the OHDSI community get started with the OMOP CDM and OHDSI community. Please bring any and all questions related to OHDSI, OMOP CDM, observational health data and research.\n\nNext meeting: October 13, 2025 and every other Monday thereafter\n\n•\t[Getting Started meeting link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjVkMjBmZTgtZjM0MS00N2QwLWIzODctZTNlMjA1MmUxYzA5%40thread.v2/0?context=%7b%22Tid%22%3a%2214b77578-9773-42d5-8507-251ca2dc2b06%22%2c%22Oid%22%3a%2289bf3edf-e8d2-4417-9263-838fe9354d6b%22%7d)\n\n",
     "supporting": [
       "getting-started_files"
     ],

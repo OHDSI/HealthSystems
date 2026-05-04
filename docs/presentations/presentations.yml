@@ -1,5 +1,12 @@
 - category: Tools
   description: |
+    FAQs
+  tiles:
+    - title: Presentation and discussion on how to ETL EHR encounters into Visit Occurrence & Visit Detail tables
+    href: https://ohdsiorg.sharepoint.com/sites/Workgroup-EHRElectronicHealthRecord/_layouts/15/stream.aspx?id=%2Fsites%2FWorkgroup%2DEHRElectronicHealthRecord%2FShared%20Documents%2FGeneral%2FRecordings%2F2023%5F05%5F08%5FVisit%20Occurrence%20Discussion%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef14d91ff%2D4a55%2D4c1f%2D86ba%2D4d6894ec5921&mode=View
+    presenter: Melanie Philofsky
+    date: 2023-05-08
+  description: |
     Presentations on tools used for ETL
   tiles:
     - title: SNOMED CT Model for Post-Coordination as a Way to Sustainably Represent Source Concepts in OMOP CDM
@@ -10,7 +17,7 @@
       href: https://ohdsiorg.sharepoint.com/:p:/s/Workgroup-EHRElectronicHealthRecord/EQZzB6Qv3o5HlMAP_lVewt0BB3DidKPq0Nx-B6iCHC9xJw?e=fQToll
       presenter: Eduard Korchmar
       date: 2022-09-22
-      
+    
 
 
  

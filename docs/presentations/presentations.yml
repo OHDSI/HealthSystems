@@ -2,31 +2,31 @@
   description: |
     Popular topics
   tiles:
-    - title: ETL of EHR encounters into Visit Occurrence & Visit Detail tables: Part 1
+    - title: 'ETL of EHR encounters into Visit Occurrence & Visit Detail tables: Part 1'
       href: https://ohdsiorg.sharepoint.com/:v:/s/Workgroup-EHRElectronicHealthRecord/IQC6n7HIt0MJQbU_z0f6nHy7AV3ghD0xx7kxgTYfQKPkDFk?e=GKEk6Y
       presenter: Melanie Philofsky
       date: 2023-05-08
-    - title: ETL of EHR encounters into Visit Occurrence & Visit Detail tables: Part 2
+    - title: 'ETL of EHR encounters into Visit Occurrence & Visit Detail tables: Part 2'
       href: https://ohdsiorg.sharepoint.com/:v:/s/Workgroup-EHRElectronicHealthRecord/IQCb2nO3JGv0Q5BRFI67LsGLAaPOKFJjkmwOdPzDEjHP5dg?e=nQJjdU
       presenter: Melanie Philofsky
       date: 2023-05-22
-    - title: Custom mapping of local source values to OHDSI standard concepts
+    - title: 'Custom mapping of local source values to OHDSI standard concepts'
       href: https://ohdsiorg.sharepoint.com/:v:/s/Workgroup-EHRElectronicHealthRecord/IQAFtxGwn7JDTo2JmPOBuOXBAchLHBQxfiSf03W-Xfh6MhU?e=0OXMhG
       presenter: Melanie Philofsky
       date: 2023-06-19
-    - title: Adding new vocabularies to OMOP CDM
+    - title: 'Adding new vocabularies to OMOP CDM'
       href: https://ohdsiorg.sharepoint.com/:v:/s/Workgroup-EHRElectronicHealthRecord/IQDOvrrEepcJQJ6UxfsVLm4hAXCSe8Zfx_36kawjj2r5j3s?e=2d2NCX
       presenter: Anna Ostropolets
       date: 2023-07-23
-    - title: Moving OMOP to the Cloud with DBT and Snowflake
+    - title: 'Moving OMOP to the Cloud with DBT and Snowflake'
       href: https://ohdsiorg.sharepoint.com/:v:/s/Workgroup-EHRElectronicHealthRecord/IQAyKAknHRcrSpSTQMURlMJDASHDfD9LKK-xO6vETEEveDc?e=rlZFLi
       presenter: Roger Carlson
       date: 2023-09-11
-    - title: Mapping Knowledge Base: semantic mapping
+    - title: 'Mapping Knowledge Base: semantic mapping'
       href: https://ohdsiorg.sharepoint.com/:v:/s/Workgroup-EHRElectronicHealthRecord/IQCGTkQvPAKDSqja61TIU2ZzAeSOUt3WZ1lg2sqJvMDMNbU?e=Mc7zpI
       presenter: Melanie Philofsky
       date: 2024-02-26
-    - title: SNOMED CT Model for Post-Coordination as a Way to Sustainably Represent Source Concepts in OMOP CDM
+    - title: 'SNOMED CT Model for Post-Coordination as a Way to Sustainably Represent Source Concepts in OMOP CDM'
       href: https://ohdsiorg.sharepoint.com/:p:/s/Workgroup-EHRElectronicHealthRecord/EQZzB6Qv3o5HlMAP_lVewt0BB3DidKPq0Nx-B6iCHC9xJw?e=fQToll
       presenter: Eduard Korchmar
       date: 2022-09-22

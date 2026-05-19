@@ -26,12 +26,6 @@
       href: https://ohdsiorg.sharepoint.com/:v:/s/Workgroup-EHRElectronicHealthRecord/IQCGTkQvPAKDSqja61TIU2ZzAeSOUt3WZ1lg2sqJvMDMNbU?e=Mc7zpI
       presenter: Melanie Philofsky
       date: 2024-02-26
-
-    
-- category: Tools
-  description: |
-    Presentations on tools used for ETL
-  tiles:
     - title: SNOMED CT Model for Post-Coordination as a Way to Sustainably Represent Source Concepts in OMOP CDM
       href: https://ohdsiorg.sharepoint.com/:p:/s/Workgroup-EHRElectronicHealthRecord/EQZzB6Qv3o5HlMAP_lVewt0BB3DidKPq0Nx-B6iCHC9xJw?e=fQToll
       presenter: Eduard Korchmar

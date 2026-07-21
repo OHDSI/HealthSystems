@@ -2,7 +2,6 @@
 title: "OHDSI HSIG"
 description: "Health Systems Interest Group"
 format: html
-engine: knitr
 
 about:
   id: about

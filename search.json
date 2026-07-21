@@ -1,64 +1,17 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
     "section": "",
-    "text": "Healthcare Systems Interest Group mission is to help each other and learn from experience.\nOur group mainly supports Healthcare systems, hospitals, and others who have electronic health records that provide clinical care for their patients."
+    "text": "FAQs\nPopular topics\n\n\n  \n\n\n\nDate\nTitle\nPresenter\n\n\n\n\n2023-05-08\nETL of EHR encounters into Visit Occurrence & Visit Detail tables: Part 1\nMelanie Philofsky\n\n\n2023-05-22\nETL of EHR encounters into Visit Occurrence & Visit Detail tables: Part 2\nMelanie Philofsky\n\n\n2023-06-19\nCustom mapping of local source values to OHDSI standard concepts\nMelanie Philofsky\n\n\n2023-07-23\nAdding new vocabularies to OMOP CDM\nAnna Ostropolets\n\n\n2023-09-11\nMoving OMOP to the Cloud with DBT and Snowflake\nRoger Carlson\n\n\n2024-02-26\nMapping Knowledge Base: semantic mapping\nMelanie Philofsky\n\n\n2022-09-22\nSNOMED CT Model for Post-Coordination as a Way to Sustainably Represent Source Concepts in OMOP CDM\nEduard Korchmar\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "getting-started/getting-started.html",
-    "href": "getting-started/getting-started.html",
-    "title": "Getting Started",
+    "objectID": "collaborate/collaborate.html",
+    "href": "collaborate/collaborate.html",
+    "title": "Collaborate",
     "section": "",
-    "text": "##Getting Started\nPlease join us on the Getting Started meeting every other Monday at 10am ET\nThe call will be focused on helping those new to the OHDSI community get started with the OMOP CDM and OHDSI community. Please bring any and all questions related to OHDSI, OMOP CDM, observational health data and research.\nNext meeting: October 13, 2025 and every other Monday thereafter\n• Getting Started meeting link"
-  },
-  {
-    "objectID": "tools/00_overview.html",
-    "href": "tools/00_overview.html",
-    "title": "Helpful Links",
-    "section": "",
-    "text": "Helpful Links",
-    "crumbs": [
-      "Helpful Links"
-    ]
-  },
-  {
-    "objectID": "tools/02_databuildtool.html",
-    "href": "tools/02_databuildtool.html",
-    "title": "Data Build Tool",
-    "section": "",
-    "text": "Data Build Tool",
-    "crumbs": [
-      "Data Build Tool"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "OHDSI HSIG",
-    "section": "",
-    "text": "About\n  \n  \n      Forums\n  \n  \n      Wiki\n  \n  \n      GitHub\n  \n  \n      RSS\n  \n  \n      Global Symposium\n  \n\n\n\n\n\nWelcome to OHDSI Health Systems Interest Group\nThe Observational Health Data Sciences and Informatics (or OHDSI, pronounced “Odyssey”) program is a multi-stakeholder, interdisciplinary collaborative to bring out the value of health data through large-scale analytics. All our solutions are open-source.\nOHDSI’s mission - To improve health by empowering a community to collaboratively generate the evidence that promotes better health decisions and better care.\nHealthcare Systems Interest Group mission - To help each other and learn from experience. Our group mainly supports health systems, hospitals, and others who have electronic health record (EHR) data on their OHDSI journey to produce reliable, reproducible evidence.\nThe Health Systems group meets every other Monday at 10am Eastern Time. Please join us on the MS Teams call"
-  },
-  {
-    "objectID": "contribute/submit_mappings.html",
-    "href": "contribute/submit_mappings.html",
-    "title": "OHDSI HSIG",
-    "section": "",
-    "text": "The HSIG continues to flesh out the requirements for how collaborators can best share their semantic mappings. If you would like to contribute to this effort, please join one of our meetings, post a message to our chat in MS Teams or reach out to Melanie Philofsky.",
-    "crumbs": [
-      "Instructions for mapping contributions"
-    ]
-  },
-  {
-    "objectID": "contribute/submit_mappings.html#instructions-for-mapping-contributions",
-    "href": "contribute/submit_mappings.html#instructions-for-mapping-contributions",
-    "title": "OHDSI HSIG",
-    "section": "",
-    "text": "The HSIG continues to flesh out the requirements for how collaborators can best share their semantic mappings. If you would like to contribute to this effort, please join one of our meetings, post a message to our chat in MS Teams or reach out to Melanie Philofsky.",
-    "crumbs": [
-      "Instructions for mapping contributions"
-    ]
+    "text": "Test"
   },
   {
     "objectID": "resources/proprietary.html",
@@ -101,6 +54,105 @@
     ]
   },
   {
+    "objectID": "tools/01_jackalope.html",
+    "href": "tools/01_jackalope.html",
+    "title": "Jackalope",
+    "section": "",
+    "text": "Jackalope",
+    "crumbs": [
+      "Jackalope"
+    ]
+  },
+  {
+    "objectID": "getting-started/getting-started.html",
+    "href": "getting-started/getting-started.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Please join us on the Getting Started meeting every other Monday at 10am ET\nThe call will be focused on helping those new to the OHDSI community get started with the OMOP CDM and OHDSI community. Please bring any and all questions related to OHDSI, OMOP CDM, observational health data and research.\nNext meeting: October 13, 2025 and every other Monday thereafter\n• Getting Started meeting link"
+  },
+  {
+    "objectID": "getting-started/getting-started.html#getting-started",
+    "href": "getting-started/getting-started.html#getting-started",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Please join us on the Getting Started meeting every other Monday at 10am ET\nThe call will be focused on helping those new to the OHDSI community get started with the OMOP CDM and OHDSI community. Please bring any and all questions related to OHDSI, OMOP CDM, observational health data and research.\nNext meeting: October 13, 2025 and every other Monday thereafter\n• Getting Started meeting link"
+  },
+  {
+    "objectID": "getting-started/getting-started.html#core-ohdsi-resources",
+    "href": "getting-started/getting-started.html#core-ohdsi-resources",
+    "title": "Getting Started",
+    "section": "Core OHDSI Resources",
+    "text": "Core OHDSI Resources\nNew to ETLing your source data to the OMOP Common Data Model? Start here:\n• Book of OHDSI — the primary reference text for the OHDSI community and the OMOP CDM.\n• Athena — the OHDSI vocabulary repository, used to browse and download standardized vocabularies for mapping source codes to OMOP concepts.\n• OMOP CDM home page — the Common Data Model specification.\n• CDM GitHub — source repository for the CDM specification and DDL scripts."
+  },
+  {
+    "objectID": "getting-started/getting-started.html#ehr-source-data-guidance",
+    "href": "getting-started/getting-started.html#ehr-source-data-guidance",
+    "title": "Getting Started",
+    "section": "EHR & Source Data Guidance",
+    "text": "EHR & Source Data Guidance\n• OMOP code on Epic user web — community thread on Epic User Web discussing OMOP mapping approaches for Epic source data. Requires an Epic User Web account.\n\nBefore extracting and sharing data, review the Proprietary and PHI considerations page for guidance on data governance responsibilities."
+  },
+  {
+    "objectID": "getting-started/getting-started.html#tutorials",
+    "href": "getting-started/getting-started.html#tutorials",
+    "title": "Getting Started",
+    "section": "Tutorials",
+    "text": "Tutorials\n• OHDSI ETL Tutorial — walkthrough materials for building an ETL pipeline to the OMOP CDM.\n• EHDEN Academy — free online courses covering OMOP CDM, vocabulary mapping, and OHDSI tools."
+  },
+  {
+    "objectID": "getting-started/getting-started.html#interface-terminologies-their-use-in-etlmapping",
+    "href": "getting-started/getting-started.html#interface-terminologies-their-use-in-etlmapping",
+    "title": "Getting Started",
+    "section": "Interface Terminologies & Their Use in ETL/Mapping",
+    "text": "Interface Terminologies & Their Use in ETL/Mapping\nInterface terminologies (e.g., the clinical vocabularies used natively within an EHR, such as SNOMED CT, LOINC, or RxNorm) often differ from the standard vocabularies used in the OMOP CDM. Understanding how your source system’s interface terminology relates to OMOP standard concepts is a key step in ETL design.\n• USAGI — a tool to support the manual mapping of source codes to standard OMOP concepts.\n• Themis convention library — community conventions for consistent ETL/mapping decisions across the OHDSI network.\n\nSee the Resources Overview page for the full list of OHDSI tools and working group links."
+  },
+  {
+    "objectID": "TODO.html",
+    "href": "TODO.html",
+    "title": "OHDSI HSIG",
+    "section": "",
+    "text": "Storage of word documents\nStorage of csv files\nLink to Dynamic Mapping Tools and Metadata for Dynamic Mapping Tools\nEpic User web and other proprietary\nETL\nInventory Management"
+  },
+  {
+    "objectID": "contribute/submit_mappings.html",
+    "href": "contribute/submit_mappings.html",
+    "title": "OHDSI HSIG",
+    "section": "",
+    "text": "The HSIG continues to flesh out the requirements for how collaborators can best share their semantic mappings. If you would like to contribute to this effort, please join one of our meetings, post a message to our chat in MS Teams or reach out to Melanie Philofsky.",
+    "crumbs": [
+      "Instructions for mapping contributions"
+    ]
+  },
+  {
+    "objectID": "contribute/submit_mappings.html#instructions-for-mapping-contributions",
+    "href": "contribute/submit_mappings.html#instructions-for-mapping-contributions",
+    "title": "OHDSI HSIG",
+    "section": "",
+    "text": "The HSIG continues to flesh out the requirements for how collaborators can best share their semantic mappings. If you would like to contribute to this effort, please join one of our meetings, post a message to our chat in MS Teams or reach out to Melanie Philofsky.",
+    "crumbs": [
+      "Instructions for mapping contributions"
+    ]
+  },
+  {
+    "objectID": "tools/02_databuildtool.html",
+    "href": "tools/02_databuildtool.html",
+    "title": "Data Build Tool",
+    "section": "",
+    "text": "Data Build Tool",
+    "crumbs": [
+      "Data Build Tool"
+    ]
+  },
+  {
+    "objectID": "tools/00_overview.html",
+    "href": "tools/00_overview.html",
+    "title": "Helpful Links",
+    "section": "",
+    "text": "Helpful Links",
+    "crumbs": [
+      "Helpful Links"
+    ]
+  },
+  {
     "objectID": "resources/Overview.html",
     "href": "resources/Overview.html",
     "title": "OHDSI HSIG",
@@ -121,34 +173,17 @@
     ]
   },
   {
-    "objectID": "collaborate/collaborate.html",
-    "href": "collaborate/collaborate.html",
-    "title": "Collaborate",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Test"
+    "text": "Healthcare Systems Interest Group mission is to help each other and learn from experience.\nOur group mainly supports Healthcare systems, hospitals, and others who have electronic health records that provide clinical care for their patients."
   },
   {
-    "objectID": "presentations.html",
-    "href": "presentations.html",
-    "title": "Presentations",
-    "section": "",
-    "text": "FAQs\nPopular topics\n\n\n  \n\n\n\nDate\nTitle\nPresenter\n\n\n\n\n2023-05-08\nETL of EHR encounters into Visit Occurrence & Visit Detail tables: Part 1\nMelanie Philofsky\n\n\n2023-05-22\nETL of EHR encounters into Visit Occurrence & Visit Detail tables: Part 2\nMelanie Philofsky\n\n\n2023-06-19\nCustom mapping of local source values to OHDSI standard concepts\nMelanie Philofsky\n\n\n2023-07-23\nAdding new vocabularies to OMOP CDM\nAnna Ostropolets\n\n\n2023-09-11\nMoving OMOP to the Cloud with DBT and Snowflake\nRoger Carlson\n\n\n2024-02-26\nMapping Knowledge Base: semantic mapping\nMelanie Philofsky\n\n\n2022-09-22\nSNOMED CT Model for Post-Coordination as a Way to Sustainably Represent Source Concepts in OMOP CDM\nEduard Korchmar\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "tools/01_jackalope.html",
-    "href": "tools/01_jackalope.html",
-    "title": "Jackalope",
-    "section": "",
-    "text": "Jackalope",
-    "crumbs": [
-      "Jackalope"
-    ]
-  },
-  {
-    "objectID": "TODO.html",
-    "href": "TODO.html",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "OHDSI HSIG",
     "section": "",
-    "text": "Storage of word documents\nStorage of csv files\nLink to Dynamic Mapping Tools and Metadata for Dynamic Mapping Tools\nEpic User web and other proprietary\nETL\nInventory Management"
+    "text": "About\n  \n  \n      Forums\n  \n  \n      Wiki\n  \n  \n      GitHub\n  \n  \n      RSS\n  \n  \n      Global Symposium\n  \n\n\n\n\n\nWelcome to OHDSI Health Systems Interest Group\nThe Observational Health Data Sciences and Informatics (or OHDSI, pronounced “Odyssey”) program is a multi-stakeholder, interdisciplinary collaborative to bring out the value of health data through large-scale analytics. All our solutions are open-source.\nOHDSI’s mission - To improve health by empowering a community to collaboratively generate the evidence that promotes better health decisions and better care.\nHealthcare Systems Interest Group mission - To help each other and learn from experience. Our group mainly supports health systems, hospitals, and others who have electronic health record (EHR) data on their OHDSI journey to produce reliable, reproducible evidence.\nThe Health Systems group meets every other Monday at 10am Eastern Time. Please join us on the MS Teams call"
   }
 ]

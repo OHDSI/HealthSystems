@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Getting Started – OHDSI HSIG</title>
+<title>getting-started – OHDSI HSIG</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -362,46 +362,29 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#core-ohdsi-resources" id="toc-core-ohdsi-resources" class="nav-link" data-scroll-target="#core-ohdsi-resources">Core OHDSI Resources</a></li>
   <li><a href="#ehr-source-data-guidance" id="toc-ehr-source-data-guidance" class="nav-link" data-scroll-target="#ehr-source-data-guidance">EHR &amp; Source Data Guidance</a></li>
   <li><a href="#tutorials" id="toc-tutorials" class="nav-link" data-scroll-target="#tutorials">Tutorials</a></li>
-  <li><a href="#interface-terminologies-their-use-in-etlmapping" id="toc-interface-terminologies-their-use-in-etlmapping" class="nav-link" data-scroll-target="#interface-terminologies-their-use-in-etlmapping">Interface Terminologies &amp; Their Use in ETL/Mapping</a></li>
+  <li><a href="#terminologies-their-use-in-etlmapping" id="toc-terminologies-their-use-in-etlmapping" class="nav-link" data-scroll-target="#terminologies-their-use-in-etlmapping">Terminologies &amp; Their Use in ETL/Mapping</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Getting Started</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
 
 
 <section id="getting-started" class="level2">
 <h2 class="anchored" data-anchor-id="getting-started">Getting Started</h2>
-<p>Please join us on the Getting Started meeting every other Monday at 10am ET</p>
-<p>The call will be focused on helping those new to the OHDSI community get started with the OMOP CDM and OHDSI community. Please bring any and all questions related to OHDSI, OMOP CDM, observational health data and research.</p>
-<p>Next meeting: October 13, 2025 and every other Monday thereafter</p>
-<p>• <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjVkMjBmZTgtZjM0MS00N2QwLWIzODctZTNlMjA1MmUxYzA5%40thread.v2/0?context=%7b%22Tid%22%3a%2214b77578-9773-42d5-8507-251ca2dc2b06%22%2c%22Oid%22%3a%2289bf3edf-e8d2-4417-9263-838fe9354d6b%22%7d">Getting Started meeting link</a></p>
+<p>Please join us on the Health Systems Interest Group meeting every other Monday at 10am ET</p>
+<p>The call will be focused on helping those new to the OHDSI community get started with the OMOP CDM. Please bring any and all questions related to OHDSI, OMOP CDM, observational health data and research.</p>
+<p>Next meeting: on the first Monday of the month</p>
+<p>• <a href="https://teams.microsoft.com/meet/21546631792176?p=DiNa0maq3MQbSmFIlz">HSIG meeting link</a></p>
 </section>
 <section id="core-ohdsi-resources" class="level2">
 <h2 class="anchored" data-anchor-id="core-ohdsi-resources">Core OHDSI Resources</h2>
 <p>New to ETLing your source data to the OMOP Common Data Model? Start here:</p>
 <p>• <a href="https://ohdsi.github.io/TheBookOfOhdsi/">Book of OHDSI</a> — the primary reference text for the OHDSI community and the OMOP CDM.</p>
 <p>• <a href="http://Athena.ohdsi.org">Athena</a> — the OHDSI vocabulary repository, used to browse and download standardized vocabularies for mapping source codes to OMOP concepts.</p>
-<p>• <a href="https://ohdsi.github.io/CommonDataModel/">OMOP CDM home page</a> — the Common Data Model specification.</p>
 <p>• <a href="https://github.com/OHDSI/CommonDataModel">CDM GitHub</a> — source repository for the CDM specification and DDL scripts.</p>
 </section>
 <section id="ehr-source-data-guidance" class="level2">
@@ -415,9 +398,9 @@ ul.task-list li input[type="checkbox"] {
 <p>• <a href="https://github.com/OHDSI/Tutorial-ETL">OHDSI ETL Tutorial</a> — walkthrough materials for building an ETL pipeline to the OMOP CDM.</p>
 <p>• <a href="https://academy.ehden.eu">EHDEN Academy</a> — free online courses covering OMOP CDM, vocabulary mapping, and OHDSI tools.</p>
 </section>
-<section id="interface-terminologies-their-use-in-etlmapping" class="level2">
-<h2 class="anchored" data-anchor-id="interface-terminologies-their-use-in-etlmapping">Interface Terminologies &amp; Their Use in ETL/Mapping</h2>
-<p>Interface terminologies (e.g., the clinical vocabularies used natively within an EHR, such as SNOMED CT, LOINC, or RxNorm) often differ from the standard vocabularies used in the OMOP CDM. Understanding how your source system’s interface terminology relates to OMOP standard concepts is a key step in ETL design.</p>
+<section id="terminologies-their-use-in-etlmapping" class="level2">
+<h2 class="anchored" data-anchor-id="terminologies-their-use-in-etlmapping">Terminologies &amp; Their Use in ETL/Mapping</h2>
+<p>Interface terminologies (e.g., the clinical vocabularies used natively within an EHR) often differ from the standard vocabularies used in the OMOP CDM. Understanding how your source system’s interface terminology relates to OMOP standard concepts is a key step in ETL design.</p>
 <p>• <a href="https://github.com/OHDSI/Usagi">USAGI</a> — a tool to support the manual mapping of source codes to standard OMOP concepts.</p>
 <p>• <a href="https://ohdsi.github.io/Themis/">Themis convention library</a> — community conventions for consistent ETL/mapping decisions across the OHDSI network.</p>
 <!-- TODO: add specific guidance on mapping common interface terminologies (SNOMED CT, LOINC, RxNorm, ICD, etc.) to OMOP standard vocabularies. -->

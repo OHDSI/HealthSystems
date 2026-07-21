@@ -66,44 +66,44 @@
   {
     "objectID": "getting-started/getting-started.html",
     "href": "getting-started/getting-started.html",
-    "title": "Getting Started",
+    "title": "OHDSI HSIG",
     "section": "",
-    "text": "Please join us on the Getting Started meeting every other Monday at 10am ET\nThe call will be focused on helping those new to the OHDSI community get started with the OMOP CDM and OHDSI community. Please bring any and all questions related to OHDSI, OMOP CDM, observational health data and research.\nNext meeting: October 13, 2025 and every other Monday thereafter\n• Getting Started meeting link"
+    "text": "Please join us on the Health Systems Interest Group meeting every other Monday at 10am ET\nThe call will be focused on helping those new to the OHDSI community get started with the OMOP CDM. Please bring any and all questions related to OHDSI, OMOP CDM, observational health data and research.\nNext meeting: on the first Monday of the month\n• HSIG meeting link"
   },
   {
     "objectID": "getting-started/getting-started.html#getting-started",
     "href": "getting-started/getting-started.html#getting-started",
-    "title": "Getting Started",
+    "title": "OHDSI HSIG",
     "section": "",
-    "text": "Please join us on the Getting Started meeting every other Monday at 10am ET\nThe call will be focused on helping those new to the OHDSI community get started with the OMOP CDM and OHDSI community. Please bring any and all questions related to OHDSI, OMOP CDM, observational health data and research.\nNext meeting: October 13, 2025 and every other Monday thereafter\n• Getting Started meeting link"
+    "text": "Please join us on the Health Systems Interest Group meeting every other Monday at 10am ET\nThe call will be focused on helping those new to the OHDSI community get started with the OMOP CDM. Please bring any and all questions related to OHDSI, OMOP CDM, observational health data and research.\nNext meeting: on the first Monday of the month\n• HSIG meeting link"
   },
   {
     "objectID": "getting-started/getting-started.html#core-ohdsi-resources",
     "href": "getting-started/getting-started.html#core-ohdsi-resources",
-    "title": "Getting Started",
+    "title": "OHDSI HSIG",
     "section": "Core OHDSI Resources",
-    "text": "Core OHDSI Resources\nNew to ETLing your source data to the OMOP Common Data Model? Start here:\n• Book of OHDSI — the primary reference text for the OHDSI community and the OMOP CDM.\n• Athena — the OHDSI vocabulary repository, used to browse and download standardized vocabularies for mapping source codes to OMOP concepts.\n• OMOP CDM home page — the Common Data Model specification.\n• CDM GitHub — source repository for the CDM specification and DDL scripts."
+    "text": "Core OHDSI Resources\nNew to ETLing your source data to the OMOP Common Data Model? Start here:\n• Book of OHDSI — the primary reference text for the OHDSI community and the OMOP CDM.\n• Athena — the OHDSI vocabulary repository, used to browse and download standardized vocabularies for mapping source codes to OMOP concepts.\n• CDM GitHub — source repository for the CDM specification and DDL scripts."
   },
   {
     "objectID": "getting-started/getting-started.html#ehr-source-data-guidance",
     "href": "getting-started/getting-started.html#ehr-source-data-guidance",
-    "title": "Getting Started",
+    "title": "OHDSI HSIG",
     "section": "EHR & Source Data Guidance",
     "text": "EHR & Source Data Guidance\n• OMOP code on Epic user web — community thread on Epic User Web discussing OMOP mapping approaches for Epic source data. Requires an Epic User Web account.\n\nBefore extracting and sharing data, review the Proprietary and PHI considerations page for guidance on data governance responsibilities."
   },
   {
     "objectID": "getting-started/getting-started.html#tutorials",
     "href": "getting-started/getting-started.html#tutorials",
-    "title": "Getting Started",
+    "title": "OHDSI HSIG",
     "section": "Tutorials",
     "text": "Tutorials\n• OHDSI ETL Tutorial — walkthrough materials for building an ETL pipeline to the OMOP CDM.\n• EHDEN Academy — free online courses covering OMOP CDM, vocabulary mapping, and OHDSI tools."
   },
   {
-    "objectID": "getting-started/getting-started.html#interface-terminologies-their-use-in-etlmapping",
-    "href": "getting-started/getting-started.html#interface-terminologies-their-use-in-etlmapping",
-    "title": "Getting Started",
-    "section": "Interface Terminologies & Their Use in ETL/Mapping",
-    "text": "Interface Terminologies & Their Use in ETL/Mapping\nInterface terminologies (e.g., the clinical vocabularies used natively within an EHR, such as SNOMED CT, LOINC, or RxNorm) often differ from the standard vocabularies used in the OMOP CDM. Understanding how your source system’s interface terminology relates to OMOP standard concepts is a key step in ETL design.\n• USAGI — a tool to support the manual mapping of source codes to standard OMOP concepts.\n• Themis convention library — community conventions for consistent ETL/mapping decisions across the OHDSI network.\n\nSee the Resources Overview page for the full list of OHDSI tools and working group links."
+    "objectID": "getting-started/getting-started.html#terminologies-their-use-in-etlmapping",
+    "href": "getting-started/getting-started.html#terminologies-their-use-in-etlmapping",
+    "title": "OHDSI HSIG",
+    "section": "Terminologies & Their Use in ETL/Mapping",
+    "text": "Terminologies & Their Use in ETL/Mapping\nInterface terminologies (e.g., the clinical vocabularies used natively within an EHR) often differ from the standard vocabularies used in the OMOP CDM. Understanding how your source system’s interface terminology relates to OMOP standard concepts is a key step in ETL design.\n• USAGI — a tool to support the manual mapping of source codes to standard OMOP concepts.\n• Themis convention library — community conventions for consistent ETL/mapping decisions across the OHDSI network.\n\nSee the Resources Overview page for the full list of OHDSI tools and working group links."
   },
   {
     "objectID": "TODO.html",

@@ -21,6 +21,20 @@ Last Revised: 27-Sept-2024
 
 Description: A process for transferring data from the SOURCE_TO_CONCEPT_MAP table to the CONCEPT, CONCEPT_RELATIONSHIP, and VOCABULARY tables.
 
+Known Limitations & Community Feedback (See Issue #3):
+  1. Assumptions on Mappings: This script currently assumes that each SOURCE_CODE in the
+     SOURCE_TO_CONCEPT_MAP (STCM) table is mapped to exactly one standard target concept. However, 
+     in many real-world scenarios (e.g., Usagi mapping output), a single source concept maps to 
+     multiple standard concepts (1-to-many), potentially with different domains (e.g., Condition & 
+     Observation). In such cases, assigning domain_id in the concept table becomes more complex, 
+     as there can be multiple targets with different domains for a single source.
+  2. Handling of Unmapped Codes: The current script does not add unmapped source codes from STCM 
+     (i.e., codes without a target) to the CONCEPT table. Having these unmapped source codes in the 
+     Concept table is highly valuable, allowing users to build cohorts in Atlas using local codes 
+     for tracking purposes.
+  3. Platform Specificity: This script is currently designed specifically for the Snowflake dialect. 
+     A more dialect-agnostic or SQLRender-compatible version would be beneficial to broaden adoption.
+
 Structure: (if your structure is different, you will have to modify the code to match)
 	Database: OMOP_WKSP
 	Schemas: OMOP_WKSP.OMOP

@@ -7,6 +7,8 @@ hide:
 
 •	[2024 Global Symposium](https://www.ohdsi.org/ohdsi2024/)
 
+•	[2025 Global Symposium](https://www.ohdsi.org/ohdsi2025/) <!-- TODO: Update when published -->
+
 •	[OHDSI home page](https://www.ohdsi.org)
 
 • [Work Groups](https://www.ohdsi.org/workgroups/)
@@ -15,7 +17,7 @@ hide:
 
 •	[Athena](http://Athena.ohdsi.org) 
 
-•	[Book of OHDSI](https://ohdsi.github.io/TheBookOfOhdsi/) 
+•	[Book of OHDSI](https://ohdsi.github.io/TheBookOfOhdsi/) <!-- TODO: Update with new Book of OHDSI link when published -->
 
 •	[Atlas Demo](http://atlas-demo.ohdsi.org/#/home)
 
@@ -33,19 +35,27 @@ hide:
 
 •	[Sql Render](https://ohdsi.github.io/SqlRender/articles/UsingSqlRender.html) 
 
+•	[Themis convention library](https://ohdsi.github.io/Themis/) 
+
+•	[Themis GitHub](https://github.com/OHDSI/Themis)
+
+•	[FHIR to OMOP IG (HL7 Sept 2025 Release)](https://hl7.org/fhir/uv/omop/2025Sep/) <!-- TODO: Update when ready -->
+
+•	[OpenMRS OMOP Mapping](#) <!-- TODO: Add link when ready -->
+
+•	[OpenEMR OMOP Mapping](#) <!-- TODO: Add link when ready -->
+
 Working Groups
 
 •	[HSIG MS Teams](https://teams.microsoft.com/l/team/19%3A2b9db953a46441c8be51cb3d3785cac3%40thread.tacv2/conversations?groupId=198ebad0-c5b9-4991-8a5e-55e6d71cb817&tenantId=a30f0094-9120-4aab-ba4c-e5509023b2d5)
 
 •	[OMOP CDM home page](https://ohdsi.github.io/CommonDataModel/)
 
+•	[OMOP CDM v5.4 Specification](https://ohdsi.github.io/CommonDataModel/cdm54.html)
+
 •	[CDM GitHub](https://github.com/OHDSI/CommonDataModel) 
 
 •	[Themis MS Teams](https://teams.microsoft.com/l/channel/19%3A756b1ded0eae4658b592a53d2e8858e5%40thread.tacv2/THEMIS Subgroup?groupId=a6f2c516-e568-4974-8f1e-a7bdc2f997c5&tenantId=a30f0094-9120-4aab-ba4c-e5509023b2d5)
-
-•	[Themis GitHub](https://github.com/OHDSI/Themis)
-
-•	[Themis convention library](https://ohdsi.github.io/Themis/) 
 
 •	[HADES](https://ohdsi.github.io/Hades/) 
 

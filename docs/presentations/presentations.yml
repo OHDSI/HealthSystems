@@ -30,3 +30,37 @@
       href: https://ohdsiorg.sharepoint.com/:p:/s/Workgroup-EHRElectronicHealthRecord/EQZzB6Qv3o5HlMAP_lVewt0BB3DidKPq0Nx-B6iCHC9xJw?e=fQToll
       presenter: Eduard Korchmar
       date: 2022-09-22
+
+# TODO (Issue #7): Populate recordings below once real links/metadata are available
+
+# - category: Non-OHDSI Recordings
+#   description: OMOP and ETL recordings from non-OHDSI events/organizations
+#   tiles:
+#     - title: 'Placeholder Non-OHDSI Recording Title'
+#       href: '#'
+#       presenter: Presenter Name
+#       date: '2026-01-01'
+
+# - category: HSIG Recordings
+#   description: Recordings of Health Systems Interest Group regular calls
+#   tiles:
+#     - title: 'Placeholder HSIG Call Title'
+#       href: '#'
+#       presenter: Presenter Name
+#       date: '2026-01-01'
+
+# - category: Lightning Talks
+#   description: Community lightning talks on health systems mapping and ETL
+#   tiles:
+#     - title: 'Placeholder Lightning Talk Title'
+#       href: '#'
+#       presenter: Presenter Name
+#       date: '2026-01-01'
+
+# - category: OHDSI Community Calls
+#   description: Relevant recordings from main OHDSI community calls
+#   tiles:
+#     - title: 'Placeholder Community Call Title'
+#       href: '#'
+#       presenter: Presenter Name
+#       date: '2026-01-01'

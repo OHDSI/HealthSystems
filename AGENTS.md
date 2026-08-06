@@ -44,13 +44,20 @@ quarto preview docs/index.qmd
 quarto preview docs
 
 # Render just one page (useful when iterating on a single .qmd file)
-quarto render docs/resources/Overview.qmd
+quarto render docs/resources.qmd
 ```
 
 CI (`.github/workflows/publish.yml`) runs `quarto render` against `docs/src`
 on every push to `main` and publishes the result to the `gh-pages` branch.
 There is no separate lint or test job in CI — rendering success is the only
 validation gate.
+
+**Manual CI Trigger (bypass push triggers):**
+If GitHub is experiencing webhook delays or Actions outages, admins can manually trigger the publishing pipeline:
+```bash
+# Using the GitHub CLI
+gh workflow run publish.yml --ref main
+```
 
 ## Testing
 

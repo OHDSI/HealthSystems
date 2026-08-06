@@ -1,123 +1,10 @@
 [
   {
-    "objectID": "presentations.html",
-    "href": "presentations.html",
-    "title": "Presentations",
-    "section": "",
-    "text": "FAQs\nPopular topics\n\n\n  \n\n\n\nDate\nTitle\nPresenter\n\n\n\n\n2023-05-08\nETL of EHR encounters into Visit Occurrence & Visit Detail tables: Part 1\nMelanie Philofsky\n\n\n2023-05-22\nETL of EHR encounters into Visit Occurrence & Visit Detail tables: Part 2\nMelanie Philofsky\n\n\n2023-06-19\nCustom mapping of local source values to OHDSI standard concepts\nMelanie Philofsky\n\n\n2023-07-23\nAdding new vocabularies to OMOP CDM\nAnna Ostropolets\n\n\n2023-09-11\nMoving OMOP to the Cloud with DBT and Snowflake\nRoger Carlson\n\n\n2024-02-26\nMapping Knowledge Base: semantic mapping\nMelanie Philofsky\n\n\n2022-09-22\nSNOMED CT Model for Post-Coordination as a Way to Sustainably Represent Source Concepts in OMOP CDM\nEduard Korchmar\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "collaborate/collaborate.html",
-    "href": "collaborate/collaborate.html",
-    "title": "Collaborate",
-    "section": "",
-    "text": "Test"
-  },
-  {
-    "objectID": "resources/proprietary.html",
-    "href": "resources/proprietary.html",
-    "title": "Proprietary and PHI considerations",
-    "section": "",
-    "text": "In OHDSI, it is the responsibility of each data holder to know, understand and follow local data governance processes related to use of the OMOP CDM. In the United States, these processes will follow your organization’s local interpretation for maintaining compliance to PII and PHI protection. In OMOP CDM implementations containing European Union citizen data, local governance processes will include measures to comply with General Data Protection Regulation (GDPR) [1]. As a community, the OHDSI data network covers more than 500 databases from 49 countries. There is extensive community knowledge on the interpretation of rule sets and exemplar IRB and local governance workflows that can be made available to institutions navigating these processes for the first time. If your organization does not have an established data governance process, please reach out on the OHDSI Forums under “Implementers” and the community can respond with shared guidance from their own deployments. As a community, we aim to conduct research that keeps patient-level data local and share only aggregate results.\nPrivacy preserving processes are not one-size fits all. There are many different rule sets that can be applied to datasets. Data holders are recommended to consult with their local privacy officer(s) to ensure all processes applied to a database are compliant with local interpretation of the selected rule set.\n\nhttps://ohdsi.github.io/CommonDataModel/cdmPrivacy.html\n\nBibText version:\n@MISC{noauthor_2018-mt, title = “General Data Protection Regulation ({GDPR}) Compliance Guidelines”, abstract = “The EU General Data Protection Regulation went into effect on May 25, 2018, replacing the Data Protection Directive 95/46/EC. Designed to increase data privacy for EU citizens, the regulation levies steep fines on organizations that don’t follow the law.”, month = jun, year = 2018, howpublished = “”, note = “Accessed: 2021-8-18”, language = “en” }\nRegular citation: General Data Protection Regulation (GDPR) Compliance Guidelines. 18 Jun 2018 [cited 18 Aug 2021]. Available: https://gdpr.eu/",
-    "crumbs": [
-      "Proprietary and PHI considerations"
-    ]
-  },
-  {
-    "objectID": "resources/proprietary.html#the-data-holders-responsibility",
-    "href": "resources/proprietary.html#the-data-holders-responsibility",
-    "title": "Proprietary and PHI considerations",
-    "section": "",
-    "text": "In OHDSI, it is the responsibility of each data holder to know, understand and follow local data governance processes related to use of the OMOP CDM. In the United States, these processes will follow your organization’s local interpretation for maintaining compliance to PII and PHI protection. In OMOP CDM implementations containing European Union citizen data, local governance processes will include measures to comply with General Data Protection Regulation (GDPR) [1]. As a community, the OHDSI data network covers more than 500 databases from 49 countries. There is extensive community knowledge on the interpretation of rule sets and exemplar IRB and local governance workflows that can be made available to institutions navigating these processes for the first time. If your organization does not have an established data governance process, please reach out on the OHDSI Forums under “Implementers” and the community can respond with shared guidance from their own deployments. As a community, we aim to conduct research that keeps patient-level data local and share only aggregate results.\nPrivacy preserving processes are not one-size fits all. There are many different rule sets that can be applied to datasets. Data holders are recommended to consult with their local privacy officer(s) to ensure all processes applied to a database are compliant with local interpretation of the selected rule set.\n\nhttps://ohdsi.github.io/CommonDataModel/cdmPrivacy.html\n\nBibText version:\n@MISC{noauthor_2018-mt, title = “General Data Protection Regulation ({GDPR}) Compliance Guidelines”, abstract = “The EU General Data Protection Regulation went into effect on May 25, 2018, replacing the Data Protection Directive 95/46/EC. Designed to increase data privacy for EU citizens, the regulation levies steep fines on organizations that don’t follow the law.”, month = jun, year = 2018, howpublished = “”, note = “Accessed: 2021-8-18”, language = “en” }\nRegular citation: General Data Protection Regulation (GDPR) Compliance Guidelines. 18 Jun 2018 [cited 18 Aug 2021]. Available: https://gdpr.eu/",
-    "crumbs": [
-      "Proprietary and PHI considerations"
-    ]
-  },
-  {
-    "objectID": "resources/converting_ndc.html",
-    "href": "resources/converting_ndc.html",
-    "title": "OHDSI HSIG",
-    "section": "",
-    "text": "Proper mapping of NDC code requires an 11-digit number in a 5-4-2 format. Converting NDC from a 10-digit to an 11-digit format requires a strategically placed zero, dependent upon the 10-digit format.\nAll dashes need to be removed before matching to the concept.concept_code\n\n\n\n\n\n\n\n\n\n10-Digit Format\n10-Digit Format Example\n11-Digit Format\n11-Digit Format Example\n\n\n\n\n4-4-2\n9999-9999-99\n5-4-2\n09999-9999-99\n\n\n5-3-2\n99999-999-99\n5-4-2\n99999-0999-99\n\n\n5-4-1\n99999-9999-9\n5-4-2\n99999-9999-09",
-    "crumbs": [
-      "Converting NDC"
-    ]
-  },
-  {
-    "objectID": "resources/converting_ndc.html#converting-ndc",
-    "href": "resources/converting_ndc.html#converting-ndc",
-    "title": "OHDSI HSIG",
-    "section": "",
-    "text": "Proper mapping of NDC code requires an 11-digit number in a 5-4-2 format. Converting NDC from a 10-digit to an 11-digit format requires a strategically placed zero, dependent upon the 10-digit format.\nAll dashes need to be removed before matching to the concept.concept_code\n\n\n\n\n\n\n\n\n\n10-Digit Format\n10-Digit Format Example\n11-Digit Format\n11-Digit Format Example\n\n\n\n\n4-4-2\n9999-9999-99\n5-4-2\n09999-9999-99\n\n\n5-3-2\n99999-999-99\n5-4-2\n99999-0999-99\n\n\n5-4-1\n99999-9999-9\n5-4-2\n99999-9999-09",
-    "crumbs": [
-      "Converting NDC"
-    ]
-  },
-  {
-    "objectID": "tools/01_jackalope.html",
-    "href": "tools/01_jackalope.html",
-    "title": "Jackalope",
-    "section": "",
-    "text": "Jackalope",
-    "crumbs": [
-      "Jackalope"
-    ]
-  },
-  {
-    "objectID": "getting-started/getting-started.html",
-    "href": "getting-started/getting-started.html",
-    "title": "OHDSI HSIG",
-    "section": "",
-    "text": "Please join us on the Health Systems Interest Group meeting every other Monday at 10am ET\nThe call will be focused on helping those new to the OHDSI community get started with the OMOP CDM. Please bring any and all questions related to OHDSI, OMOP CDM, observational health data and research.\nNext meeting: on the first Monday of the month\n• HSIG meeting link"
-  },
-  {
-    "objectID": "getting-started/getting-started.html#getting-started",
-    "href": "getting-started/getting-started.html#getting-started",
-    "title": "OHDSI HSIG",
-    "section": "",
-    "text": "Please join us on the Health Systems Interest Group meeting every other Monday at 10am ET\nThe call will be focused on helping those new to the OHDSI community get started with the OMOP CDM. Please bring any and all questions related to OHDSI, OMOP CDM, observational health data and research.\nNext meeting: on the first Monday of the month\n• HSIG meeting link"
-  },
-  {
-    "objectID": "getting-started/getting-started.html#core-ohdsi-resources",
-    "href": "getting-started/getting-started.html#core-ohdsi-resources",
-    "title": "OHDSI HSIG",
-    "section": "Core OHDSI Resources",
-    "text": "Core OHDSI Resources\nNew to ETLing your source data to the OMOP Common Data Model? Start here:\n• Book of OHDSI — the primary reference text for the OHDSI community and the OMOP CDM.\n• Athena — the OHDSI vocabulary repository, used to browse and download standardized vocabularies for mapping source codes to OMOP concepts.\n• CDM GitHub — source repository for the CDM specification and DDL scripts."
-  },
-  {
-    "objectID": "getting-started/getting-started.html#ehr-source-data-guidance",
-    "href": "getting-started/getting-started.html#ehr-source-data-guidance",
-    "title": "OHDSI HSIG",
-    "section": "EHR & Source Data Guidance",
-    "text": "EHR & Source Data Guidance\n• OMOP code on Epic user web — community thread on Epic User Web discussing OMOP mapping approaches for Epic source data. Requires an Epic User Web account.\n\nBefore extracting and sharing data, review the Proprietary and PHI considerations page for guidance on data governance responsibilities."
-  },
-  {
-    "objectID": "getting-started/getting-started.html#tutorials",
-    "href": "getting-started/getting-started.html#tutorials",
-    "title": "OHDSI HSIG",
-    "section": "Tutorials",
-    "text": "Tutorials\n• OHDSI ETL Tutorial — walkthrough materials for building an ETL pipeline to the OMOP CDM.\n• EHDEN Academy — free online courses covering OMOP CDM, vocabulary mapping, and OHDSI tools."
-  },
-  {
-    "objectID": "getting-started/getting-started.html#terminologies-their-use-in-etlmapping",
-    "href": "getting-started/getting-started.html#terminologies-their-use-in-etlmapping",
-    "title": "OHDSI HSIG",
-    "section": "Terminologies & Their Use in ETL/Mapping",
-    "text": "Terminologies & Their Use in ETL/Mapping\nInterface terminologies (e.g., the clinical vocabularies used natively within an EHR) often differ from the standard vocabularies used in the OMOP CDM. Understanding how your source system’s interface terminology relates to OMOP standard concepts is a key step in ETL design.\n• USAGI — a tool to support the manual mapping of source codes to standard OMOP concepts.\n• Themis convention library — community conventions for consistent ETL/mapping decisions across the OHDSI network.\n\nSee the Resources Overview page for the full list of OHDSI tools and working group links."
-  },
-  {
-    "objectID": "TODO.html",
-    "href": "TODO.html",
-    "title": "OHDSI HSIG",
-    "section": "",
-    "text": "Storage of word documents\nStorage of csv files\nLink to Dynamic Mapping Tools and Metadata for Dynamic Mapping Tools\nEpic User web and other proprietary\nETL\nInventory Management"
-  },
-  {
     "objectID": "contribute/submit_mappings.html",
     "href": "contribute/submit_mappings.html",
     "title": "OHDSI HSIG",
     "section": "",
-    "text": "The HSIG continues to flesh out the requirements for how collaborators can best share their semantic mappings. If you would like to contribute to this effort, please join one of our meetings, post a message to our chat in MS Teams or reach out to Melanie Philofsky.",
+    "text": "The HSIG continues to flesh out the requirements for how collaborators can best share their semantic mappings. If you would like to contribute to this effort, please join one of our meetings or post a message to our chat in MS Teams. See Get Involved for meeting times and other ways to reach the group.",
     "crumbs": [
       "Instructions for mapping contributions"
     ]
@@ -127,63 +14,309 @@
     "href": "contribute/submit_mappings.html#instructions-for-mapping-contributions",
     "title": "OHDSI HSIG",
     "section": "",
-    "text": "The HSIG continues to flesh out the requirements for how collaborators can best share their semantic mappings. If you would like to contribute to this effort, please join one of our meetings, post a message to our chat in MS Teams or reach out to Melanie Philofsky.",
+    "text": "The HSIG continues to flesh out the requirements for how collaborators can best share their semantic mappings. If you would like to contribute to this effort, please join one of our meetings or post a message to our chat in MS Teams. See Get Involved for meeting times and other ways to reach the group.",
     "crumbs": [
       "Instructions for mapping contributions"
     ]
   },
   {
-    "objectID": "tools/02_databuildtool.html",
-    "href": "tools/02_databuildtool.html",
-    "title": "Data Build Tool",
+    "objectID": "community/get-involved.html",
+    "href": "community/get-involved.html",
+    "title": "Get Involved",
     "section": "",
-    "text": "Data Build Tool",
+    "text": "The Health Systems Interest Group meets every other Monday at 10am Eastern Time. Sessions focus on helping community members — new and experienced — work through OMOP CDM, ETL, and mapping questions.\n• Join the HSIG meeting",
     "crumbs": [
-      "Data Build Tool"
+      "Get Involved"
     ]
   },
   {
-    "objectID": "tools/00_overview.html",
-    "href": "tools/00_overview.html",
-    "title": "Helpful Links",
+    "objectID": "community/get-involved.html#join-a-meeting",
+    "href": "community/get-involved.html#join-a-meeting",
+    "title": "Get Involved",
     "section": "",
-    "text": "Helpful Links",
+    "text": "The Health Systems Interest Group meets every other Monday at 10am Eastern Time. Sessions focus on helping community members — new and experienced — work through OMOP CDM, ETL, and mapping questions.\n• Join the HSIG meeting",
     "crumbs": [
-      "Helpful Links"
+      "Get Involved"
     ]
   },
   {
-    "objectID": "resources/Overview.html",
-    "href": "resources/Overview.html",
-    "title": "OHDSI HSIG",
-    "section": "",
-    "text": "• 2024 Global Symposium\n• 2025 Global Symposium \n• OHDSI home page\n• Work Groups\n• OHDSI Forums\n• Athena\n• Book of OHDSI \n• Atlas Demo\n• USAGI\n• Data Quality Dashboard\n• ACHILLES\n• OHDSI Tutorials\n• EHDEN Academy\n• ETL CDM builder\n• Sql Render\n• Themis convention library\n• Themis GitHub\n• FHIR to OMOP IG (HL7 Sept 2025 Release) \n• OpenMRS OMOP Mapping \n• OpenEMR OMOP Mapping \nWorking Groups\n• HSIG MS Teams\n• OMOP CDM home page\n• OMOP CDM v5.4 Specification\n• CDM GitHub\n• Themis MS Teams\n• HADES\n• Achilles Characterization Github\n• Achilles Characterization Wiki\n• OHDSI Evidence Network\n• OMOP code on Epic user web",
+    "objectID": "community/get-involved.html#chat-with-the-community",
+    "href": "community/get-involved.html#chat-with-the-community",
+    "title": "Get Involved",
+    "section": "Chat with the community",
+    "text": "Chat with the community\n• HSIG Microsoft Teams — the main HSIG Teams space for discussion between meetings.\n• HSIG Teams general channel — post questions or proposals for the group to discuss.\n• OHDSI Forums — the broader OHDSI community forum; use the “Implementers” category for health-system-specific questions.",
     "crumbs": [
-      "Helpful Links"
+      "Get Involved"
     ]
   },
   {
-    "objectID": "resources/Overview.html#helpful-links",
-    "href": "resources/Overview.html#helpful-links",
-    "title": "OHDSI HSIG",
-    "section": "",
-    "text": "• 2024 Global Symposium\n• 2025 Global Symposium \n• OHDSI home page\n• Work Groups\n• OHDSI Forums\n• Athena\n• Book of OHDSI \n• Atlas Demo\n• USAGI\n• Data Quality Dashboard\n• ACHILLES\n• OHDSI Tutorials\n• EHDEN Academy\n• ETL CDM builder\n• Sql Render\n• Themis convention library\n• Themis GitHub\n• FHIR to OMOP IG (HL7 Sept 2025 Release) \n• OpenMRS OMOP Mapping \n• OpenEMR OMOP Mapping \nWorking Groups\n• HSIG MS Teams\n• OMOP CDM home page\n• OMOP CDM v5.4 Specification\n• CDM GitHub\n• Themis MS Teams\n• HADES\n• Achilles Characterization Github\n• Achilles Characterization Wiki\n• OHDSI Evidence Network\n• OMOP code on Epic user web",
+    "objectID": "community/get-involved.html#related-working-groups",
+    "href": "community/get-involved.html#related-working-groups",
+    "title": "Get Involved",
+    "section": "Related working groups",
+    "text": "Related working groups\n• Themis Microsoft Teams — the group that maintains OMOP ETL/mapping conventions referenced throughout our ETL & Mapping Guidance.",
     "crumbs": [
-      "Helpful Links"
+      "Get Involved"
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "community/get-involved.html#contribute-code-or-content",
+    "href": "community/get-involved.html#contribute-code-or-content",
+    "title": "Get Involved",
+    "section": "Contribute code or content",
+    "text": "Contribute code or content\n• HSIG GitHub repository — this website’s source, plus shared SQL scripts for OMOP CDM ETL tasks.\nSee the Contribute section for how to share semantic mappings with the community.",
+    "crumbs": [
+      "Get Involved"
+    ]
+  },
+  {
+    "objectID": "etl-mapping/ehr-source-systems.html",
+    "href": "etl-mapping/ehr-source-systems.html",
+    "title": "EHR Source Systems",
     "section": "",
-    "text": "Healthcare Systems Interest Group mission is to help each other and learn from experience.\nOur group mainly supports Healthcare systems, hospitals, and others who have electronic health records that provide clinical care for their patients."
+    "text": "• OMOP code on Epic User Web — community thread on Epic User Web discussing OMOP mapping approaches for Epic source data. Requires an Epic User Web account.",
+    "crumbs": [
+      "EHR Source Systems"
+    ]
+  },
+  {
+    "objectID": "etl-mapping/ehr-source-systems.html#epic",
+    "href": "etl-mapping/ehr-source-systems.html#epic",
+    "title": "EHR Source Systems",
+    "section": "",
+    "text": "• OMOP code on Epic User Web — community thread on Epic User Web discussing OMOP mapping approaches for Epic source data. Requires an Epic User Web account.",
+    "crumbs": [
+      "EHR Source Systems"
+    ]
+  },
+  {
+    "objectID": "etl-mapping/ehr-source-systems.html#cerner-oracle-health",
+    "href": "etl-mapping/ehr-source-systems.html#cerner-oracle-health",
+    "title": "EHR Source Systems",
+    "section": "Cerner / Oracle Health",
+    "text": "Cerner / Oracle Health",
+    "crumbs": [
+      "EHR Source Systems"
+    ]
+  },
+  {
+    "objectID": "etl-mapping/ehr-source-systems.html#athenahealth",
+    "href": "etl-mapping/ehr-source-systems.html#athenahealth",
+    "title": "EHR Source Systems",
+    "section": "athenahealth",
+    "text": "athenahealth",
+    "crumbs": [
+      "EHR Source Systems"
+    ]
+  },
+  {
+    "objectID": "etl-mapping/ehr-source-systems.html#other-ehr-systems",
+    "href": "etl-mapping/ehr-source-systems.html#other-ehr-systems",
+    "title": "EHR Source Systems",
+    "section": "Other EHR systems",
+    "text": "Other EHR systems\n\nBefore extracting and sharing data from any of these systems, review Data Governance for guidance on data governance responsibilities.",
+    "crumbs": [
+      "EHR Source Systems"
+    ]
+  },
+  {
+    "objectID": "etl-mapping/terminology-mapping/terminology-mapping.html",
+    "href": "etl-mapping/terminology-mapping/terminology-mapping.html",
+    "title": "Terminology & Vocabulary Mapping",
+    "section": "",
+    "text": "Interface terminologies (e.g., the clinical vocabularies used natively within an EHR) often differ from the standard vocabularies used in the OMOP CDM. Understanding how your source system’s interface terminology relates to OMOP standard concepts is a key step in ETL design.",
+    "crumbs": [
+      "Terminology & Vocabulary Mapping"
+    ]
+  },
+  {
+    "objectID": "etl-mapping/terminology-mapping/terminology-mapping.html#tools",
+    "href": "etl-mapping/terminology-mapping/terminology-mapping.html#tools",
+    "title": "Terminology & Vocabulary Mapping",
+    "section": "Tools",
+    "text": "Tools\n• USAGI — a tool to support the manual mapping of source codes to standard OMOP concepts.\n• Athena — the OHDSI vocabulary repository, used to browse and download standardized vocabularies for mapping source codes to OMOP concepts.",
+    "crumbs": [
+      "Terminology & Vocabulary Mapping"
+    ]
+  },
+  {
+    "objectID": "etl-mapping/terminology-mapping/terminology-mapping.html#conventions",
+    "href": "etl-mapping/terminology-mapping/terminology-mapping.html#conventions",
+    "title": "Terminology & Vocabulary Mapping",
+    "section": "Conventions",
+    "text": "Conventions\n• Themis convention library — community conventions for consistent ETL/mapping decisions across the OHDSI network.",
+    "crumbs": [
+      "Terminology & Vocabulary Mapping"
+    ]
+  },
+  {
+    "objectID": "etl-mapping/terminology-mapping/terminology-mapping.html#code-format-conversions",
+    "href": "etl-mapping/terminology-mapping/terminology-mapping.html#code-format-conversions",
+    "title": "Terminology & Vocabulary Mapping",
+    "section": "Code format conversions",
+    "text": "Code format conversions\n• Converting NDC Codes — 10-digit to 11-digit NDC format conversion reference.",
+    "crumbs": [
+      "Terminology & Vocabulary Mapping"
+    ]
+  },
+  {
+    "objectID": "etl-mapping/overview.html",
+    "href": "etl-mapping/overview.html",
+    "title": "ETL & Mapping Guidance",
+    "section": "",
+    "text": "Extract, Transform, Load (ETL) is the process of converting your source data — typically from an electronic health record (EHR) or other clinical system — into the OMOP Common Data Model (CDM). A well-designed ETL maps both the structure of your source data (which table/column a fact belongs in) and the content of your source data (which standard vocabulary concept a local code represents).\nThis section covers the parts of that process that are specific to health systems: working with EHR source systems, mapping local terminologies to OMOP standard vocabularies, and the data governance responsibilities that come with handling clinical data.",
+    "crumbs": [
+      "ETL & Mapping Guidance"
+    ]
+  },
+  {
+    "objectID": "etl-mapping/overview.html#what-is-etl-to-the-omop-cdm",
+    "href": "etl-mapping/overview.html#what-is-etl-to-the-omop-cdm",
+    "title": "ETL & Mapping Guidance",
+    "section": "",
+    "text": "Extract, Transform, Load (ETL) is the process of converting your source data — typically from an electronic health record (EHR) or other clinical system — into the OMOP Common Data Model (CDM). A well-designed ETL maps both the structure of your source data (which table/column a fact belongs in) and the content of your source data (which standard vocabulary concept a local code represents).\nThis section covers the parts of that process that are specific to health systems: working with EHR source systems, mapping local terminologies to OMOP standard vocabularies, and the data governance responsibilities that come with handling clinical data.",
+    "crumbs": [
+      "ETL & Mapping Guidance"
+    ]
+  },
+  {
+    "objectID": "etl-mapping/overview.html#start-here",
+    "href": "etl-mapping/overview.html#start-here",
+    "title": "ETL & Mapping Guidance",
+    "section": "Start here",
+    "text": "Start here\n• Book of OHDSI — the primary reference text for the OHDSI community and the OMOP CDM. Read the ETL chapters before starting a new mapping project.\n• OHDSI ETL Tutorial — walkthrough materials for building an ETL pipeline to the OMOP CDM.\n• EHDEN Academy — free online courses covering OMOP CDM, vocabulary mapping, and OHDSI tools.",
+    "crumbs": [
+      "ETL & Mapping Guidance"
+    ]
+  },
+  {
+    "objectID": "etl-mapping/overview.html#in-this-section",
+    "href": "etl-mapping/overview.html#in-this-section",
+    "title": "ETL & Mapping Guidance",
+    "section": "In this section",
+    "text": "In this section\n• EHR Source Systems — guidance specific to extracting data from your EHR.\n• Terminology & Vocabulary Mapping — mapping local/interface terminologies to OMOP standard concepts.\n• Data Governance — proprietary data and PHI considerations for ETL work.\nSee the Resources page for the full list of OHDSI tools referenced throughout this section.",
+    "crumbs": [
+      "ETL & Mapping Guidance"
+    ]
+  },
+  {
+    "objectID": "getting-started/getting-started.html",
+    "href": "getting-started/getting-started.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Please join us on the Health Systems Interest Group meeting every other Monday at 10am ET.\nThe call will be focused on helping those new to the OHDSI community get started with the OMOP CDM. Please bring any and all questions related to OHDSI, OMOP CDM, observational health data and research.\nNext meeting: on the first Monday of the month.\nSee Get Involved for the meeting link and other ways to connect with the community."
+  },
+  {
+    "objectID": "getting-started/getting-started.html#getting-started",
+    "href": "getting-started/getting-started.html#getting-started",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Please join us on the Health Systems Interest Group meeting every other Monday at 10am ET.\nThe call will be focused on helping those new to the OHDSI community get started with the OMOP CDM. Please bring any and all questions related to OHDSI, OMOP CDM, observational health data and research.\nNext meeting: on the first Monday of the month.\nSee Get Involved for the meeting link and other ways to connect with the community."
+  },
+  {
+    "objectID": "getting-started/getting-started.html#new-to-etling-your-data-to-the-omop-cdm",
+    "href": "getting-started/getting-started.html#new-to-etling-your-data-to-the-omop-cdm",
+    "title": "Getting Started",
+    "section": "New to ETLing your data to the OMOP CDM?",
+    "text": "New to ETLing your data to the OMOP CDM?\nIf you’re just starting out, ETL & Mapping Guidance walks through what ETL to the OMOP CDM involves, EHR-specific extraction guidance, terminology/vocabulary mapping, and the data governance responsibilities that come with handling clinical data.\nFor the full directory of OHDSI tools and reference material, see Resources."
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "A curated, deduplicated directory of OHDSI tools, references, and working-group links. For task-specific guidance (EHR extraction, terminology mapping, data governance), see ETL & Mapping Guidance."
+  },
+  {
+    "objectID": "resources.html#core-references",
+    "href": "resources.html#core-references",
+    "title": "Resources",
+    "section": "Core references",
+    "text": "Core references\n• Book of OHDSI — the primary reference text for the OHDSI community and the OMOP CDM. \n• OMOP CDM home page — documentation hub for the CDM specification.\n• OMOP CDM v5.4 Specification\n• CDM GitHub — source repository for the CDM specification and DDL scripts.\n• Themis convention library — community conventions for consistent ETL/mapping decisions across the OHDSI network. Also on GitHub."
+  },
+  {
+    "objectID": "resources.html#vocabulary-mapping-tools",
+    "href": "resources.html#vocabulary-mapping-tools",
+    "title": "Resources",
+    "section": "Vocabulary & mapping tools",
+    "text": "Vocabulary & mapping tools\n• Athena — the OHDSI vocabulary repository, used to browse and download standardized vocabularies for mapping source codes to OMOP concepts.\n• USAGI — a tool to support the manual mapping of source codes to standard OMOP concepts.\n• SqlRender — translates SQL across database dialects (SQL Server, Snowflake, PostgreSQL, etc.) for use in OHDSI tools and cohort definitions.\n• ETL CDM Builder"
+  },
+  {
+    "objectID": "resources.html#analysis-quality-tools",
+    "href": "resources.html#analysis-quality-tools",
+    "title": "Resources",
+    "section": "Analysis & quality tools",
+    "text": "Analysis & quality tools\n• Atlas Demo — try Atlas, the OHDSI cohort definition and analysis platform, without installing anything.\n• Data Quality Dashboard — automated data quality checks against the OMOP CDM.\n• ACHILLES — characterizes and profiles an OMOP CDM database. See also the Achilles wiki.\n• HADES — the Health Analytics Data-to-Evidence Suite, OHDSI’s collection of open-source R packages for observational research.\n• OHDSI Evidence Network"
+  },
+  {
+    "objectID": "resources.html#learning",
+    "href": "resources.html#learning",
+    "title": "Resources",
+    "section": "Learning",
+    "text": "Learning\n• OHDSI ETL Tutorial — walkthrough materials for building an ETL pipeline to the OMOP CDM.\n• EHDEN Academy — free online courses covering OMOP CDM, vocabulary mapping, and OHDSI tools.\n• FHIR to OMOP Implementation Guide (HL7 Sept 2025 Release)"
+  },
+  {
+    "objectID": "resources.html#community-events",
+    "href": "resources.html#community-events",
+    "title": "Resources",
+    "section": "Community & events",
+    "text": "Community & events\n• OHDSI home page\n• OHDSI Work Groups\n• OHDSI Forums\n• 2024 Global Symposium\n• 2025 Global Symposium \nSee Get Involved for how to join the Health Systems Interest Group specifically.\n\nNot yet available: community-contributed OMOP mapping guidance for OpenMRS and OpenEMR is planned but not yet published. Track progress or contribute at the HSIG GitHub repository."
+  },
+  {
+    "objectID": "etl-mapping/data-governance.html",
+    "href": "etl-mapping/data-governance.html",
+    "title": "Data Governance",
+    "section": "",
+    "text": "In OHDSI, it is the responsibility of each data holder to know, understand and follow local data governance processes related to use of the OMOP CDM. In the United States, these processes will follow your organization’s local interpretation for maintaining compliance to PII and PHI protection. In OMOP CDM implementations containing European Union citizen data, local governance processes will include measures to comply with General Data Protection Regulation (GDPR) [1]. As a community, the OHDSI data network covers more than 500 databases from 49 countries. There is extensive community knowledge on the interpretation of rule sets and exemplar IRB and local governance workflows that can be made available to institutions navigating these processes for the first time. If your organization does not have an established data governance process, please reach out on the OHDSI Forums under “Implementers” and the community can respond with shared guidance from their own deployments. As a community, we aim to conduct research that keeps patient-level data local and share only aggregate results.\nPrivacy preserving processes are not one-size fits all. There are many different rule sets that can be applied to datasets. Data holders are recommended to consult with their local privacy officer(s) to ensure all processes applied to a database are compliant with local interpretation of the selected rule set.\n\nhttps://ohdsi.github.io/CommonDataModel/cdmPrivacy.html\n\nBibText version:\n@MISC{noauthor_2018-mt, title = \"General Data Protection Regulation ({GDPR}) Compliance Guidelines\", abstract = \"The EU General Data Protection Regulation went into effect on May 25, 2018, replacing the Data Protection Directive 95/46/EC. Designed to increase data privacy for EU citizens, the regulation levies steep fines on organizations that don't follow the law.\", month = jun, year = 2018, howpublished = \"\", note = \"Accessed: 2021-8-18\", language = \"en\" }\nRegular citation: General Data Protection Regulation (GDPR) Compliance Guidelines. 18 Jun 2018 [cited 18 Aug 2021]. Available: https://gdpr.eu/",
+    "crumbs": [
+      "Data Governance"
+    ]
+  },
+  {
+    "objectID": "etl-mapping/data-governance.html#the-data-holders-responsibility",
+    "href": "etl-mapping/data-governance.html#the-data-holders-responsibility",
+    "title": "Data Governance",
+    "section": "",
+    "text": "In OHDSI, it is the responsibility of each data holder to know, understand and follow local data governance processes related to use of the OMOP CDM. In the United States, these processes will follow your organization’s local interpretation for maintaining compliance to PII and PHI protection. In OMOP CDM implementations containing European Union citizen data, local governance processes will include measures to comply with General Data Protection Regulation (GDPR) [1]. As a community, the OHDSI data network covers more than 500 databases from 49 countries. There is extensive community knowledge on the interpretation of rule sets and exemplar IRB and local governance workflows that can be made available to institutions navigating these processes for the first time. If your organization does not have an established data governance process, please reach out on the OHDSI Forums under “Implementers” and the community can respond with shared guidance from their own deployments. As a community, we aim to conduct research that keeps patient-level data local and share only aggregate results.\nPrivacy preserving processes are not one-size fits all. There are many different rule sets that can be applied to datasets. Data holders are recommended to consult with their local privacy officer(s) to ensure all processes applied to a database are compliant with local interpretation of the selected rule set.\n\nhttps://ohdsi.github.io/CommonDataModel/cdmPrivacy.html\n\nBibText version:\n@MISC{noauthor_2018-mt, title = \"General Data Protection Regulation ({GDPR}) Compliance Guidelines\", abstract = \"The EU General Data Protection Regulation went into effect on May 25, 2018, replacing the Data Protection Directive 95/46/EC. Designed to increase data privacy for EU citizens, the regulation levies steep fines on organizations that don't follow the law.\", month = jun, year = 2018, howpublished = \"\", note = \"Accessed: 2021-8-18\", language = \"en\" }\nRegular citation: General Data Protection Regulation (GDPR) Compliance Guidelines. 18 Jun 2018 [cited 18 Aug 2021]. Available: https://gdpr.eu/",
+    "crumbs": [
+      "Data Governance"
+    ]
+  },
+  {
+    "objectID": "etl-mapping/terminology-mapping/converting_ndc.html",
+    "href": "etl-mapping/terminology-mapping/converting_ndc.html",
+    "title": "Converting NDC Codes",
+    "section": "",
+    "text": "Proper mapping of NDC code requires an 11-digit number in a 5-4-2 format. Converting NDC from a 10-digit to an 11-digit format requires a strategically placed zero, dependent upon the 10-digit format.\nAll dashes need to be removed before matching to the concept.concept_code\n\n\n\n\n\n\n\n\n\n10-Digit Format\n10-Digit Format Example\n11-Digit Format\n11-Digit Format Example\n\n\n\n\n4-4-2\n9999-9999-99\n5-4-2\n09999-9999-99\n\n\n5-3-2\n99999-999-99\n5-4-2\n99999-0999-99\n\n\n5-4-1\n99999-9999-9\n5-4-2\n99999-9999-09",
+    "crumbs": [
+      "Converting NDC Codes"
+    ]
+  },
+  {
+    "objectID": "etl-mapping/terminology-mapping/converting_ndc.html#converting-ndc",
+    "href": "etl-mapping/terminology-mapping/converting_ndc.html#converting-ndc",
+    "title": "Converting NDC Codes",
+    "section": "",
+    "text": "Proper mapping of NDC code requires an 11-digit number in a 5-4-2 format. Converting NDC from a 10-digit to an 11-digit format requires a strategically placed zero, dependent upon the 10-digit format.\nAll dashes need to be removed before matching to the concept.concept_code\n\n\n\n\n\n\n\n\n\n10-Digit Format\n10-Digit Format Example\n11-Digit Format\n11-Digit Format Example\n\n\n\n\n4-4-2\n9999-9999-99\n5-4-2\n09999-9999-99\n\n\n5-3-2\n99999-999-99\n5-4-2\n99999-0999-99\n\n\n5-4-1\n99999-9999-9\n5-4-2\n99999-9999-09",
+    "crumbs": [
+      "Converting NDC Codes"
+    ]
+  },
+  {
+    "objectID": "community/presentations.html",
+    "href": "community/presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "FAQs\nPopular topics\n\n\n  \n\n\n\nDate\nTitle\nPresenter\n\n\n\n\n2023-05-08\nETL of EHR encounters into Visit Occurrence & Visit Detail tables: Part 1\nMelanie Philofsky\n\n\n2023-05-22\nETL of EHR encounters into Visit Occurrence & Visit Detail tables: Part 2\nMelanie Philofsky\n\n\n2023-06-19\nCustom mapping of local source values to OHDSI standard concepts\nMelanie Philofsky\n\n\n2023-07-23\nAdding new vocabularies to OMOP CDM\nAnna Ostropolets\n\n\n2023-09-11\nMoving OMOP to the Cloud with DBT and Snowflake\nRoger Carlson\n\n\n2024-02-26\nMapping Knowledge Base: semantic mapping\nMelanie Philofsky\n\n\n2022-09-22\nSNOMED CT Model for Post-Coordination as a Way to Sustainably Represent Source Concepts in OMOP CDM\nEduard Korchmar\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Presentations"
+    ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "OHDSI HSIG",
     "section": "",
-    "text": "About\n  \n  \n      Forums\n  \n  \n      Wiki\n  \n  \n      GitHub\n  \n  \n      RSS\n  \n  \n      Global Symposium\n  \n\n\n\n\n\nWelcome to OHDSI Health Systems Interest Group\nThe Observational Health Data Sciences and Informatics (or OHDSI, pronounced “Odyssey”) program is a multi-stakeholder, interdisciplinary collaborative to bring out the value of health data through large-scale analytics. All our solutions are open-source.\nOHDSI’s mission - To improve health by empowering a community to collaboratively generate the evidence that promotes better health decisions and better care.\nHealthcare Systems Interest Group mission - To help each other and learn from experience. Our group mainly supports health systems, hospitals, and others who have electronic health record (EHR) data on their OHDSI journey to produce reliable, reproducible evidence.\nThe Health Systems group meets every other Monday at 10am Eastern Time. Please join us on the MS Teams call"
+    "text": "Forums\n  \n  \n      Wiki\n  \n  \n      GitHub\n  \n  \n      Global Symposium\n  \n\n\n\n\n\nWelcome to OHDSI Health Systems Interest Group\nThe Observational Health Data Sciences and Informatics (or OHDSI, pronounced “Odyssey”) program is a multi-stakeholder, interdisciplinary collaborative to bring out the value of health data through large-scale analytics. All our solutions are open-source.\nOHDSI’s mission - To improve health by empowering a community to collaboratively generate the evidence that promotes better health decisions and better care.\nHealthcare Systems Interest Group mission - To help each other and learn from experience. Our group mainly supports health systems, hospitals, and others who have electronic health record (EHR) data on their OHDSI journey to produce reliable, reproducible evidence.\nThe Health Systems group meets every other Monday at 10am Eastern Time. See Get Involved for the meeting link and other ways to connect with the community."
   }
 ]

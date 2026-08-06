@@ -2,26 +2,64 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>jackalope – OHDSI HSIG</title>
+<title>Data Governance – OHDSI HSIG</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -39,14 +77,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-51b8145591e85a803e17c5890f829bb6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-34287f9d325d3f74c203f3a9d11cb4da.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-51b8145591e85a803e17c5890f829bb6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-50b9cc017d981ddd23d41f2dabffb839.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-5d7f6048c4a25986c791318cc0c636c8.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-50b9cc017d981ddd23d41f2dabffb839.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-bddd381168cc94ebab0e215c9c33e9ce.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-a64a6128b22c780d59f8aa39a41fe2ce.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-bddd381168cc94ebab0e215c9c33e9ce.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-47a6447cef6120135f3d5d1840e88470.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-88e2e785118e51d5f21aba1b5ad90b70.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-47a6447cef6120135f3d5d1840e88470.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -272,49 +310,53 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Getting Started</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Resources</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-community" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Community</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-community">    
         <li>
-    <a class="dropdown-item" href="../resources/converting_ndc.html">
- <span class="dropdown-text">Converting NDC</span></a>
+    <a class="dropdown-item" href="../community/get-involved.html">
+ <span class="dropdown-text">Get Involved</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../resources/Overview.html">
- <span class="dropdown-text">Helpful Links</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../resources/proprietary.html">
- <span class="dropdown-text">Proprietary and PHI considerations</span></a>
+    <a class="dropdown-item" href="../community/presentations.html">
+ <span class="dropdown-text">Presentations</span></a>
   </li>  
     </ul>
   </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-etl--mapping-guidance" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">ETL &amp; Mapping Guidance</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-etl--mapping-guidance">    
+        <li>
+    <a class="dropdown-item" href="../etl-mapping/overview.html">
+ <span class="dropdown-text">ETL &amp; Mapping Guidance</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../etl-mapping/ehr-source-systems.html">
+ <span class="dropdown-text">EHR Source Systems</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../etl-mapping/terminology-mapping/terminology-mapping.html">
+ <span class="dropdown-text">Terminology &amp; Vocabulary Mapping</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../etl-mapping/terminology-mapping/converting_ndc.html">
+ <span class="dropdown-text">Converting NDC Codes</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../etl-mapping/data-governance.html">
+ <span class="dropdown-text">Data Governance</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../resources.html"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../presentations.html"> 
-<span class="menu-text">Presentations</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tools" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Tools</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-tools">    
-        <li>
-    <a class="dropdown-item" href="../tools/00_overview.html">
- <span class="dropdown-text">Helpful Links</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../tools/01_jackalope.html">
- <span class="dropdown-text">Jackalope</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../tools/02_databuildtool.html">
- <span class="dropdown-text">Data Build Tool</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-contribute" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Contribute</span>
@@ -353,7 +395,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tools/01_jackalope.html">Jackalope</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../etl-mapping/data-governance.html">Data Governance</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -367,20 +409,32 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tools/00_overview.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Helpful Links</span></a>
+  <a href="../etl-mapping/overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ETL &amp; Mapping Guidance</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tools/01_jackalope.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Jackalope</span></a>
+  <a href="../etl-mapping/ehr-source-systems.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">EHR Source Systems</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tools/02_databuildtool.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Build Tool</span></a>
+  <a href="../etl-mapping/terminology-mapping/terminology-mapping.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Terminology &amp; Vocabulary Mapping</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../etl-mapping/terminology-mapping/converting_ndc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Converting NDC Codes</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../etl-mapping/data-governance.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Data Governance</span></a>
   </div>
 </li>
     </ul>
@@ -393,21 +447,51 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#jackalope" id="toc-jackalope" class="nav-link active" data-scroll-target="#jackalope">Jackalope</a></li>
+  <li><a href="#proprietary-and-phi-considerations" id="toc-proprietary-and-phi-considerations" class="nav-link active" data-scroll-target="#proprietary-and-phi-considerations">Proprietary and PHI considerations</a>
+  <ul class="collapse">
+  <li><a href="#the-data-holders-responsibility" id="toc-the-data-holders-responsibility" class="nav-link" data-scroll-target="#the-data-holders-responsibility">The Data Holder’s Responsibility</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Data Governance</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
-<section id="jackalope" class="level1">
-<h1>Jackalope</h1>
+</header>
 
 
+<section id="proprietary-and-phi-considerations" class="level1">
+<h1>Proprietary and PHI considerations</h1>
+<section id="the-data-holders-responsibility" class="level2">
+<h2 class="anchored" data-anchor-id="the-data-holders-responsibility">The Data Holder’s Responsibility</h2>
+<p>In OHDSI, it is the responsibility of each data holder to know, understand and follow local data governance processes related to use of the OMOP CDM. In the United States, these processes will follow your organization’s local interpretation for maintaining compliance to PII and PHI protection. In OMOP CDM implementations containing European Union citizen data, local governance processes will include measures to comply with General Data Protection Regulation (GDPR) [1]. As a community, the OHDSI data network covers more than 500 databases from 49 countries. There is extensive community knowledge on the interpretation of rule sets and exemplar IRB and local governance workflows that can be made available to institutions navigating these processes for the first time. If your organization does not have an established data governance process, please reach out on the OHDSI Forums under “Implementers” and the community can respond with shared guidance from their own deployments. As a community, we aim to conduct research that keeps patient-level data local and share only aggregate results.</p>
+<p>Privacy preserving processes are not one-size fits all. There are many different rule sets that can be applied to datasets. Data holders are recommended to consult with their local privacy officer(s) to ensure all processes applied to a database are compliant with local interpretation of the selected rule set.</p>
+<ul>
+<li>https://ohdsi.github.io/CommonDataModel/cdmPrivacy.html</li>
+</ul>
+<p>BibText version:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@MISC</span>{<span class="ot">noauthor_2018</span>-<span class="ot">mt</span>, <span class="st">title</span> = "<span class="st">General Data Protection Regulation ({GDPR}) Compliance Guidelines</span>", <span class="st">abstract</span> = "<span class="st">The EU General Data Protection Regulation went into effect on May 25, 2018, replacing the Data Protection Directive 95/46/EC. Designed to increase data privacy for EU citizens, the regulation levies steep fines on organizations that don't follow the law.</span>", <span class="st">month</span> = <span class="st">jun</span>, <span class="st">year</span> = 2018, <span class="st">howpublished</span> = "", <span class="st">note</span> = "<span class="st">Accessed: 2021-8-18</span>", <span class="st">language</span> = "<span class="st">en</span>" }</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Regular citation: General Data Protection Regulation (GDPR) Compliance Guidelines. 18 Jun 2018 [cited 18 Aug 2021]. Available: https://gdpr.eu/</p>
+
+
+</section>
 </section>
 
 </main> <!-- /main -->

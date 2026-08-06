@@ -2,20 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – OHDSI HSIG</title>
+<title>Presentations – OHDSI HSIG</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -26,28 +29,30 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-51b8145591e85a803e17c5890f829bb6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-34287f9d325d3f74c203f3a9d11cb4da.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-51b8145591e85a803e17c5890f829bb6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bddd381168cc94ebab0e215c9c33e9ce.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-a64a6128b22c780d59f8aa39a41fe2ce.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-bddd381168cc94ebab0e215c9c33e9ce.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-50b9cc017d981ddd23d41f2dabffb839.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-5d7f6048c4a25986c791318cc0c636c8.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-50b9cc017d981ddd23d41f2dabffb839.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-47a6447cef6120135f3d5d1840e88470.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-88e2e785118e51d5f21aba1b5ad90b70.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-47a6447cef6120135f3d5d1840e88470.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,13 +79,71 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-category','listing-description','listing-tiles',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-category","listing-description","listing-tiles"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script data-goatcounter="https://hestia.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -249,11 +312,11 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./logo.svg" alt="" class="navbar-logo light-content">
-    <img src="./logo.svg" alt="" class="navbar-logo dark-content">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../logo.svg" alt="" class="navbar-logo light-content">
+    <img src="../logo.svg" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">OHDSI HSIG</span>
     </a>
   </div>
@@ -264,64 +327,68 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./getting-started/getting-started.html"> 
+    <a class="nav-link" href="../getting-started/getting-started.html"> 
 <span class="menu-text">Getting Started</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Resources</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-community" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Community</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-community">    
         <li>
-    <a class="dropdown-item" href="./resources/converting_ndc.html">
- <span class="dropdown-text">Converting NDC</span></a>
+    <a class="dropdown-item" href="../community/get-involved.html">
+ <span class="dropdown-text">Get Involved</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./resources/Overview.html">
- <span class="dropdown-text">Helpful Links</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./resources/proprietary.html">
- <span class="dropdown-text">Proprietary and PHI considerations</span></a>
+    <a class="dropdown-item" href="../community/presentations.html">
+ <span class="dropdown-text">Presentations</span></a>
   </li>  
     </ul>
   </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-etl--mapping-guidance" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">ETL &amp; Mapping Guidance</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-etl--mapping-guidance">    
+        <li>
+    <a class="dropdown-item" href="../etl-mapping/overview.html">
+ <span class="dropdown-text">ETL &amp; Mapping Guidance</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../etl-mapping/ehr-source-systems.html">
+ <span class="dropdown-text">EHR Source Systems</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../etl-mapping/terminology-mapping/terminology-mapping.html">
+ <span class="dropdown-text">Terminology &amp; Vocabulary Mapping</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../etl-mapping/terminology-mapping/converting_ndc.html">
+ <span class="dropdown-text">Converting NDC Codes</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../etl-mapping/data-governance.html">
+ <span class="dropdown-text">Data Governance</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../resources.html"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./presentations.html"> 
-<span class="menu-text">Presentations</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tools" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Tools</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-tools">    
-        <li>
-    <a class="dropdown-item" href="./tools/00_overview.html">
- <span class="dropdown-text">Helpful Links</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./tools/01_jackalope.html">
- <span class="dropdown-text">Jackalope</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./tools/02_databuildtool.html">
- <span class="dropdown-text">Data Build Tool</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-contribute" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Contribute</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-contribute">    
         <li>
-    <a class="dropdown-item" href="./contribute/submit_mappings.html">
+    <a class="dropdown-item" href="../contribute/submit_mappings.html">
  <span class="dropdown-text">Instructions for mapping contributions</span></a>
   </li>  
     </ul>
@@ -348,10 +415,39 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../community/presentations.html">Presentations</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../community/get-involved.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Get Involved</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../community/presentations.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Presentations</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
@@ -362,7 +458,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Presentations</h1>
 </div>
 
 
@@ -379,12 +475,66 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Healthcare Systems Interest Group mission is to help each other and learn from experience.</p>
-<p>Our group mainly supports Healthcare systems, hospitals, and others who have electronic health records that provide clinical care for their patients.</p>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
+<h2 class="anchored">FAQs</h2>
+<p>Popular topics
+</p>
+<div class="list table-responsive">
+  
+<table class="table table-striped caption-top">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th">Date</th>
+<th data-quarto-table-cell-role="th">Title</th>
+<th data-quarto-table-cell-role="th">Presenter</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd" data-index="0">
+<td><span class="text-muted listing-date">2023-05-08</span></td>
+<td><a href="https://ohdsiorg.sharepoint.com/:v:/s/Workgroup-EHRElectronicHealthRecord/IQC6n7HIt0MJQbU_z0f6nHy7AV3ghD0xx7kxgTYfQKPkDFk?e=GKEk6Y" class="listing-title">ETL of EHR encounters into Visit Occurrence &amp; Visit Detail tables: Part 1</a></td>
+<td><strong>Melanie Philofsky</strong></td>
+</tr>
+<tr class="even" data-index="1">
+<td><span class="text-muted listing-date">2023-05-22</span></td>
+<td><a href="https://ohdsiorg.sharepoint.com/:v:/s/Workgroup-EHRElectronicHealthRecord/IQCb2nO3JGv0Q5BRFI67LsGLAaPOKFJjkmwOdPzDEjHP5dg?e=nQJjdU" class="listing-title">ETL of EHR encounters into Visit Occurrence &amp; Visit Detail tables: Part 2</a></td>
+<td><strong>Melanie Philofsky</strong></td>
+</tr>
+<tr class="odd" data-index="2">
+<td><span class="text-muted listing-date">2023-06-19</span></td>
+<td><a href="https://ohdsiorg.sharepoint.com/:v:/s/Workgroup-EHRElectronicHealthRecord/IQAFtxGwn7JDTo2JmPOBuOXBAchLHBQxfiSf03W-Xfh6MhU?e=0OXMhG" class="listing-title">Custom mapping of local source values to OHDSI standard concepts</a></td>
+<td><strong>Melanie Philofsky</strong></td>
+</tr>
+<tr class="even" data-index="3">
+<td><span class="text-muted listing-date">2023-07-23</span></td>
+<td><a href="https://ohdsiorg.sharepoint.com/:v:/s/Workgroup-EHRElectronicHealthRecord/IQDOvrrEepcJQJ6UxfsVLm4hAXCSe8Zfx_36kawjj2r5j3s?e=2d2NCX" class="listing-title">Adding new vocabularies to OMOP CDM</a></td>
+<td><strong>Anna Ostropolets</strong></td>
+</tr>
+<tr class="odd" data-index="4">
+<td><span class="text-muted listing-date">2023-09-11</span></td>
+<td><a href="https://ohdsiorg.sharepoint.com/:v:/s/Workgroup-EHRElectronicHealthRecord/IQAyKAknHRcrSpSTQMURlMJDASHDfD9LKK-xO6vETEEveDc?e=rlZFLi" class="listing-title">Moving OMOP to the Cloud with DBT and Snowflake</a></td>
+<td><strong>Roger Carlson</strong></td>
+</tr>
+<tr class="even" data-index="5">
+<td><span class="text-muted listing-date">2024-02-26</span></td>
+<td><a href="https://ohdsiorg.sharepoint.com/:v:/s/Workgroup-EHRElectronicHealthRecord/IQCGTkQvPAKDSqja61TIU2ZzAeSOUt3WZ1lg2sqJvMDMNbU?e=Mc7zpI" class="listing-title">Mapping Knowledge Base: semantic mapping</a></td>
+<td><strong>Melanie Philofsky</strong></td>
+</tr>
+<tr class="odd" data-index="6">
+<td><span class="text-muted listing-date">2022-09-22</span></td>
+<td><a href="https://ohdsiorg.sharepoint.com/:p:/s/Workgroup-EHRElectronicHealthRecord/EQZzB6Qv3o5HlMAP_lVewt0BB3DidKPq0Nx-B6iCHC9xJw?e=fQToll" class="listing-title">SNOMED CT Model for Post-Coordination as a Way to Sustainably Represent Source Concepts in OMOP CDM</a></td>
+<td><strong>Eduard Korchmar</strong></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

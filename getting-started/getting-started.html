@@ -2,20 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>getting-started – OHDSI HSIG</title>
+<title>Getting Started – OHDSI HSIG</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,14 +42,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-51b8145591e85a803e17c5890f829bb6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-34287f9d325d3f74c203f3a9d11cb4da.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-51b8145591e85a803e17c5890f829bb6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-50b9cc017d981ddd23d41f2dabffb839.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-5d7f6048c4a25986c791318cc0c636c8.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-50b9cc017d981ddd23d41f2dabffb839.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-bddd381168cc94ebab0e215c9c33e9ce.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-a64a6128b22c780d59f8aa39a41fe2ce.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-bddd381168cc94ebab0e215c9c33e9ce.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-47a6447cef6120135f3d5d1840e88470.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-88e2e785118e51d5f21aba1b5ad90b70.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-47a6447cef6120135f3d5d1840e88470.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -272,49 +275,53 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Getting Started</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Resources</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-community" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Community</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-community">    
         <li>
-    <a class="dropdown-item" href="../resources/converting_ndc.html">
- <span class="dropdown-text">Converting NDC</span></a>
+    <a class="dropdown-item" href="../community/get-involved.html">
+ <span class="dropdown-text">Get Involved</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../resources/Overview.html">
- <span class="dropdown-text">Helpful Links</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../resources/proprietary.html">
- <span class="dropdown-text">Proprietary and PHI considerations</span></a>
+    <a class="dropdown-item" href="../community/presentations.html">
+ <span class="dropdown-text">Presentations</span></a>
   </li>  
     </ul>
   </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-etl--mapping-guidance" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">ETL &amp; Mapping Guidance</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-etl--mapping-guidance">    
+        <li>
+    <a class="dropdown-item" href="../etl-mapping/overview.html">
+ <span class="dropdown-text">ETL &amp; Mapping Guidance</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../etl-mapping/ehr-source-systems.html">
+ <span class="dropdown-text">EHR Source Systems</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../etl-mapping/terminology-mapping/terminology-mapping.html">
+ <span class="dropdown-text">Terminology &amp; Vocabulary Mapping</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../etl-mapping/terminology-mapping/converting_ndc.html">
+ <span class="dropdown-text">Converting NDC Codes</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../etl-mapping/data-governance.html">
+ <span class="dropdown-text">Data Governance</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../resources.html"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../presentations.html"> 
-<span class="menu-text">Presentations</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tools" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Tools</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-tools">    
-        <li>
-    <a class="dropdown-item" href="../tools/00_overview.html">
- <span class="dropdown-text">Helpful Links</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../tools/01_jackalope.html">
- <span class="dropdown-text">Jackalope</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../tools/02_databuildtool.html">
- <span class="dropdown-text">Data Build Tool</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-contribute" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Contribute</span>
@@ -359,52 +366,44 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#getting-started" id="toc-getting-started" class="nav-link active" data-scroll-target="#getting-started">Getting Started</a></li>
-  <li><a href="#core-ohdsi-resources" id="toc-core-ohdsi-resources" class="nav-link" data-scroll-target="#core-ohdsi-resources">Core OHDSI Resources</a></li>
-  <li><a href="#ehr-source-data-guidance" id="toc-ehr-source-data-guidance" class="nav-link" data-scroll-target="#ehr-source-data-guidance">EHR &amp; Source Data Guidance</a></li>
-  <li><a href="#tutorials" id="toc-tutorials" class="nav-link" data-scroll-target="#tutorials">Tutorials</a></li>
-  <li><a href="#terminologies-their-use-in-etlmapping" id="toc-terminologies-their-use-in-etlmapping" class="nav-link" data-scroll-target="#terminologies-their-use-in-etlmapping">Terminologies &amp; Their Use in ETL/Mapping</a></li>
+  <li><a href="#new-to-etling-your-data-to-the-omop-cdm" id="toc-new-to-etling-your-data-to-the-omop-cdm" class="nav-link" data-scroll-target="#new-to-etling-your-data-to-the-omop-cdm">New to ETLing your data to the OMOP CDM?</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Getting Started</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <section id="getting-started" class="level2">
 <h2 class="anchored" data-anchor-id="getting-started">Getting Started</h2>
-<p>Please join us on the Health Systems Interest Group meeting every other Monday at 10am ET</p>
+<p>Please join us on the Health Systems Interest Group meeting every other Monday at 10am ET.</p>
 <p>The call will be focused on helping those new to the OHDSI community get started with the OMOP CDM. Please bring any and all questions related to OHDSI, OMOP CDM, observational health data and research.</p>
-<p>Next meeting: on the first Monday of the month</p>
-<p>• <a href="https://teams.microsoft.com/meet/21546631792176?p=DiNa0maq3MQbSmFIlz">HSIG meeting link</a></p>
+<p>Next meeting: on the first Monday of the month.</p>
+<p>See <a href="../community/get-involved.html">Get Involved</a> for the meeting link and other ways to connect with the community.</p>
 </section>
-<section id="core-ohdsi-resources" class="level2">
-<h2 class="anchored" data-anchor-id="core-ohdsi-resources">Core OHDSI Resources</h2>
-<p>New to ETLing your source data to the OMOP Common Data Model? Start here:</p>
-<p>• <a href="https://ohdsi.github.io/TheBookOfOhdsi/">Book of OHDSI</a> — the primary reference text for the OHDSI community and the OMOP CDM.</p>
-<p>• <a href="http://Athena.ohdsi.org">Athena</a> — the OHDSI vocabulary repository, used to browse and download standardized vocabularies for mapping source codes to OMOP concepts.</p>
-<p>• <a href="https://github.com/OHDSI/CommonDataModel">CDM GitHub</a> — source repository for the CDM specification and DDL scripts.</p>
-</section>
-<section id="ehr-source-data-guidance" class="level2">
-<h2 class="anchored" data-anchor-id="ehr-source-data-guidance">EHR &amp; Source Data Guidance</h2>
-<p>• <a href="https://userweb.epic.com/Thread/99407/OMOP-All-of-Us-Master-OMOP-Thread/">OMOP code on Epic user web</a> — community thread on Epic User Web discussing OMOP mapping approaches for Epic source data. Requires an Epic User Web account.</p>
-<!-- TODO: add guidance/links for other EHR source systems (e.g., Cerner/Oracle Health, athenahealth, other proprietary or open-source EHRs) as they become available. -->
-<p>Before extracting and sharing data, review the <a href="../resources/proprietary.html">Proprietary and PHI considerations</a> page for guidance on data governance responsibilities.</p>
-</section>
-<section id="tutorials" class="level2">
-<h2 class="anchored" data-anchor-id="tutorials">Tutorials</h2>
-<p>• <a href="https://github.com/OHDSI/Tutorial-ETL">OHDSI ETL Tutorial</a> — walkthrough materials for building an ETL pipeline to the OMOP CDM.</p>
-<p>• <a href="https://academy.ehden.eu">EHDEN Academy</a> — free online courses covering OMOP CDM, vocabulary mapping, and OHDSI tools.</p>
-</section>
-<section id="terminologies-their-use-in-etlmapping" class="level2">
-<h2 class="anchored" data-anchor-id="terminologies-their-use-in-etlmapping">Terminologies &amp; Their Use in ETL/Mapping</h2>
-<p>Interface terminologies (e.g., the clinical vocabularies used natively within an EHR) often differ from the standard vocabularies used in the OMOP CDM. Understanding how your source system’s interface terminology relates to OMOP standard concepts is a key step in ETL design.</p>
-<p>• <a href="https://github.com/OHDSI/Usagi">USAGI</a> — a tool to support the manual mapping of source codes to standard OMOP concepts.</p>
-<p>• <a href="https://ohdsi.github.io/Themis/">Themis convention library</a> — community conventions for consistent ETL/mapping decisions across the OHDSI network.</p>
-<!-- TODO: add specific guidance on mapping common interface terminologies (SNOMED CT, LOINC, RxNorm, ICD, etc.) to OMOP standard vocabularies. -->
-<p>See the <a href="../resources/Overview.html">Resources Overview</a> page for the full list of OHDSI tools and working group links.</p>
+<section id="new-to-etling-your-data-to-the-omop-cdm" class="level2">
+<h2 class="anchored" data-anchor-id="new-to-etling-your-data-to-the-omop-cdm">New to ETLing your data to the OMOP CDM?</h2>
+<p>If you’re just starting out, <a href="../etl-mapping/overview.html">ETL &amp; Mapping Guidance</a> walks through what ETL to the OMOP CDM involves, EHR-specific extraction guidance, terminology/vocabulary mapping, and the data governance responsibilities that come with handling clinical data.</p>
+<p>For the full directory of OHDSI tools and reference material, see <a href="../resources.html">Resources</a>.</p>
 
 
 </section>

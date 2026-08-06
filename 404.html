@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,14 +42,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="/HealthSystems/site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="/HealthSystems/site_libs/quarto-html/anchor.min.js"></script>
 <link href="/HealthSystems/site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="/HealthSystems/site_libs/quarto-html/quarto-syntax-highlighting-51b8145591e85a803e17c5890f829bb6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="/HealthSystems/site_libs/quarto-html/quarto-syntax-highlighting-dark-34287f9d325d3f74c203f3a9d11cb4da.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="/HealthSystems/site_libs/quarto-html/quarto-syntax-highlighting-51b8145591e85a803e17c5890f829bb6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="/HealthSystems/site_libs/quarto-html/quarto-syntax-highlighting-50b9cc017d981ddd23d41f2dabffb839.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="/HealthSystems/site_libs/quarto-html/quarto-syntax-highlighting-dark-5d7f6048c4a25986c791318cc0c636c8.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="/HealthSystems/site_libs/quarto-html/quarto-syntax-highlighting-50b9cc017d981ddd23d41f2dabffb839.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="/HealthSystems/site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="/HealthSystems/site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="/HealthSystems/site_libs/bootstrap/bootstrap-bddd381168cc94ebab0e215c9c33e9ce.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="/HealthSystems/site_libs/bootstrap/bootstrap-dark-a64a6128b22c780d59f8aa39a41fe2ce.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="/HealthSystems/site_libs/bootstrap/bootstrap-bddd381168cc94ebab0e215c9c33e9ce.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="/HealthSystems/site_libs/bootstrap/bootstrap-47a6447cef6120135f3d5d1840e88470.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="/HealthSystems/site_libs/bootstrap/bootstrap-dark-88e2e785118e51d5f21aba1b5ad90b70.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="/HealthSystems/site_libs/bootstrap/bootstrap-47a6447cef6120135f3d5d1840e88470.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="/HealthSystems/site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -272,49 +275,53 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Getting Started</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Resources</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-community" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Community</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-community">    
         <li>
-    <a class="dropdown-item" href="/HealthSystems/resources/converting_ndc.html">
- <span class="dropdown-text">Converting NDC</span></a>
+    <a class="dropdown-item" href="/HealthSystems/community/get-involved.html">
+ <span class="dropdown-text">Get Involved</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/HealthSystems/resources/Overview.html">
- <span class="dropdown-text">Helpful Links</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="/HealthSystems/resources/proprietary.html">
- <span class="dropdown-text">Proprietary and PHI considerations</span></a>
+    <a class="dropdown-item" href="/HealthSystems/community/presentations.html">
+ <span class="dropdown-text">Presentations</span></a>
   </li>  
     </ul>
   </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-etl--mapping-guidance" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">ETL &amp; Mapping Guidance</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-etl--mapping-guidance">    
+        <li>
+    <a class="dropdown-item" href="/HealthSystems/etl-mapping/overview.html">
+ <span class="dropdown-text">ETL &amp; Mapping Guidance</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="/HealthSystems/etl-mapping/ehr-source-systems.html">
+ <span class="dropdown-text">EHR Source Systems</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="/HealthSystems/etl-mapping/terminology-mapping/terminology-mapping.html">
+ <span class="dropdown-text">Terminology &amp; Vocabulary Mapping</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="/HealthSystems/etl-mapping/terminology-mapping/converting_ndc.html">
+ <span class="dropdown-text">Converting NDC Codes</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="/HealthSystems/etl-mapping/data-governance.html">
+ <span class="dropdown-text">Data Governance</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/HealthSystems/resources.html"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="/HealthSystems/presentations.html"> 
-<span class="menu-text">Presentations</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tools" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Tools</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-tools">    
-        <li>
-    <a class="dropdown-item" href="/HealthSystems/tools/00_overview.html">
- <span class="dropdown-text">Helpful Links</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="/HealthSystems/tools/01_jackalope.html">
- <span class="dropdown-text">Jackalope</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="/HealthSystems/tools/02_databuildtool.html">
- <span class="dropdown-text">Data Build Tool</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-contribute" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Contribute</span>

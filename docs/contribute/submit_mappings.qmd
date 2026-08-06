@@ -5,5 +5,5 @@ hide:
 
 ## Instructions for mapping contributions 
 
-The HSIG continues to flesh out the requirements for how collaborators can best share their semantic mappings. If you would like to contribute to this effort, please join one of our meetings, post a message to our [chat](https://teams.microsoft.com/l/channel/19%3A2b9db953a46441c8be51cb3d3785cac3%40thread.tacv2/General?groupId=198ebad0-c5b9-4991-8a5e-55e6d71cb817&tenantId=a30f0094-9120-4aab-ba4c-e5509023b2d5) in MS Teams or reach out to Melanie Philofsky.  
+The HSIG continues to flesh out the requirements for how collaborators can best share their semantic mappings. If you would like to contribute to this effort, please join one of our meetings or post a message to our [chat](https://teams.microsoft.com/l/channel/19%3A2b9db953a46441c8be51cb3d3785cac3%40thread.tacv2/General?groupId=198ebad0-c5b9-4991-8a5e-55e6d71cb817&tenantId=a30f0094-9120-4aab-ba4c-e5509023b2d5) in MS Teams. See [Get Involved](../community/get-involved.qmd) for meeting times and other ways to reach the group.
 

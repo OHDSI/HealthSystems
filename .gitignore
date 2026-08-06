@@ -1,12 +1,14 @@
 # GitHub Actions will render these on commit
 /docs/.quarto/
 /docs/_site/
+/docs/src/
 /docs/site_libs/
 /docs/search.json
 /docs/robots.txt
 /docs/sitemap.xml
 /docs/.Rhistory
 /docs/*.html
+/docs/index_files/
 
 
 

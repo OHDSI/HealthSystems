@@ -1,0 +1,29 @@
+---
+title: "ETL & Mapping Guidance"
+hide:
+  - toc
+---
+
+## What is ETL to the OMOP CDM?
+
+Extract, Transform, Load (ETL) is the process of converting your source data — typically from an electronic health record (EHR) or other clinical system — into the [OMOP Common Data Model (CDM)](https://ohdsi.github.io/CommonDataModel/). A well-designed ETL maps both the *structure* of your source data (which table/column a fact belongs in) and the *content* of your source data (which standard vocabulary concept a local code represents).
+
+This section covers the parts of that process that are specific to health systems: working with EHR source systems, mapping local terminologies to OMOP standard vocabularies, and the data governance responsibilities that come with handling clinical data.
+
+## Start here
+
+•	[Book of OHDSI](https://ohdsi.github.io/TheBookOfOhdsi/) — the primary reference text for the OHDSI community and the OMOP CDM. Read the ETL chapters before starting a new mapping project.
+
+•	[OHDSI ETL Tutorial](https://github.com/OHDSI/Tutorial-ETL) — walkthrough materials for building an ETL pipeline to the OMOP CDM.
+
+•	[EHDEN Academy](https://academy.ehden.eu) — free online courses covering OMOP CDM, vocabulary mapping, and OHDSI tools.
+
+## In this section
+
+•	[EHR Source Systems](ehr-source-systems.qmd) — guidance specific to extracting data from your EHR.
+
+•	[Terminology & Vocabulary Mapping](terminology-mapping/terminology-mapping.qmd) — mapping local/interface terminologies to OMOP standard concepts.
+
+•	[Data Governance](data-governance.qmd) — proprietary data and PHI considerations for ETL work.
+
+See the [Resources](../resources.qmd) page for the full list of OHDSI tools referenced throughout this section.

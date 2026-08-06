@@ -1,0 +1,23 @@
+---
+title: "Terminology & Vocabulary Mapping"
+hide:
+  - toc
+---
+
+Interface terminologies (e.g., the clinical vocabularies used natively within an EHR) often differ from the standard vocabularies used in the OMOP CDM. Understanding how your source system's interface terminology relates to OMOP standard concepts is a key step in ETL design.
+
+## Tools
+
+•	[USAGI](https://github.com/OHDSI/Usagi) — a tool to support the manual mapping of source codes to standard OMOP concepts.
+
+•	[Athena](http://Athena.ohdsi.org) — the OHDSI vocabulary repository, used to browse and download standardized vocabularies for mapping source codes to OMOP concepts.
+
+## Conventions
+
+•	[Themis convention library](https://ohdsi.github.io/Themis/) — community conventions for consistent ETL/mapping decisions across the OHDSI network.
+
+<!-- TODO: add specific guidance on mapping common interface terminologies (SNOMED CT, LOINC, RxNorm, ICD, etc.) to OMOP standard vocabularies (see Issue #6 backlog). -->
+
+## Code format conversions
+
+•	[Converting NDC Codes](converting_ndc.qmd) — 10-digit to 11-digit NDC format conversion reference.

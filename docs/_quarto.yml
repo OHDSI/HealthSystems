@@ -33,33 +33,39 @@ website:
         text: Home
       - href: getting-started/getting-started.qmd
         text: Getting Started
-      - sidebar:resources
+      - sidebar:community
+      - sidebar:etl-mapping
+      - href: resources.qmd
+        text: Resources
 
     right:
-      - presentations.qmd
-      - sidebar:tools
       - sidebar:contribute
 
   sidebar:
     - id: ""
-    - id: resources
-      title: "Resources"
+    - id: community
+      title: "Community"
       style: "docked"
       collapse-level: 2
       contents:
-        - auto: resources/*.qmd
-    - id: tools
-      title: "Tools"
+        - community/get-involved.qmd
+        - community/presentations.qmd
+    - id: etl-mapping
+      title: "ETL & Mapping Guidance"
       style: "docked"
       collapse-level: 2
       contents:
-        - auto: tools/*.qmd
+        - etl-mapping/overview.qmd
+        - etl-mapping/ehr-source-systems.qmd
+        - etl-mapping/terminology-mapping/terminology-mapping.qmd
+        - etl-mapping/terminology-mapping/converting_ndc.qmd
+        - etl-mapping/data-governance.qmd
     - id: contribute
       title: "Contribute"
       style: "docked"
       collapse-level: 2
       contents:
-        - auto: contribute/*.qmd
+        - contribute/submit_mappings.qmd
   
   
   

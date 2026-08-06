@@ -1,7 +1,0 @@
----
-title: Presentations
-listing:
-  template: presentations/presentations.ejs
-  contents: 
-    - presentations/presentations.yml
----

@@ -1,0 +1,23 @@
+---
+title: "EHR Source Systems"
+hide:
+  - toc
+---
+
+## Epic
+
+•	[OMOP code on Epic User Web](https://userweb.epic.com/Thread/99407/OMOP-All-of-Us-Master-OMOP-Thread/) — community thread on Epic User Web discussing OMOP mapping approaches for Epic source data. Requires an Epic User Web account.
+
+## Cerner / Oracle Health
+
+<!-- TODO: add guidance/links for Cerner/Oracle Health source systems (see Issue #6 backlog). -->
+
+## athenahealth
+
+<!-- TODO: add guidance/links for athenahealth source systems (see Issue #6 backlog). -->
+
+## Other EHR systems
+
+<!-- TODO: add guidance/links for other proprietary or open-source EHRs as they become available (see Issue #6 backlog). -->
+
+Before extracting and sharing data from any of these systems, review [Data Governance](data-governance.qmd) for guidance on data governance responsibilities.

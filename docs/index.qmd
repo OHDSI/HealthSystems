@@ -7,16 +7,12 @@ about:
   id: about
   template: jolla
   links:
-    - text: '{{< iconify material-symbols:info>}} About'
-      href: about.qmd
     - text: "{{< iconify material-symbols:forum>}} Forums"
       href: https://forums.ohdsi.org/
     - text: '{{< iconify mdi:blog>}} Wiki'
       href: https://www.ohdsi.org/web/wiki/doku.php
     - text: '{{< iconify mdi:github>}} GitHub'
       href: https://github.com/OHDSI/HealthSystems
-    - text: '{{< iconify mdi:rss>}} RSS'
-      href: why.qmd
     - text: '{{< iconify material-symbols:co-present>}} Global Symposium'
       href: https://www.ohdsi.org/ohdsi2024/
 
@@ -38,7 +34,7 @@ OHDSI’s mission - To improve health by empowering a community to collaborative
 Healthcare Systems Interest Group mission - To help each other and learn from experience.
 Our group mainly supports health systems, hospitals, and others who have electronic health record (EHR) data on their OHDSI journey to produce reliable, reproducible evidence.
 
-The Health Systems group meets every other Monday at 10am Eastern Time. Please join us on the [MS Teams call](https://teams.microsoft.com/l/team/19%3A2b9db953a46441c8be51cb3d3785cac3%40thread.tacv2/conversations?groupId=198ebad0-c5b9-4991-8a5e-55e6d71cb817&tenantId=a30f0094-9120-4aab-ba4c-e5509023b2d5)
+The Health Systems group meets every other Monday at 10am Eastern Time. See [Get Involved](community/get-involved.qmd) for the meeting link and other ways to connect with the community.
 
 :::
 

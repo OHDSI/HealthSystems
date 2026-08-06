@@ -1,0 +1,67 @@
+---
+title: "Resources"
+hide:
+  - toc
+---
+
+A curated, deduplicated directory of OHDSI tools, references, and working-group links. For task-specific guidance (EHR extraction, terminology mapping, data governance), see [ETL & Mapping Guidance](etl-mapping/overview.qmd).
+
+## Core references
+
+•	[Book of OHDSI](https://ohdsi.github.io/TheBookOfOhdsi/) — the primary reference text for the OHDSI community and the OMOP CDM. <!-- TODO: Update with new Book of OHDSI link when published -->
+
+•	[OMOP CDM home page](https://ohdsi.github.io/CommonDataModel/) — documentation hub for the CDM specification.
+
+•	[OMOP CDM v5.4 Specification](https://ohdsi.github.io/CommonDataModel/cdm54.html)
+
+•	[CDM GitHub](https://github.com/OHDSI/CommonDataModel) — source repository for the CDM specification and DDL scripts.
+
+•	[Themis convention library](https://ohdsi.github.io/Themis/) — community conventions for consistent ETL/mapping decisions across the OHDSI network. Also on [GitHub](https://github.com/OHDSI/Themis).
+
+## Vocabulary & mapping tools
+
+•	[Athena](http://Athena.ohdsi.org) — the OHDSI vocabulary repository, used to browse and download standardized vocabularies for mapping source codes to OMOP concepts.
+
+•	[USAGI](https://github.com/OHDSI/Usagi) — a tool to support the manual mapping of source codes to standard OMOP concepts.
+
+•	[SqlRender](https://ohdsi.github.io/SqlRender/articles/UsingSqlRender.html) — translates SQL across database dialects (SQL Server, Snowflake, PostgreSQL, etc.) for use in OHDSI tools and cohort definitions.
+
+•	[ETL CDM Builder](https://github.com/OHDSI/ETL-CDMBuilder)
+
+## Analysis & quality tools
+
+•	[Atlas Demo](http://atlas-demo.ohdsi.org/#/home) — try Atlas, the OHDSI cohort definition and analysis platform, without installing anything.
+
+•	[Data Quality Dashboard](https://github.com/OHDSI/DataQualityDashboard) — automated data quality checks against the OMOP CDM.
+
+•	[ACHILLES](https://github.com/OHDSI/Achilles) — characterizes and profiles an OMOP CDM database. See also the [Achilles wiki](https://ohdsi.github.io/Achilles/).
+
+•	[HADES](https://ohdsi.github.io/Hades/) — the Health Analytics Data-to-Evidence Suite, OHDSI's collection of open-source R packages for observational research.
+
+•	[OHDSI Evidence Network](https://github.com/ohdsi-studies/OhdsiEvidenceNetwork)
+
+## Learning
+
+•	[OHDSI ETL Tutorial](https://github.com/OHDSI/Tutorial-ETL) — walkthrough materials for building an ETL pipeline to the OMOP CDM.
+
+•	[EHDEN Academy](https://academy.ehden.eu) — free online courses covering OMOP CDM, vocabulary mapping, and OHDSI tools.
+
+•	[FHIR to OMOP Implementation Guide (HL7 Sept 2025 Release)](https://hl7.org/fhir/uv/omop/2025Sep/) <!-- TODO: Update when ready -->
+
+## Community & events
+
+•	[OHDSI home page](https://www.ohdsi.org)
+
+•	[OHDSI Work Groups](https://www.ohdsi.org/workgroups/)
+
+•	[OHDSI Forums](https://forums.ohdsi.org)
+
+•	[2024 Global Symposium](https://www.ohdsi.org/ohdsi2024/)
+
+•	[2025 Global Symposium](https://www.ohdsi.org/ohdsi2025/) <!-- TODO: Update when published -->
+
+See [Get Involved](community/get-involved.qmd) for how to join the Health Systems Interest Group specifically.
+
+---
+
+**Not yet available:** community-contributed OMOP mapping guidance for OpenMRS and OpenEMR is planned but not yet published. Track progress or contribute at the [HSIG GitHub repository](https://github.com/OHDSI/HealthSystems).

@@ -1,0 +1,29 @@
+---
+title: "Get Involved"
+hide:
+  - toc
+---
+
+## Join a meeting
+
+The Health Systems Interest Group meets every other Monday at 10am Eastern Time. Sessions focus on helping community members — new and experienced — work through OMOP CDM, ETL, and mapping questions.
+
+•	[Join the HSIG meeting](https://teams.microsoft.com/meet/21546631792176?p=DiNa0maq3MQbSmFIlz)
+
+## Chat with the community
+
+•	[HSIG Microsoft Teams](https://teams.microsoft.com/l/team/19%3A2b9db953a46441c8be51cb3d3785cac3%40thread.tacv2/conversations?groupId=198ebad0-c5b9-4991-8a5e-55e6d71cb817&tenantId=a30f0094-9120-4aab-ba4c-e5509023b2d5) — the main HSIG Teams space for discussion between meetings.
+
+•	[HSIG Teams general channel](https://teams.microsoft.com/l/channel/19%3A2b9db953a46441c8be51cb3d3785cac3%40thread.tacv2/General?groupId=198ebad0-c5b9-4991-8a5e-55e6d71cb817&tenantId=a30f0094-9120-4aab-ba4c-e5509023b2d5) — post questions or proposals for the group to discuss.
+
+•	[OHDSI Forums](https://forums.ohdsi.org) — the broader OHDSI community forum; use the "Implementers" category for health-system-specific questions.
+
+## Related working groups
+
+•	[Themis Microsoft Teams](https://teams.microsoft.com/l/channel/19%3A756b1ded0eae4658b592a53d2e8858e5%40thread.tacv2/THEMIS%20Subgroup?groupId=a6f2c516-e568-4974-8f1e-a7bdc2f997c5&tenantId=a30f0094-9120-4aab-ba4c-e5509023b2d5) — the group that maintains OMOP ETL/mapping conventions referenced throughout our [ETL & Mapping Guidance](../etl-mapping/overview.qmd).
+
+## Contribute code or content
+
+•	[HSIG GitHub repository](https://github.com/OHDSI/HealthSystems) — this website's source, plus shared SQL scripts for OMOP CDM ETL tasks.
+
+See the [Contribute](../contribute/submit_mappings.qmd) section for how to share semantic mappings with the community.

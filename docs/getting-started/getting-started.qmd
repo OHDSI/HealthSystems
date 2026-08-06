@@ -1,49 +1,20 @@
 ---
+title: "Getting Started"
 format: html
 ---
 
 ## Getting Started
 
-Please join us on the Health Systems Interest Group meeting every other Monday at 10am ET
+Please join us on the Health Systems Interest Group meeting every other Monday at 10am ET.
 
 The call will be focused on helping those new to the OHDSI community get started with the OMOP CDM. Please bring any and all questions related to OHDSI, OMOP CDM, observational health data and research.
 
-Next meeting: on the first Monday of the month
+Next meeting: on the first Monday of the month.
 
-•	[HSIG meeting link](https://teams.microsoft.com/meet/21546631792176?p=DiNa0maq3MQbSmFIlz)
+See [Get Involved](../community/get-involved.qmd) for the meeting link and other ways to connect with the community.
 
-## Core OHDSI Resources
+## New to ETLing your data to the OMOP CDM?
 
-New to ETLing your source data to the OMOP Common Data Model? Start here:
+If you're just starting out, [ETL & Mapping Guidance](../etl-mapping/overview.qmd) walks through what ETL to the OMOP CDM involves, EHR-specific extraction guidance, terminology/vocabulary mapping, and the data governance responsibilities that come with handling clinical data.
 
-•	[Book of OHDSI](https://ohdsi.github.io/TheBookOfOhdsi/) — the primary reference text for the OHDSI community and the OMOP CDM.
-
-•	[Athena](http://Athena.ohdsi.org) — the OHDSI vocabulary repository, used to browse and download standardized vocabularies for mapping source codes to OMOP concepts.
-
-•	[CDM GitHub](https://github.com/OHDSI/CommonDataModel) — source repository for the CDM specification and DDL scripts.
-
-## EHR & Source Data Guidance
-
-•	[OMOP code on Epic user web](https://userweb.epic.com/Thread/99407/OMOP-All-of-Us-Master-OMOP-Thread/) — community thread on Epic User Web discussing OMOP mapping approaches for Epic source data. Requires an Epic User Web account.
-
-<!-- TODO: add guidance/links for other EHR source systems (e.g., Cerner/Oracle Health, athenahealth, other proprietary or open-source EHRs) as they become available. -->
-
-Before extracting and sharing data, review the [Proprietary and PHI considerations](../resources/proprietary.qmd) page for guidance on data governance responsibilities.
-
-## Tutorials
-
-•	[OHDSI ETL Tutorial](https://github.com/OHDSI/Tutorial-ETL) — walkthrough materials for building an ETL pipeline to the OMOP CDM.
-
-•	[EHDEN Academy](https://academy.ehden.eu) — free online courses covering OMOP CDM, vocabulary mapping, and OHDSI tools.
-
-## Terminologies & Their Use in ETL/Mapping
-
-Interface terminologies (e.g., the clinical vocabularies used natively within an EHR) often differ from the standard vocabularies used in the OMOP CDM. Understanding how your source system's interface terminology relates to OMOP standard concepts is a key step in ETL design.
-
-•	[USAGI](https://github.com/OHDSI/Usagi) — a tool to support the manual mapping of source codes to standard OMOP concepts.
-
-•	[Themis convention library](https://ohdsi.github.io/Themis/) — community conventions for consistent ETL/mapping decisions across the OHDSI network.
-
-<!-- TODO: add specific guidance on mapping common interface terminologies (SNOMED CT, LOINC, RxNorm, ICD, etc.) to OMOP standard vocabularies. -->
-
-See the [Resources Overview](../resources/Overview.qmd) page for the full list of OHDSI tools and working group links.
+For the full directory of OHDSI tools and reference material, see [Resources](../resources.qmd).

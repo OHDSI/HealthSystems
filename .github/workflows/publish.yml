@@ -1,7 +1,22 @@
+# This workflow renders the Quarto site (docs/) and publishes the output
+# to the gh-pages branch, which serves https://ohdsi.github.io/HealthSystems/
+#
+# It runs automatically on every push to `main`. If a push doesn't trigger it
+# (e.g. during a GitHub Actions/webhook outage — check https://www.githubstatus.com/),
+# any repo admin/maintainer can fire it manually:
+#
+#   Via the GitHub UI:
+#     1. Go to the "Actions" tab -> "Render and Publish" workflow (left sidebar).
+#     2. Click "Run workflow", pick the "main" branch, click "Run workflow".
+#
+#   Via the GitHub CLI (gh):
+#     gh workflow run "Render and Publish" --repo OHDSI/HealthSystems --ref main
+#
 on:
   push:
     branches:
       - main
+  workflow_dispatch: # allows manual runs from the Actions tab or `gh workflow run`, see comment above
 
 name: Render and Publish
 

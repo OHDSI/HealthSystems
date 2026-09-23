@@ -6,7 +6,7 @@ hide:
 
 ## Join a meeting
 
-The Health Systems Interest Group meets every other Monday at 10am Eastern Time. Sessions focus on helping community members — new and experienced — work through OMOP CDM, ETL, and mapping questions.
+The Health Systems Interest Group meets the first Monday of the month at 10am Eastern Time. Sessions focus on helping community members — new and experienced — work through OMOP CDM, ETL, and mapping questions.
 
 •	[Join the HSIG meeting](https://teams.microsoft.com/meet/21546631792176?p=DiNa0maq3MQbSmFIlz)
 

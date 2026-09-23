@@ -11,7 +11,7 @@
     "href": "resources.html#core-references",
     "title": "Resources",
     "section": "Core references",
-    "text": "Core references\n• Book of OHDSI — the primary reference text for the OHDSI community and the OMOP CDM. \n• OMOP CDM home page — documentation hub for the CDM specification.\n• OMOP CDM v5.4 Specification\n• CDM GitHub — source repository for the CDM specification and DDL scripts.\n• Themis convention library — community conventions for consistent ETL/mapping decisions across the OHDSI network. Also on GitHub."
+    "text": "Core references\n• [How Health Systems Can Create Value by Adopting the OMOP CDM] (https://ohdsiorg.sharepoint.com/:b:/s/Workgroup-EHRElectronicHealthRecord/IQAC4kC1lyaMSY4jSUCFa6akAY25wryH03voJ5IkInQE-Zk?e=X5qd3r) - white paper on the benefits a health system realizes by adopting the OMOP CDM\n• Book of OHDSI — the primary reference text for the OHDSI community and the OMOP CDM. \n• OMOP CDM home page — documentation hub for the CDM specification.\n• [OMOP CDM v5.5 Specification, the most current version of the OMOP CDM] (https://ohdsi.github.io/CommonDataModel/cdm55.html)\n• OMOP CDM v5.4 Specification\n• CDM GitHub — source repository for the CDM specification and DDL scripts.\n• Themis convention library — community conventions for consistent ETL/mapping decisions across the OHDSI network. Also on GitHub."
   },
   {
     "objectID": "resources.html#vocabulary-mapping-tools",
@@ -32,7 +32,7 @@
     "href": "resources.html#learning",
     "title": "Resources",
     "section": "Learning",
-    "text": "Learning\n• OHDSI ETL Tutorial — walkthrough materials for building an ETL pipeline to the OMOP CDM.\n• EHDEN Academy — free online courses covering OMOP CDM, vocabulary mapping, and OHDSI tools.\n• FHIR to OMOP Implementation Guide (HL7 Sept 2025 Release)"
+    "text": "Learning\n• OHDSI ETL Tutorial — walkthrough materials for building an ETL pipeline to the OMOP CDM.\n• EHDEN Academy — free online courses covering OMOP CDM, vocabulary mapping, and OHDSI tools.\n• [Boyce Data Science] (https://www.boycedatascience.com/research-tools#bds-omop) - an excellent suite of tools and resources built by Dr. Danielle Boyce\n• FHIR to OMOP Implementation Guide (HL7 Sept 2025 Release)"
   },
   {
     "objectID": "resources.html#community-events",

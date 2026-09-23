@@ -14,7 +14,7 @@ about:
     - text: '{{< iconify mdi:github>}} GitHub'
       href: https://github.com/OHDSI/HealthSystems
     - text: '{{< iconify material-symbols:co-present>}} Global Symposium'
-      href: https://www.ohdsi.org/ohdsi2024/
+      href: https://www.ohdsi.org/ohdsi2026/
 
 ---
 

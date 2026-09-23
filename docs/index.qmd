@@ -34,7 +34,7 @@ OHDSI’s mission - To improve health by empowering a community to collaborative
 Healthcare Systems Interest Group mission - To help each other and learn from experience.
 Our group mainly supports health systems, hospitals, and others who have electronic health record (EHR) data on their OHDSI journey to produce reliable, reproducible evidence.
 
-The Health Systems group meets every other Monday at 10am Eastern Time. See [Get Involved](community/get-involved.qmd) for the meeting link and other ways to connect with the community.
+The Health Systems group meets the first Monday of the month at 10am Eastern Time. See [Get Involved](community/get-involved.qmd) for the meeting link and other ways to connect with the community.
 
 :::
 

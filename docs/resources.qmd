@@ -8,9 +8,13 @@ A curated, deduplicated directory of OHDSI tools, references, and working-group 
 
 ## Core references
 
+•	[How Health Systems Can Create Value by Adopting the OMOP CDM] (https://ohdsiorg.sharepoint.com/:b:/s/Workgroup-EHRElectronicHealthRecord/IQAC4kC1lyaMSY4jSUCFa6akAY25wryH03voJ5IkInQE-Zk?e=X5qd3r) - white paper on the benefits a health system realizes by adopting the OMOP CDM
+
 •	[Book of OHDSI](https://ohdsi.github.io/TheBookOfOhdsi/) — the primary reference text for the OHDSI community and the OMOP CDM. <!-- TODO: Update with new Book of OHDSI link when published -->
 
 •	[OMOP CDM home page](https://ohdsi.github.io/CommonDataModel/) — documentation hub for the CDM specification.
+
+•	[OMOP CDM v5.5 Specification, the most current version of the OMOP CDM] (https://ohdsi.github.io/CommonDataModel/cdm55.html)
 
 •	[OMOP CDM v5.4 Specification](https://ohdsi.github.io/CommonDataModel/cdm54.html)
 
@@ -45,6 +49,8 @@ A curated, deduplicated directory of OHDSI tools, references, and working-group 
 •	[OHDSI ETL Tutorial](https://github.com/OHDSI/Tutorial-ETL) — walkthrough materials for building an ETL pipeline to the OMOP CDM.
 
 •	[EHDEN Academy](https://academy.ehden.eu) — free online courses covering OMOP CDM, vocabulary mapping, and OHDSI tools.
+
+•	[Boyce Data Science] (https://www.boycedatascience.com/research-tools#bds-omop) - an excellent suite of tools and resources built by Dr. Danielle Boyce
 
 •	[FHIR to OMOP Implementation Guide (HL7 Sept 2025 Release)](https://hl7.org/fhir/uv/omop/2025Sep/) <!-- TODO: Update when ready -->
 

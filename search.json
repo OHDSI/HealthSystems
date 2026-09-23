@@ -1,23 +1,45 @@
 [
   {
-    "objectID": "contribute/submit_mappings.html",
-    "href": "contribute/submit_mappings.html",
-    "title": "OHDSI HSIG",
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
     "section": "",
-    "text": "The HSIG continues to flesh out the requirements for how collaborators can best share their semantic mappings. If you would like to contribute to this effort, please join one of our meetings or post a message to our chat in MS Teams. See Get Involved for meeting times and other ways to reach the group.",
-    "crumbs": [
-      "Instructions for mapping contributions"
-    ]
+    "text": "A curated, deduplicated directory of OHDSI tools, references, and working-group links. For task-specific guidance (EHR extraction, terminology mapping, data governance), see ETL & Mapping Guidance."
   },
   {
-    "objectID": "contribute/submit_mappings.html#instructions-for-mapping-contributions",
-    "href": "contribute/submit_mappings.html#instructions-for-mapping-contributions",
-    "title": "OHDSI HSIG",
-    "section": "",
-    "text": "The HSIG continues to flesh out the requirements for how collaborators can best share their semantic mappings. If you would like to contribute to this effort, please join one of our meetings or post a message to our chat in MS Teams. See Get Involved for meeting times and other ways to reach the group.",
-    "crumbs": [
-      "Instructions for mapping contributions"
-    ]
+    "objectID": "resources.html#core-references",
+    "href": "resources.html#core-references",
+    "title": "Resources",
+    "section": "Core references",
+    "text": "Core references\n• Book of OHDSI — the primary reference text for the OHDSI community and the OMOP CDM. \n• OMOP CDM home page — documentation hub for the CDM specification.\n• OMOP CDM v5.4 Specification\n• CDM GitHub — source repository for the CDM specification and DDL scripts.\n• Themis convention library — community conventions for consistent ETL/mapping decisions across the OHDSI network. Also on GitHub."
+  },
+  {
+    "objectID": "resources.html#vocabulary-mapping-tools",
+    "href": "resources.html#vocabulary-mapping-tools",
+    "title": "Resources",
+    "section": "Vocabulary & mapping tools",
+    "text": "Vocabulary & mapping tools\n• Athena — the OHDSI vocabulary repository, used to browse and download standardized vocabularies for mapping source codes to OMOP concepts.\n• USAGI — a tool to support the manual mapping of source codes to standard OMOP concepts.\n• SqlRender — translates SQL across database dialects (SQL Server, Snowflake, PostgreSQL, etc.) for use in OHDSI tools and cohort definitions.\n• ETL CDM Builder"
+  },
+  {
+    "objectID": "resources.html#analysis-quality-tools",
+    "href": "resources.html#analysis-quality-tools",
+    "title": "Resources",
+    "section": "Analysis & quality tools",
+    "text": "Analysis & quality tools\n• Atlas Demo — try Atlas, the OHDSI cohort definition and analysis platform, without installing anything.\n• Data Quality Dashboard — automated data quality checks against the OMOP CDM.\n• ACHILLES — characterizes and profiles an OMOP CDM database. See also the Achilles wiki.\n• HADES — the Health Analytics Data-to-Evidence Suite, OHDSI’s collection of open-source R packages for observational research.\n• OHDSI Evidence Network"
+  },
+  {
+    "objectID": "resources.html#learning",
+    "href": "resources.html#learning",
+    "title": "Resources",
+    "section": "Learning",
+    "text": "Learning\n• OHDSI ETL Tutorial — walkthrough materials for building an ETL pipeline to the OMOP CDM.\n• EHDEN Academy — free online courses covering OMOP CDM, vocabulary mapping, and OHDSI tools.\n• FHIR to OMOP Implementation Guide (HL7 Sept 2025 Release)"
+  },
+  {
+    "objectID": "resources.html#community-events",
+    "href": "resources.html#community-events",
+    "title": "Resources",
+    "section": "Community & events",
+    "text": "Community & events\n• OHDSI home page\n• OHDSI Work Groups\n• OHDSI Forums\n• 2024 Global Symposium\n• 2025 Global Symposium \nSee Get Involved for how to join the Health Systems Interest Group specifically.\n\nNot yet available: community-contributed OMOP mapping guidance for OpenMRS and OpenEMR is planned but not yet published. Track progress or contribute at the HSIG GitHub repository."
   },
   {
     "objectID": "community/get-involved.html",
@@ -120,44 +142,72 @@
     ]
   },
   {
-    "objectID": "etl-mapping/terminology-mapping/terminology-mapping.html",
-    "href": "etl-mapping/terminology-mapping/terminology-mapping.html",
-    "title": "Terminology & Vocabulary Mapping",
+    "objectID": "etl-mapping/terminology-mapping/converting_ndc.html",
+    "href": "etl-mapping/terminology-mapping/converting_ndc.html",
+    "title": "Converting NDC Codes",
     "section": "",
-    "text": "Interface terminologies (e.g., the clinical vocabularies used natively within an EHR) often differ from the standard vocabularies used in the OMOP CDM. Understanding how your source system’s interface terminology relates to OMOP standard concepts is a key step in ETL design.",
+    "text": "Proper mapping of NDC code requires an 11-digit number in a 5-4-2 format. Converting NDC from a 10-digit to an 11-digit format requires a strategically placed zero, dependent upon the 10-digit format.\nAll dashes need to be removed before matching to the concept.concept_code\n\n\n\n\n\n\n\n\n\n10-Digit Format\n10-Digit Format Example\n11-Digit Format\n11-Digit Format Example\n\n\n\n\n4-4-2\n9999-9999-99\n5-4-2\n09999-9999-99\n\n\n5-3-2\n99999-999-99\n5-4-2\n99999-0999-99\n\n\n5-4-1\n99999-9999-9\n5-4-2\n99999-9999-09",
     "crumbs": [
-      "Terminology & Vocabulary Mapping"
+      "Converting NDC Codes"
     ]
   },
   {
-    "objectID": "etl-mapping/terminology-mapping/terminology-mapping.html#tools",
-    "href": "etl-mapping/terminology-mapping/terminology-mapping.html#tools",
-    "title": "Terminology & Vocabulary Mapping",
-    "section": "Tools",
-    "text": "Tools\n• USAGI — a tool to support the manual mapping of source codes to standard OMOP concepts.\n• Athena — the OHDSI vocabulary repository, used to browse and download standardized vocabularies for mapping source codes to OMOP concepts.",
+    "objectID": "etl-mapping/terminology-mapping/converting_ndc.html#converting-ndc",
+    "href": "etl-mapping/terminology-mapping/converting_ndc.html#converting-ndc",
+    "title": "Converting NDC Codes",
+    "section": "",
+    "text": "Proper mapping of NDC code requires an 11-digit number in a 5-4-2 format. Converting NDC from a 10-digit to an 11-digit format requires a strategically placed zero, dependent upon the 10-digit format.\nAll dashes need to be removed before matching to the concept.concept_code\n\n\n\n\n\n\n\n\n\n10-Digit Format\n10-Digit Format Example\n11-Digit Format\n11-Digit Format Example\n\n\n\n\n4-4-2\n9999-9999-99\n5-4-2\n09999-9999-99\n\n\n5-3-2\n99999-999-99\n5-4-2\n99999-0999-99\n\n\n5-4-1\n99999-9999-9\n5-4-2\n99999-9999-09",
     "crumbs": [
-      "Terminology & Vocabulary Mapping"
+      "Converting NDC Codes"
     ]
   },
   {
-    "objectID": "etl-mapping/terminology-mapping/terminology-mapping.html#conventions",
-    "href": "etl-mapping/terminology-mapping/terminology-mapping.html#conventions",
-    "title": "Terminology & Vocabulary Mapping",
-    "section": "Conventions",
-    "text": "Conventions\n• Themis convention library — community conventions for consistent ETL/mapping decisions across the OHDSI network.",
+    "objectID": "getting-started/getting-started.html",
+    "href": "getting-started/getting-started.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Please join us on the Health Systems Interest Group meeting the first Monday of the month at 10am ET.\nThe call will be focused on helping those new to the OHDSI community get started with the OMOP CDM. Please bring any and all questions related to OHDSI, OMOP CDM, observational health data and research.\nSee Get Involved for the meeting link and other ways to connect with the community."
+  },
+  {
+    "objectID": "getting-started/getting-started.html#getting-started",
+    "href": "getting-started/getting-started.html#getting-started",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Please join us on the Health Systems Interest Group meeting the first Monday of the month at 10am ET.\nThe call will be focused on helping those new to the OHDSI community get started with the OMOP CDM. Please bring any and all questions related to OHDSI, OMOP CDM, observational health data and research.\nSee Get Involved for the meeting link and other ways to connect with the community."
+  },
+  {
+    "objectID": "getting-started/getting-started.html#new-to-etling-your-data-to-the-omop-cdm",
+    "href": "getting-started/getting-started.html#new-to-etling-your-data-to-the-omop-cdm",
+    "title": "Getting Started",
+    "section": "New to ETLing your data to the OMOP CDM?",
+    "text": "New to ETLing your data to the OMOP CDM?\nIf you’re just starting out, ETL & Mapping Guidance walks through what ETL to the OMOP CDM involves, EHR-specific extraction guidance, terminology/vocabulary mapping, and the data governance responsibilities that come with handling clinical data.\nFor the full directory of OHDSI tools and reference material, see Resources."
+  },
+  {
+    "objectID": "contribute/submit_mappings.html",
+    "href": "contribute/submit_mappings.html",
+    "title": "OHDSI HSIG",
+    "section": "",
+    "text": "The HSIG continues to flesh out the requirements for how collaborators can best share their semantic mappings. If you would like to contribute to this effort, please join one of our meetings or post a message to our chat in MS Teams. See Get Involved for meeting times and other ways to reach the group.",
     "crumbs": [
-      "Terminology & Vocabulary Mapping"
+      "Instructions for mapping contributions"
     ]
   },
   {
-    "objectID": "etl-mapping/terminology-mapping/terminology-mapping.html#code-format-conversions",
-    "href": "etl-mapping/terminology-mapping/terminology-mapping.html#code-format-conversions",
-    "title": "Terminology & Vocabulary Mapping",
-    "section": "Code format conversions",
-    "text": "Code format conversions\n• Converting NDC Codes — 10-digit to 11-digit NDC format conversion reference.",
+    "objectID": "contribute/submit_mappings.html#instructions-for-mapping-contributions",
+    "href": "contribute/submit_mappings.html#instructions-for-mapping-contributions",
+    "title": "OHDSI HSIG",
+    "section": "",
+    "text": "The HSIG continues to flesh out the requirements for how collaborators can best share their semantic mappings. If you would like to contribute to this effort, please join one of our meetings or post a message to our chat in MS Teams. See Get Involved for meeting times and other ways to reach the group.",
     "crumbs": [
-      "Terminology & Vocabulary Mapping"
+      "Instructions for mapping contributions"
     ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "OHDSI HSIG",
+    "section": "",
+    "text": "Forums\n  \n  \n      Wiki\n  \n  \n      GitHub\n  \n  \n      Global Symposium\n  \n\n\n\n\n\nWelcome to OHDSI Health Systems Interest Group\nThe Observational Health Data Sciences and Informatics (or OHDSI, pronounced “Odyssey”) program is a multi-stakeholder, interdisciplinary collaborative to bring out the value of health data through large-scale analytics. All our solutions are open-source.\nOHDSI’s mission - To improve health by empowering a community to collaboratively generate the evidence that promotes better health decisions and better care.\nHealthcare Systems Interest Group mission - To help each other and learn from experience. Our group mainly supports health systems, hospitals, and others who have electronic health record (EHR) data on their OHDSI journey to produce reliable, reproducible evidence.\nThe Health Systems group meets every other Monday at 10am Eastern Time. See Get Involved for the meeting link and other ways to connect with the community."
   },
   {
     "objectID": "etl-mapping/overview.html",
@@ -200,67 +250,44 @@
     ]
   },
   {
-    "objectID": "getting-started/getting-started.html",
-    "href": "getting-started/getting-started.html",
-    "title": "Getting Started",
+    "objectID": "etl-mapping/terminology-mapping/terminology-mapping.html",
+    "href": "etl-mapping/terminology-mapping/terminology-mapping.html",
+    "title": "Terminology & Vocabulary Mapping",
     "section": "",
-    "text": "Please join us on the Health Systems Interest Group meeting every other Monday at 10am ET.\nThe call will be focused on helping those new to the OHDSI community get started with the OMOP CDM. Please bring any and all questions related to OHDSI, OMOP CDM, observational health data and research.\nNext meeting: on the first Monday of the month.\nSee Get Involved for the meeting link and other ways to connect with the community."
+    "text": "Interface terminologies (e.g., the clinical vocabularies used natively within an EHR) often differ from the standard vocabularies used in the OMOP CDM. Understanding how your source system’s interface terminology relates to OMOP standard concepts is a key step in ETL design.",
+    "crumbs": [
+      "Terminology & Vocabulary Mapping"
+    ]
   },
   {
-    "objectID": "getting-started/getting-started.html#getting-started",
-    "href": "getting-started/getting-started.html#getting-started",
-    "title": "Getting Started",
-    "section": "",
-    "text": "Please join us on the Health Systems Interest Group meeting every other Monday at 10am ET.\nThe call will be focused on helping those new to the OHDSI community get started with the OMOP CDM. Please bring any and all questions related to OHDSI, OMOP CDM, observational health data and research.\nNext meeting: on the first Monday of the month.\nSee Get Involved for the meeting link and other ways to connect with the community."
+    "objectID": "etl-mapping/terminology-mapping/terminology-mapping.html#tools",
+    "href": "etl-mapping/terminology-mapping/terminology-mapping.html#tools",
+    "title": "Terminology & Vocabulary Mapping",
+    "section": "Tools",
+    "text": "Tools\n• USAGI — a tool to support the manual mapping of source codes to standard OMOP concepts.\n• Athena — the OHDSI vocabulary repository, used to browse and download standardized vocabularies for mapping source codes to OMOP concepts.",
+    "crumbs": [
+      "Terminology & Vocabulary Mapping"
+    ]
   },
   {
-    "objectID": "getting-started/getting-started.html#new-to-etling-your-data-to-the-omop-cdm",
-    "href": "getting-started/getting-started.html#new-to-etling-your-data-to-the-omop-cdm",
-    "title": "Getting Started",
-    "section": "New to ETLing your data to the OMOP CDM?",
-    "text": "New to ETLing your data to the OMOP CDM?\nIf you’re just starting out, ETL & Mapping Guidance walks through what ETL to the OMOP CDM involves, EHR-specific extraction guidance, terminology/vocabulary mapping, and the data governance responsibilities that come with handling clinical data.\nFor the full directory of OHDSI tools and reference material, see Resources."
+    "objectID": "etl-mapping/terminology-mapping/terminology-mapping.html#conventions",
+    "href": "etl-mapping/terminology-mapping/terminology-mapping.html#conventions",
+    "title": "Terminology & Vocabulary Mapping",
+    "section": "Conventions",
+    "text": "Conventions\n• Themis convention library — community conventions for consistent ETL/mapping decisions across the OHDSI network.",
+    "crumbs": [
+      "Terminology & Vocabulary Mapping"
+    ]
   },
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "A curated, deduplicated directory of OHDSI tools, references, and working-group links. For task-specific guidance (EHR extraction, terminology mapping, data governance), see ETL & Mapping Guidance."
-  },
-  {
-    "objectID": "resources.html#core-references",
-    "href": "resources.html#core-references",
-    "title": "Resources",
-    "section": "Core references",
-    "text": "Core references\n• Book of OHDSI — the primary reference text for the OHDSI community and the OMOP CDM. \n• OMOP CDM home page — documentation hub for the CDM specification.\n• OMOP CDM v5.4 Specification\n• CDM GitHub — source repository for the CDM specification and DDL scripts.\n• Themis convention library — community conventions for consistent ETL/mapping decisions across the OHDSI network. Also on GitHub."
-  },
-  {
-    "objectID": "resources.html#vocabulary-mapping-tools",
-    "href": "resources.html#vocabulary-mapping-tools",
-    "title": "Resources",
-    "section": "Vocabulary & mapping tools",
-    "text": "Vocabulary & mapping tools\n• Athena — the OHDSI vocabulary repository, used to browse and download standardized vocabularies for mapping source codes to OMOP concepts.\n• USAGI — a tool to support the manual mapping of source codes to standard OMOP concepts.\n• SqlRender — translates SQL across database dialects (SQL Server, Snowflake, PostgreSQL, etc.) for use in OHDSI tools and cohort definitions.\n• ETL CDM Builder"
-  },
-  {
-    "objectID": "resources.html#analysis-quality-tools",
-    "href": "resources.html#analysis-quality-tools",
-    "title": "Resources",
-    "section": "Analysis & quality tools",
-    "text": "Analysis & quality tools\n• Atlas Demo — try Atlas, the OHDSI cohort definition and analysis platform, without installing anything.\n• Data Quality Dashboard — automated data quality checks against the OMOP CDM.\n• ACHILLES — characterizes and profiles an OMOP CDM database. See also the Achilles wiki.\n• HADES — the Health Analytics Data-to-Evidence Suite, OHDSI’s collection of open-source R packages for observational research.\n• OHDSI Evidence Network"
-  },
-  {
-    "objectID": "resources.html#learning",
-    "href": "resources.html#learning",
-    "title": "Resources",
-    "section": "Learning",
-    "text": "Learning\n• OHDSI ETL Tutorial — walkthrough materials for building an ETL pipeline to the OMOP CDM.\n• EHDEN Academy — free online courses covering OMOP CDM, vocabulary mapping, and OHDSI tools.\n• FHIR to OMOP Implementation Guide (HL7 Sept 2025 Release)"
-  },
-  {
-    "objectID": "resources.html#community-events",
-    "href": "resources.html#community-events",
-    "title": "Resources",
-    "section": "Community & events",
-    "text": "Community & events\n• OHDSI home page\n• OHDSI Work Groups\n• OHDSI Forums\n• 2024 Global Symposium\n• 2025 Global Symposium \nSee Get Involved for how to join the Health Systems Interest Group specifically.\n\nNot yet available: community-contributed OMOP mapping guidance for OpenMRS and OpenEMR is planned but not yet published. Track progress or contribute at the HSIG GitHub repository."
+    "objectID": "etl-mapping/terminology-mapping/terminology-mapping.html#code-format-conversions",
+    "href": "etl-mapping/terminology-mapping/terminology-mapping.html#code-format-conversions",
+    "title": "Terminology & Vocabulary Mapping",
+    "section": "Code format conversions",
+    "text": "Code format conversions\n• Converting NDC Codes — 10-digit to 11-digit NDC format conversion reference.",
+    "crumbs": [
+      "Terminology & Vocabulary Mapping"
+    ]
   },
   {
     "objectID": "etl-mapping/data-governance.html",
@@ -283,26 +310,6 @@
     ]
   },
   {
-    "objectID": "etl-mapping/terminology-mapping/converting_ndc.html",
-    "href": "etl-mapping/terminology-mapping/converting_ndc.html",
-    "title": "Converting NDC Codes",
-    "section": "",
-    "text": "Proper mapping of NDC code requires an 11-digit number in a 5-4-2 format. Converting NDC from a 10-digit to an 11-digit format requires a strategically placed zero, dependent upon the 10-digit format.\nAll dashes need to be removed before matching to the concept.concept_code\n\n\n\n\n\n\n\n\n\n10-Digit Format\n10-Digit Format Example\n11-Digit Format\n11-Digit Format Example\n\n\n\n\n4-4-2\n9999-9999-99\n5-4-2\n09999-9999-99\n\n\n5-3-2\n99999-999-99\n5-4-2\n99999-0999-99\n\n\n5-4-1\n99999-9999-9\n5-4-2\n99999-9999-09",
-    "crumbs": [
-      "Converting NDC Codes"
-    ]
-  },
-  {
-    "objectID": "etl-mapping/terminology-mapping/converting_ndc.html#converting-ndc",
-    "href": "etl-mapping/terminology-mapping/converting_ndc.html#converting-ndc",
-    "title": "Converting NDC Codes",
-    "section": "",
-    "text": "Proper mapping of NDC code requires an 11-digit number in a 5-4-2 format. Converting NDC from a 10-digit to an 11-digit format requires a strategically placed zero, dependent upon the 10-digit format.\nAll dashes need to be removed before matching to the concept.concept_code\n\n\n\n\n\n\n\n\n\n10-Digit Format\n10-Digit Format Example\n11-Digit Format\n11-Digit Format Example\n\n\n\n\n4-4-2\n9999-9999-99\n5-4-2\n09999-9999-99\n\n\n5-3-2\n99999-999-99\n5-4-2\n99999-0999-99\n\n\n5-4-1\n99999-9999-9\n5-4-2\n99999-9999-09",
-    "crumbs": [
-      "Converting NDC Codes"
-    ]
-  },
-  {
     "objectID": "community/presentations.html",
     "href": "community/presentations.html",
     "title": "Presentations",
@@ -311,12 +318,5 @@
     "crumbs": [
       "Presentations"
     ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "OHDSI HSIG",
-    "section": "",
-    "text": "Forums\n  \n  \n      Wiki\n  \n  \n      GitHub\n  \n  \n      Global Symposium\n  \n\n\n\n\n\nWelcome to OHDSI Health Systems Interest Group\nThe Observational Health Data Sciences and Informatics (or OHDSI, pronounced “Odyssey”) program is a multi-stakeholder, interdisciplinary collaborative to bring out the value of health data through large-scale analytics. All our solutions are open-source.\nOHDSI’s mission - To improve health by empowering a community to collaboratively generate the evidence that promotes better health decisions and better care.\nHealthcare Systems Interest Group mission - To help each other and learn from experience. Our group mainly supports health systems, hospitals, and others who have electronic health record (EHR) data on their OHDSI journey to produce reliable, reproducible evidence.\nThe Health Systems group meets every other Monday at 10am Eastern Time. See Get Involved for the meeting link and other ways to connect with the community."
   }
 ]

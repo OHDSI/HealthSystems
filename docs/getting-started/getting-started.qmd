@@ -5,11 +5,9 @@ format: html
 
 ## Getting Started
 
-Please join us on the Health Systems Interest Group meeting every other Monday at 10am ET.
+Please join us on the Health Systems Interest Group meeting the first Monday of the month at 10am ET.
 
 The call will be focused on helping those new to the OHDSI community get started with the OMOP CDM. Please bring any and all questions related to OHDSI, OMOP CDM, observational health data and research.
-
-Next meeting: on the first Monday of the month.
 
 See [Get Involved](../community/get-involved.qmd) for the meeting link and other ways to connect with the community.
 

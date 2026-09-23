@@ -66,6 +66,8 @@ A curated, deduplicated directory of OHDSI tools, references, and working-group 
 
 •	[2025 Global Symposium](https://www.ohdsi.org/ohdsi2025/) <!-- TODO: Update when published -->
 
+•	[2026 Global Symposium](https://www.ohdsi.org/ohdsi2026/)
+
 See [Get Involved](community/get-involved.qmd) for how to join the Health Systems Interest Group specifically.
 
 ---

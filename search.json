@@ -264,7 +264,7 @@
     "href": "etl-mapping/terminology-mapping/terminology-mapping.html#tools",
     "title": "Terminology & Vocabulary Mapping",
     "section": "Tools",
-    "text": "Tools\n• USAGI — OHDSI tool to support the manual mapping of source codes to standard OMOP concepts.\n• Athena — the OHDSI vocabulary repository, used to browse and download standardized vocabularies for mapping source codes to OMOP concepts.\n• Custom Vocabulary Browser - an open source tool with an Athena inspired interface for custom OMOP concepts. The repo is located [here] (https://github.com/OHDSI/CustomVocabularyBrowser)",
+    "text": "Tools\n• USAGI — OHDSI tool to support the manual mapping of source codes to standard OMOP concepts.\n• Athena — the OHDSI vocabulary repository, used to browse and download standardized vocabularies for mapping source codes to OMOP concepts.\n• Custom Vocabulary Browser - an open source tool with an Athena inspired interface for custom OMOP concepts. The repo is located here",
     "crumbs": [
       "Terminology & Vocabulary Mapping"
     ]

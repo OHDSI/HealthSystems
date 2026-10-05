@@ -12,7 +12,7 @@ Interface terminologies (e.g., the clinical vocabularies used natively within an
 
 •	[Athena](http://Athena.ohdsi.org) — the OHDSI vocabulary repository, used to browse and download standardized vocabularies for mapping source codes to OMOP concepts.
 
-•	[Custom Vocabulary Browser](https://ohdsi.github.io/CustomVocabularyBrowser/?repository=TuftsCTSI%2FCVB&ref=main&vocabulary=GIS) - an open source tool with an Athena inspired interface for custom OMOP concepts. The repo is located [here] (https://github.com/OHDSI/CustomVocabularyBrowser)
+•	[Custom Vocabulary Browser](https://ohdsi.github.io/CustomVocabularyBrowser/?repository=TuftsCTSI%2FCVB&ref=main&vocabulary=GIS) - an open source tool with an Athena inspired interface for custom OMOP concepts. The repo is located [here](https://github.com/OHDSI/CustomVocabularyBrowser)
 
 ## Conventions
 

@@ -32,6 +32,8 @@ A curated, deduplicated directory of OHDSI tools, references, and working-group 
 
 •	[ETL CDM Builder](https://github.com/OHDSI/ETL-CDMBuilder)
 
+•	[OMOPHub](https://omophub.com) — hosted REST API for the OHDSI standardized vocabularies: search, map and resolve concepts without a local Athena database. Includes a FHIR terminology service and Python, R and Node SDKs (commercial, with a free tier).
+
 ## Analysis & quality tools
 
 •	[Atlas Demo](http://atlas-demo.ohdsi.org/#/home) — try Atlas, the OHDSI cohort definition and analysis platform, without installing anything.
